@@ -1,0 +1,2856 @@
+:lang :akkadian-ob
+:schemata [:ablautClass {:Common, :EClass, :IClass, :UClass, :_NULL, :a-iClass, :a-uClass, :aClass, :e-uClass}
+	  :case {:Accusative, :Dative, :GenAcc, :Genitive, :Nominative, :Oblique, :Possessive}
+	  :deixis {:Far, :Near}
+	  :derivedStem {:B, :Bt, :Btn, :Common, :D, :Dt, :Dtn, :N, :Ntn, :S, :St, :Stn}
+	  :gender {:Common, :Fem, :Masc}
+	  :genderHead {:Fem, :Masc}
+	  :numHead {:Plural, :Singular}
+	  :number {:Plural, :Singular}
+	  :person {:Person1, :Person2, :Person3}
+	  :pos {:Pronoun, :Verb}
+	  :proClass {:Demonstrative, :Independent, :ObjClitic, :PossInd, :Possessive}
+	  :rootClass {:Alk, :CCC, :CCa, :CCe, :CCi, :CCu, :CCw, :CaC, :CeC, :CiC, :CuC, :CāC, :CēC, :CīC, :CūC, :ECC, :NCC, :WCC, :aCC}
+	  :tam {:Imperative, :Perfect, :Precative, :Present, :Preterite, :Vetitive}
+	  :verbMorphClass {:SubjMarker, :Theme}
+	  ]
+:morphemes {
+  :PROIND {:gloss "[x]", :lemma "[y]", }
+  :PROPOSSIND {:gloss "[x]", :lemma "[y]", }
+  :PROPOSS {:gloss "[x]", :lemma "[y]", }
+  :PROOBJCLITIC {:gloss "[x]", :lemma "[y]", }
+  :DERVSTEM {:gloss "[x]", :lemma "[y]", }
+  :PRODEM {:gloss "[x]", :lemma "[y]", }
+  :SUBJMARKER {:gloss "[x]", :lemma "[y]", }
+}
+:lexemes {
+  :bni-1 {:gloss "build", :lemma "bnʾ", :rootClass :CCw}
+  :hdu {:gloss "be glad", :lemma "ḫdu", :rootClass :CCu}
+  :prs {:ablautClass :a-uClass, :gloss "divide", :lemma "prus", :rootClass :CCC}
+  :eps {:ablautClass :e-uClass, :gloss "do", :lemma "epuš", :rootClass :ECC}
+  :wld {:gloss "beget", :lemma "wld", :rootClass :WCC}
+  :ner-1 {:gloss "slay", :lemma "nʾr", :rootClass :CūC}
+  :wrd-1 {:gloss "descend", :lemma "wrd", :rootClass :WCC}
+  :mnu {:gloss "count", :lemma "mnʾ", :rootClass :CCw}
+  :nul {:gloss "lie down", :lemma "nʾl", :rootClass :CūC}
+  :sal-1 {:gloss "ask", :lemma "šʾl", :rootClass :CūC}
+  :sam {:gloss "buy", :lemma "šʾm", :rootClass :CūC}
+  :mut {:gloss "die", :lemma "mʾt", :rootClass :CūC}
+  :kan {:gloss "be(come) firm", :lemma "kʾn", :rootClass :CūC}
+  :lqa {:gloss "take", :lemma "lqʾ", :rootClass :CCw}
+  :lqe {:gloss "take", :lemma "lqe", :rootClass :CCe}
+  :wbl {:gloss "bear", :lemma "wbl", :rootClass :WCC}
+  :nsk {:ablautClass :UClass, :gloss "throw", :lemma "nsuk", :rootClass :NCC}
+  :dwk {:gloss "kill", :lemma "dʾk", :rootClass :CūC}
+  :wsr {:derivedStem :D, :gloss "release, set free", :lemma "wšr", :rootClass :WCC}
+  :nqr {:ablautClass :a-uClass, :gloss "tear down", :lemma "nqur", :rootClass :CCC}
+  :erb {:ablautClass :UClass, :gloss "enter", :lemma "erub", :rootClass :ECC}
+  :aks {:ablautClass :UClass, :gloss "go", :lemma "akuš", :rootClass :aCC}
+  :srq {:ablautClass :IClass, :gloss "steal", :lemma "šriq", :rootClass :CCC}
+  :kun {:gloss "be", :lemma "kūn", :rootClass :CūC}
+  :ner {:gloss "kill", :lemma "nēr", :rootClass :CēC}
+  :qis {:gloss "give", :lemma "qīš", :rootClass :CīC}
+  :qis-1 {:gloss "give", :lemma "qʾš", :rootClass :CūC}
+  :alk {:ablautClass :a-iClass, :gloss "go", :lemma "alik", :rootClass :aCC}
+  :amr {:ablautClass :a-uClass, :gloss "see", :lemma "amur", :rootClass :aCC}
+  :ezb {:ablautClass :IClass, :gloss "leave", :lemma "ezib", :rootClass :ECC}
+  :sbt {:ablautClass :aClass, :gloss "seize", :lemma "ṣbat", :rootClass :CCC}
+  :prs-1 {:gloss "separate", :lemma "prs", :rootClass :CCC}
+  :ark {:ablautClass :IClass, :gloss "be long", :lemma "arik", :rootClass :aCC}
+  :bni {:gloss "build", :lemma "bni", :rootClass :CCi}
+  :mla-1 {:gloss "be(come) full of", :lemma "mlʾ", :rootClass :CCw}
+  :sal {:gloss "ask", :lemma "šāl", :rootClass :CāC}
+  :mla {:gloss "be full", :lemma "mal", :rootClass :CCa}
+  :wrd {:ablautClass :a-iClass, :gloss "go down", :lemma "wrid", :rootClass :WCC}
+  :nks {:ablautClass :IClass, :gloss "cut off", :lemma "nkis", :rootClass :NCC}
+}
+:lxterms #{
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ezb,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Present,
+	    :token-stem :zzib}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person3, "i-zzib", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-zzib", "i-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "te-zzib-ā", "te-", "-ā"],
+	    [:Fem, :Singular, :Person2, "te-zzib-ī", "te-", "-ī"],
+	    [:Masc, :Plural, :Person3, "i-zzib-ū", "i-", "-ū"],
+	    [:Common, :Singular, :Person1, "e-zzib", "e-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "te-zzib", "te-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-zzib-ā", "i-", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-zzib", "ni-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "te-zzib-ā", "te-", "-ā"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :amr,
+	    :pos :Verb,
+	    :rootClass :aCC,
+	    :tam :Precative,
+	    :token-stem :mur}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "lū-mur", "lū-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "lī-mur-ū", "lī-", "-ū"],
+	    [:Common, :Plural, :Person1, "i nī-mur", "i nī-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "lī-mur-ā", "lī-", "-ā"],
+	    [:Common, :Singular, :Person3, "lī-mur", "lī-", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ezb,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, "⊤tezb-ī", "tezb", "-ī"],
+	    [:Common, :Plural, "⊤tezb-ā", "tezb", "-ā"],
+	    [:Masc, :Singular, "⊤tezib", "tezib", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :mla,
+	    :pos :Verb,
+	    :rootClass :CCa,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person2, "ta-mtal-â", "ta-", "mtal", "-â"],
+	    [:Masc, :Singular, :Person3, "i-mtala", "i-", "mtala", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-mtal-û", "i-", "mtal", "-û"],
+	    [:Fem, :Plural, :Person3, "ta-mtal-â", "i-", "mtal", "-â"],
+	    [:Fem, :Plural, :Person2, "ta-mtal-â", "ta-", "mtal", "-â"],
+	    [:Masc, :Singular, :Person2, "ta-mtala", "ta-", "mtala", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-mtala", "a-", "mtala", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-mtal-î", "ta-", "mtal", "-î"],
+	    [:Common, :Plural, :Person1, "ni-mtala", "ni-", "mtala", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-mtala", "i-", "mtala", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :mla,
+	    :pos :Verb,
+	    :rootClass :CCa,
+	    :tam :Precative}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "lu-mla", "lu-", "mla", "_NULL"],
+	    [:Common, :Plural, :Person1, "i ni-mla", "i ni-", "mla", "_NULL"],
+	    [:Masc, :Plural, :Person3, "li-ml-û", "li-", "ml", "-û"],
+	    [:Common, :Singular, :Person3, "li-mla", "li-", "mla", "_NULL"],
+	    [:Fem, :Plural, :Person3, "li-ml-â", "li-", "ml", "-â"]]
+    }
+    {:common {:ablautClass :aClass,
+	    :derivedStem :B,
+	    :lexeme :sbt,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Precative,
+	    :token-stem :ṣbat}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person3, "li-ṣbat-ā", "li-", "-ā"],
+	    [:Common, :Singular, :Person1, "lu-ṣbat", "lu-", "_NULL"],
+	    [:Common, :Plural, :Person1, "i ni-ṣbat", "i ni-", "_NULL"],
+	    [:Common, :Singular, :Person3, "li-ṣbat", "li-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "li-ṣbat-ū", "li-", "-ū"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :nqr,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Present,
+	    :token-stem :naqqar}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person3, "ta-naqqar", "i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-naqqar", "ni-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-naqqar", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-naqqar-ī", "ta-", "-ī"],
+	    [:Fem, :Plural, :Person3, "ta-naqqar-ā", "i-", "-ā"],
+	    [:Fem, :Plural, :Person2, "ta-naqqar-ā", "ta-", "-ā"],
+	    [:Masc, :Plural, :Person2, "ta-naqqar-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-naqqar", "ta-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-naqqar-ū", "i-", "-ū"],
+	    [:Common, :Singular, :Person1, "a-naqqar", "a-", "_NULL"]]
+    }
+    {:common {:ablautClass :aClass,
+	    :derivedStem :B,
+	    :lexeme :sbt,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Vetitive,
+	    :token-stem :ṣbat}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person2, "ē-ta-ṣbat-ā", "ē-ta-", "-ā"],
+	    [:Fem, :Plural, :Person2, "ē-ta-ṣbat-ā", "ē-ta-", "-ā"],
+	    [:Common, :Plural, :Person1, "ē-ni-ṣbat", "ē-ni-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-ta-ṣbat", "ē-ta-", "_NULL"],
+	    [:Common, :Singular, :Person1, "ayy-a-ṣbat", "ayy-a-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ayy-i-ṣbat", "ayy-i-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--ṣbat", "ayy-i-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--ṣbat-ā", "ayy-i-", "-ā"],
+	    [:Masc, :Plural, :Person3, "ayy-i-ṣbat-ū", "ayy-i-", "-ū"],
+	    [:Fem, :Singular, :Person2, "ē-ta-ṣbat-ī", "ē-ta-", "-ī"]]
+    }
+    {:common {:ablautClass :aClass,
+	    :derivedStem :B,
+	    :lexeme :sbt,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, "⊤ṣabt-ī", "ṣabt", "-ī"],
+	    [:Masc, :Singular, "⊤ṣabat", "ṣabat", "_NULL"],
+	    [:Common, :Plural, "⊤ṣabt-ā", "ṣabt", "-ā"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :srq,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Precative,
+	    :token-stem :šriq}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "li-šriq-ū", "li-", "-ū"],
+	    [:Fem, :Plural, :Person3, "li-šriq-ā", "li-", "-ā"],
+	    [:Common, :Singular, :Person3, "li-šriq", "li-", "_NULL"],
+	    [:Common, :Plural, :Person1, "i ni-šriq", "i ni-", "_NULL"],
+	    [:Common, :Singular, :Person1, "lu-šriq", "lu-", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :nks,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Precative,
+	    :token-stem :kkis}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person3, "li-kkis", "li-", "_NULL"],
+	    [:Common, :Singular, :Person1, "lu-kkis", "lu-", "_NULL"],
+	    [:Common, :Plural, :Person1, "i ni-kkis", "i ni-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "li-kkis-ū", "li-", "-ū"],
+	    [:Fem, :Plural, :Person3, "li-kkis-ā", "li-", "-ā"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :wrd,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Present,
+	    :token-stem :rrad}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "nu-rrad", "nu-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "tu-rrad-ī", "tu-", "-ī"],
+	    [:Fem, :Plural, :Person3, "tu-rrad-ā", "u-", "-ā"],
+	    [:Masc, :Singular, :Person2, "tu-rrad", "tu-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "u-rrad", "u-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "tu-rrad-ā", "tu-", "-ā"],
+	    [:Fem, :Plural, :Person2, "tu-rrad-ā", "tu-", "-ā"],
+	    [:Common, :Singular, :Person1, "u-rrad", "u-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "u-rrad-ū", "u-", "-ū"],
+	    [:Fem, :Singular, :Person3, "tu-rrad", "u-", "_NULL"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :erb,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Vetitive,
+	    :token-stem :rub}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "ē-tē-rub", "ē-tē-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-tē-rub-ī", "ē-tē-", "-ī"],
+	    [:Masc, :Singular, :Person3, "ayy-ī-rub", "ayy-ī-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-tē-rub-ā", "ē-tē-", "-ā"],
+	    [:Masc, :Plural, :Person3, "ayy-ī-rub-ū", "ayy-ī-", "-ū"],
+	    [:Fem, :Singular, :Person3, "ayy-tā--rub", "ayy-ī-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ē-tē-rub-ā", "ē-tē-", "-ā"],
+	    [:Common, :Singular, :Person1, "ayy-ē-rub", "ayy-ē-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-tā--rub-ā", "ayy-ī-", "-ā"],
+	    [:Common, :Plural, :Person1, "ē-nī-rub", "ē-nī-", "_NULL"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :nsk,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Present,
+	    :token-stem :nassuk}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person2, "ta-nassuk-ā", "ta-", "-ā"],
+	    [:Masc, :Plural, :Person2, "ta-nassuk-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-nassuk", "ta-", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-nassuk", "a-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-nassuk-ū", "i-", "-ū"],
+	    [:Fem, :Singular, :Person3, "ta-nassuk", "i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-nassuk", "ni-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-nassuk-ā", "i-", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-nassuk", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-nassuk-ī", "ta-", "-ī"]]
+    }
+    {:common {:ablautClass :aClass,
+	    :derivedStem :B,
+	    :lexeme :sbt,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Preterite,
+	    :token-stem :ṣbat}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "ni-ṣbat", "ni-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-ṣbat-ā", "i-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-ṣbat", "i-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-ṣbat", "ta-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-ṣbat-ū", "i-", "-ū"],
+	    [:Masc, :Singular, :Person3, "i-ṣbat", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-ṣbat-ā", "ta-", "-ā"],
+	    [:Masc, :Plural, :Person2, "ta-ṣbat-ā", "ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-ṣbat", "a-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-ṣbat-ī", "ta-", "-ī"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :erb,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Precative,
+	    :token-stem :rub}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "i nī-rub", "i nī-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "lī-rub-ū", "lī-", "-ū"],
+	    [:Common, :Singular, :Person1, "lū-rub", "lū-", "_NULL"],
+	    [:Common, :Singular, :Person3, "lī-rub", "lī-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "lī-rub-ā", "lī-", "-ā"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :bni,
+	    :pos :Verb,
+	    :rootClass :CCi,
+	    :tam :Vetitive}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "ayy-i-bn-û", "ayy-i-", "bn", "-û"],
+	    [:Masc, :Singular, :Person3, "ayy-i-bni", "ayy-i-", "bni", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--bni-ā", "ayy-i-", "bni", "-ā"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--bni", "ayy-i-", "bni", "_NULL"],
+	    [:Common, :Singular, :Person1, "ayy-a-bni", "ayy-a-", "bni", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-ta-bni", "ē-ta-", "bni", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-ta-bni-ā", "ē-ta-", "bni", "-ā"],
+	    [:Common, :Plural, :Person1, "ē-ni-bni", "ē-ni-", "bni", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ē-ta-bni-ā", "ē-ta-", "bni", "-ā"],
+	    [:Fem, :Singular, :Person2, "ē-ta-bn-î", "ē-ta-", "bn", "-î"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :aks,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Precative,
+	    :token-stem :kuš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "i nī-kuš", "i nī-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "lī-kuš-ū", "lī-", "-ū"],
+	    [:Fem, :Plural, :Person3, "lī-kuš-ā", "lī-", "-ā"],
+	    [:Common, :Singular, :Person3, "lī-kuš", "lī-", "_NULL"],
+	    [:Common, :Singular, :Person1, "lū-kuš", "lū-", "_NULL"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :wrd,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Preterite}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person2, "tu-rd-ā", "tu-", "rd", "-ā"],
+	    [:Masc, :Singular, :Person2, "tu-rid", "tu-", "rid", "_NULL"],
+	    [:Fem, :Plural, :Person3, "tu-rd-ā", "u-", "rd", "-ā"],
+	    [:Fem, :Singular, :Person2, "tu-rd-ī", "tu-", "rd", "-ī"],
+	    [:Common, :Plural, :Person1, "nu-rid", "nu-", "rid", "_NULL"],
+	    [:Fem, :Singular, :Person3, "tu-rid", "u-", "rid", "_NULL"],
+	    [:Masc, :Plural, :Person3, "u-rd-ū", "u-", "rd", "-ū"],
+	    [:Masc, :Singular, :Person3, "u-rid", "u-", "rid", "_NULL"],
+	    [:Masc, :Plural, :Person2, "tu-rd-ā", "tu-", "rd", "-ā"],
+	    [:Common, :Singular, :Person1, "u-rid", "u-", "rid", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :ner,
+	    :pos :Verb,
+	    :rootClass :CeC,
+	    :tam :Precative,
+	    :token-stem :nēr ~ nār}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person3, "li-nēr ~ nār-ā", "li-", "-ā"],
+	    [:Common, :Plural, :Person1, "i ni-nēr ~ nār", "i ni-", "_NULL"],
+	    [:Common, :Singular, :Person3, "li-nēr ~ nār", "li-", "_NULL"],
+	    [:Common, :Singular, :Person1, "lu-nēr ~ nār", "lu-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "li-nēr ~ nār-ū", "li-", "-ū"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :alk,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Preterite,
+	    :token-stem :llik}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person3, "i-llik", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-llik-ā", "i-", "-ā"],
+	    [:Fem, :Plural, :Person2, "ta-llik-ā", "ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-llik", "a-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-llik", "i-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-llik-ū", "i-", "-ū"],
+	    [:Fem, :Singular, :Person2, "ta-llik-ī", "ta-", "-ī"],
+	    [:Masc, :Plural, :Person2, "ta-llik-ā", "ta-", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-llik", "ni-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-llik", "ta-", "_NULL"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :nqr,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person2, "ta-ttaqr-ī", "ta-", "ttaqr", "-ī"],
+	    [:Masc, :Plural, :Person2, "ta-ttaqr-ā", "ta-", "ttaqr", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-ttaqar", "i-", "ttaqar", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-ttaqar", "ta-", "ttaqar", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-ttaqar", "i-", "ttaqar", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-ttaqr-ā", "i-", "ttaqr", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-ttaqar", "ni-", "ttaqar", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-ttaqar", "a-", "ttaqar", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-ttaqr-ū", "i-", "ttaqr", "-ū"],
+	    [:Fem, :Plural, :Person2, "ta-ttaqr-ā", "ta-", "ttaqr", "-ā"]]
+    }
+    {:common {:ablautClass :e-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Preterite,
+	    :token-stem :puš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "tē-puš", "tē-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "tā-puš-ā", "ī-", "-ā"],
+	    [:Fem, :Plural, :Person2, "tē-puš-ā", "tē-", "-ā"],
+	    [:Common, :Singular, :Person1, "ē-puš", "ē-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "tē-puš-ī", "tē-", "-ī"],
+	    [:Masc, :Plural, :Person3, "ī-puš-ū", "ī-", "-ū"],
+	    [:Masc, :Singular, :Person3, "ī-puš", "ī-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "tā-puš", "ī-", "_NULL"],
+	    [:Common, :Plural, :Person1, "nī-puš", "nī-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "tē-puš-ā", "tē-", "-ā"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :aks,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "ī-takš-ū", "ī-", "takš", "-ū"],
+	    [:Masc, :Singular, :Person3, "ī-takuš", "ī-", "takuš", "_NULL"],
+	    [:Fem, :Singular, :Person2, "tā-takš-ī", "tā-", "takš", "-ī"],
+	    [:Masc, :Plural, :Person2, "tā-takš-ā", "tā-", "takš", "-ā"],
+	    [:Masc, :Singular, :Person2, "tā-takuš", "tā-", "takuš", "_NULL"],
+	    [:Fem, :Plural, :Person2, "tā-takš-ā", "tā-", "takš", "-ā"],
+	    [:Fem, :Plural, :Person3, "tā-takš-ā", "ī-", "takš", "-ā"],
+	    [:Common, :Singular, :Person1, "ā-takuš", "ā-", "takuš", "_NULL"],
+	    [:Fem, :Singular, :Person3, "tā-takuš", "ī-", "takuš", "_NULL"],
+	    [:Common, :Plural, :Person1, "nī-takuš", "nī-", "takuš", "_NULL"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :erb,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "ī-terb-ū", "ī-", "terb", "-ū"],
+	    [:Common, :Singular, :Person1, "ē-terub", "ē-", "terub", "_NULL"],
+	    [:Fem, :Singular, :Person2, "tē-terb-ī", "tē-", "terb", "-ī"],
+	    [:Fem, :Plural, :Person2, "tē-terb-ā", "tē-", "terb", "-ā"],
+	    [:Masc, :Plural, :Person2, "tē-terb-ā", "tē-", "terb", "-ā"],
+	    [:Masc, :Singular, :Person3, "ī-terub", "ī-", "terub", "_NULL"],
+	    [:Masc, :Singular, :Person2, "tē-terub", "tē-", "terub", "_NULL"],
+	    [:Fem, :Singular, :Person3, "tā-terub", "ī-", "terub", "_NULL"],
+	    [:Common, :Plural, :Person1, "nī-terub", "nī-", "terub", "_NULL"],
+	    [:Fem, :Plural, :Person3, "tā-terb-ā", "ī-", "terb", "-ā"]]
+    }
+    {:common {:ablautClass :aClass,
+	    :derivedStem :B,
+	    :lexeme :sbt,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Present,
+	    :token-stem :ṣabbat}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person2, "ta-ṣabbat-ā", "ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-ṣabbat", "a-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-ṣabbat-ū", "i-", "-ū"],
+	    [:Common, :Plural, :Person1, "ni-ṣabbat", "ni-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-ṣabbat", "ta-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-ṣabbat", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-ṣabbat", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-ṣabbat-ī", "ta-", "-ī"],
+	    [:Fem, :Plural, :Person3, "ta-ṣabbat-ā", "i-", "-ā"],
+	    [:Fem, :Plural, :Person2, "ta-ṣabbat-ā", "ta-", "-ā"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :amr,
+	    :pos :Verb,
+	    :rootClass :aCC,
+	    :tam :Vetitive,
+	    :token-stem :mur}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "ayy-ā-mur", "ayy-ā-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ē-tā-mur-ā", "ē-tā-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ayy-tā--mur", "ayy-ī-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ayy-ī-mur-ū", "ayy-ī-", "-ū"],
+	    [:Fem, :Singular, :Person2, "ē-tā-mur-ī", "ē-tā-", "-ī"],
+	    [:Masc, :Singular, :Person2, "ē-tā-mur", "ē-tā-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-tā--mur-ā", "ayy-ī-", "-ā"],
+	    [:Masc, :Singular, :Person3, "ayy-ī-mur", "ayy-ī-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-tā-mur-ā", "ē-tā-", "-ā"],
+	    [:Common, :Plural, :Person1, "ē-nī-mur", "ē-nī-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :qis,
+	    :pos :Verb,
+	    :rootClass :CiC,
+	    :tam :Precative,
+	    :token-stem :qīš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "li-qīš-ū", "li-", "-ū"],
+	    [:Common, :Singular, :Person3, "li-qīš", "li-", "_NULL"],
+	    [:Common, :Singular, :Person1, "lu-qīš", "lu-", "_NULL"],
+	    [:Common, :Plural, :Person1, "i ni-qīš", "i ni-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "li-qīš-ā", "li-", "-ā"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ark,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Present,
+	    :token-stem :rrik}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person2, "ta-rrik-ī", "ta-", "-ī"],
+	    [:Fem, :Plural, :Person3, "ta-rrik-ā", "i-", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-rrik", "ta-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-rrik-ū", "i-", "-ū"],
+	    [:Common, :Singular, :Person1, "a-rrik", "a-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-rrik-ā", "ta-", "-ā"],
+	    [:Fem, :Plural, :Person2, "ta-rrik-ā", "ta-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-rrik", "i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-rrik", "ni-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-rrik", "i-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :lqe,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCe,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, "⊤leq/liq-î", "leq/liq", "-î"],
+	    [:Common, :Plural, "⊤leqe/liqe-ā", "leqe/liqe", "-ā"],
+	    [:Masc, :Singular, "⊤leqe/liqe", "leqe/liqe", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :srq,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person3, "i-štariq", "i-", "štariq", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-štariq", "a-", "štariq", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-štarq-ā", "i-", "štarq", "-ā"],
+	    [:Fem, :Singular, :Person2, "ta-štarq-ī", "ta-", "štarq", "-ī"],
+	    [:Masc, :Singular, :Person2, "ta-štariq", "ta-", "štariq", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-štariq", "ni-", "štariq", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-štariq", "i-", "štariq", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-štarq-ā", "ta-", "štarq", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-štarq-ū", "i-", "štarq", "-ū"],
+	    [:Masc, :Plural, :Person2, "ta-štarq-ā", "ta-", "štarq", "-ā"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :sal,
+	    :pos :Verb,
+	    :rootClass :CaC,
+	    :tam :Perfect,
+	    :token-stem :štāl}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "ta-štāl", "ta-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-štāl-ū", "i-", "-ū"],
+	    [:Fem, :Plural, :Person3, "ta-štāl-ā", "i-", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-štāl", "ni-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-štāl-ā", "ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-štāl", "a-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-štāl", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-štāl-ī", "ta-", "-ī"],
+	    [:Masc, :Singular, :Person3, "i-štāl", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-štāl-ā", "ta-", "-ā"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :srq,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Common, :Plural, "⊤širq-ā", "širq", "-ā"],
+	    [:Fem, :Singular, "⊤širq-ī", "širq", "-ī"],
+	    [:Masc, :Singular, "⊤širiq", "širiq", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :kun,
+	    :pos :Verb,
+	    :rootClass :CuC,
+	    :tam :Vetitive,
+	    :token-stem :kūn}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person3, "ayy-i-kūn", "ayy-i-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-ta-kūn-ā", "ē-ta-", "-ā"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--kūn-ā", "ayy-i-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--kūn", "ayy-i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-ta-kūn-ī", "ē-ta-", "-ī"],
+	    [:Fem, :Plural, :Person2, "ē-ta-kūn-ā", "ē-ta-", "-ā"],
+	    [:Common, :Plural, :Person1, "ē-ni-kūn", "ē-ni-", "_NULL"],
+	    [:Common, :Singular, :Person1, "ayy-a-kūn", "ayy-a-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-ta-kūn", "ē-ta-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ayy-i-kūn-ū", "ayy-i-", "-ū"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :kun,
+	    :pos :Verb,
+	    :rootClass :CuC,
+	    :tam :Perfect,
+	    :token-stem :ktūn}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "ta-ktūn", "ta-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-ktūn-ī", "ta-", "-ī"],
+	    [:Masc, :Plural, :Person2, "ta-ktūn-ā", "ta-", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-ktūn-ū", "i-", "-ū"],
+	    [:Masc, :Singular, :Person3, "i-ktūn", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-ktūn-ā", "i-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-ktūn", "a-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-ktūn", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-ktūn-ā", "ta-", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-ktūn", "ni-", "_NULL"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :aks,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Present,
+	    :token-stem :kkuš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person3, "i-kkuš", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-kkuš-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-kkuš", "ta-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-kkuš-ā", "i-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-kkuš", "a-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-kkuš-ā", "ta-", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-kkuš-ū", "i-", "-ū"],
+	    [:Common, :Plural, :Person1, "ni-kkuš", "ni-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-kkuš-ī", "ta-", "-ī"],
+	    [:Fem, :Singular, :Person3, "ta-kkuš", "i-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :ner,
+	    :pos :Verb,
+	    :rootClass :CeC,
+	    :tam :Perfect,
+	    :token-stem :ttēr ~ ttār}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "te-/ta-ttēr ~ ttār", "te-/ta-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "te-/ta-ttēr ~ ttār-ā", "te-/ta-", "-ā"],
+	    [:Fem, :Plural, :Person2, "te-/ta-ttēr ~ ttār-ā", "te-/ta-", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-ttēr ~ ttār-ū", "i-", "-ū"],
+	    [:Masc, :Singular, :Person3, "i-ttēr ~ ttār", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "te-/ta-ttēr ~ ttār-ī", "te-/ta-", "-ī"],
+	    [:Common, :Plural, :Person1, "ni-ttēr ~ ttār", "ni-", "_NULL"],
+	    [:Common, :Singular, :Person1, "e-/a-ttēr ~ ttār", "e-/a-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-ttēr ~ ttār", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-ttēr ~ ttār-ā", "i-", "-ā"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :alk,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Vetitive,
+	    :token-stem :llik}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "ayy-a-llik", "ayy-a-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-ta-llik-ā", "ē-ta-", "-ā"],
+	    [:Fem, :Singular, :Person2, "ē-ta-llik-ī", "ē-ta-", "-ī"],
+	    [:Masc, :Plural, :Person3, "ayy-i-llik-ū", "ayy-i-", "-ū"],
+	    [:Common, :Plural, :Person1, "ē-ni-llik", "ē-ni-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--llik-ā", "ayy-i-", "-ā"],
+	    [:Masc, :Singular, :Person2, "ē-ta-llik", "ē-ta-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ē-ta-llik-ā", "ē-ta-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--llik", "ayy-i-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ayy-i-llik", "ayy-i-", "_NULL"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :nqr,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, "⊤uqur", "uqur", "_NULL"],
+	    [:Common, :Plural, "⊤uqr-ā", "uqr", "-ā"],
+	    [:Fem, :Singular, "⊤uqr-ī", "uqr", "-ī"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Preterite,
+	    :token-stem :prus}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "a-prus", "a-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-prus-ā", "ta-", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-prus", "ni-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-prus", "i-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-prus-ū", "i-", "-ū"],
+	    [:Masc, :Singular, :Person2, "ta-prus", "ta-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-prus-ī", "ta-", "-ī"],
+	    [:Fem, :Plural, :Person2, "ta-prus-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-prus", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-prus-ā", "i-", "-ā"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :ner,
+	    :pos :Verb,
+	    :rootClass :CeC,
+	    :tam :Preterite,
+	    :token-stem :nēr ~ nār}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person2, "te-/ta-nēr ~ nār-ā", "te-/ta-", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-nēr ~ nār-ū", "i-", "-ū"],
+	    [:Common, :Singular, :Person1, "e-/a-nēr ~ nār", "e-/a-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-nēr ~ nār-ā", "i-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-nēr ~ nār", "i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-nēr ~ nār", "ni-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "te-/ta-nēr ~ nār-ā", "te-/ta-", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-nēr ~ nār", "i-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "te-/ta-nēr ~ nār", "te-/ta-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "te-/ta-nēr ~ nār-ī", "te-/ta-", "-ī"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :bni,
+	    :pos :Verb,
+	    :rootClass :CCi,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "ni-btani", "ni-", "btani", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-btani", "i-", "btani", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-btani", "a-", "btani", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-btani", "i-", "btani", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-btani-ā", "ta-", "btani", "-ā"],
+	    [:Masc, :Plural, :Person2, "ta-btani-ā", "ta-", "btani", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-btani", "ta-", "btani", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-btan-î", "ta-", "btan", "-î"],
+	    [:Masc, :Plural, :Person3, "i-btan-û", "i-", "btan", "-û"],
+	    [:Fem, :Plural, :Person3, "ta-btani-ā", "i-", "btani", "-ā"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :nsk,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Vetitive,
+	    :token-stem :ssuk}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "ayy-a-ssuk", "ayy-a-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--ssuk-ā", "ayy-i-", "-ā"],
+	    [:Masc, :Singular, :Person3, "ayy-i-ssuk", "ayy-i-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-ta-ssuk", "ē-ta-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ayy-i-ssuk-ū", "ayy-i-", "-ū"],
+	    [:Fem, :Singular, :Person2, "ē-ta-ssuk-ī", "ē-ta-", "-ī"],
+	    [:Common, :Plural, :Person1, "ē-ni-ssuk", "ē-ni-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ē-ta-ssuk-ā", "ē-ta-", "-ā"],
+	    [:Masc, :Plural, :Person2, "ē-ta-ssuk-ā", "ē-ta-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--ssuk", "ayy-i-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :lqe,
+	    :pos :Verb,
+	    :rootClass :CCe,
+	    :tam :Vetitive}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person2, "ē-te-/ta-lqe-ā", "ē-te-/ta-", "lqe", "-ā"],
+	    [:Masc, :Plural, :Person3, "ayy-i-lq-û", "ayy-i-", "lq", "-û"],
+	    [:Masc, :Singular, :Person2, "ē-te-/ta-lqe", "ē-te-/ta-", "lqe", "_NULL"],
+	    [:Common, :Plural, :Person1, "ē-ni-lqe", "ē-ni-", "lqe", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ayy-i-lqe", "ayy-i-", "lqe", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--lqe-ā", "ayy-i-", "lqe", "-ā"],
+	    [:Common, :Singular, :Person1, "ayy-a-lqe", "ayy-a-", "lqe", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-te-/ta-lq-î", "ē-te-/ta-", "lq", "-î"],
+	    [:Masc, :Plural, :Person2, "ē-te-/ta-lqe-ā", "ē-te-/ta-", "lqe", "-ā"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--lqe", "ayy-i-", "lqe", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :nks,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Vetitive,
+	    :token-stem :kkis}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "ē-ni-kkis", "ē-ni-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ayy-i-kkis", "ayy-i-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-ta-kkis-ā", "ē-ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "ayy-a-kkis", "ayy-a-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--kkis", "ayy-i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-ta-kkis-ī", "ē-ta-", "-ī"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--kkis-ā", "ayy-i-", "-ā"],
+	    [:Masc, :Plural, :Person3, "ayy-i-kkis-ū", "ayy-i-", "-ū"],
+	    [:Masc, :Singular, :Person2, "ē-ta-kkis", "ē-ta-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ē-ta-kkis-ā", "ē-ta-", "-ā"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :hdu,
+	    :pos :Verb,
+	    :rootClass :CCu,
+	    :tam :Preterite}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "ta-ḫdu", "ta-", "ḫdu", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-ḫdu", "a-", "ḫdu", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-ḫd-â", "i-", "ḫd", "-â"],
+	    [:Fem, :Plural, :Person2, "ta-ḫd-â", "ta-", "ḫd", "-â"],
+	    [:Masc, :Singular, :Person3, "i-ḫdu", "i-", "ḫdu", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-ḫd-û", "i-", "ḫd", "-û"],
+	    [:Fem, :Singular, :Person2, "ta-ḫd-î", "ta-", "ḫd", "-î"],
+	    [:Masc, :Plural, :Person2, "ta-ḫd-â", "ta-", "ḫd", "-â"],
+	    [:Fem, :Singular, :Person3, "ta-ḫdu", "i-", "ḫdu", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-ḫdu", "ni-", "ḫdu", "_NULL"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Vetitive,
+	    :token-stem :prus}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person3, "ayy-ta--prus-ā", "ayy-i-", "-ā"],
+	    [:Common, :Singular, :Person1, "ayy-a-prus", "ayy-a-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-ta-prus", "ē-ta-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-ta-prus-ā", "ē-ta-", "-ā"],
+	    [:Fem, :Singular, :Person2, "ē-ta-prus-ī", "ē-ta-", "-ī"],
+	    [:Masc, :Singular, :Person3, "ayy-i-prus", "ayy-i-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ayy-i-prus-ū", "ayy-i-", "-ū"],
+	    [:Fem, :Plural, :Person2, "ē-ta-prus-ā", "ē-ta-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--prus", "ayy-i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ē-ni-prus", "ē-ni-", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ark,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Preterite,
+	    :token-stem :rik}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "ā-rik", "ā-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "tā-rik-ī", "tā-", "-ī"],
+	    [:Masc, :Plural, :Person3, "ī-rik-ū", "ī-", "-ū"],
+	    [:Masc, :Singular, :Person2, "tā-rik", "tā-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "tā-rik-ā", "tā-", "-ā"],
+	    [:Masc, :Singular, :Person3, "ī-rik", "ī-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "tā-rik-ā", "ī-", "-ā"],
+	    [:Fem, :Singular, :Person3, "tā-rik", "ī-", "_NULL"],
+	    [:Common, :Plural, :Person1, "nī-rik", "nī-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "tā-rik-ā", "tā-", "-ā"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :ner,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CeC,
+	    :tam :Imperative,
+	    :token-pref :⊤,
+	    :token-stem :nēr ~ nār}
+    :terms [[:gender, :number, :token, :token-suff]  ;; schema
+	    [:Common, :Plural, "⊤nēr ~ nār-ā", "-ā"],
+	    [:Masc, :Singular, "⊤nēr ~ nār", "_NULL"],
+	    [:Fem, :Singular, "⊤nēr ~ nār-ī", "-ī"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :hdu,
+	    :pos :Verb,
+	    :rootClass :CCu,
+	    :tam :Vetitive}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "ayy-i-ḫd-û", "ayy-i-", "ḫd", "-û"],
+	    [:Common, :Plural, :Person1, "ē-ni-ḫdu", "ē-ni-", "ḫdu", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-ta-ḫd-î", "ē-ta-", "ḫd", "-î"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--ḫdu", "ayy-i-", "ḫdu", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ayy-i-ḫdu", "ayy-i-", "ḫdu", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ē-ta-ḫd-â", "ē-ta-", "ḫd", "-â"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--ḫd-â", "ayy-i-", "ḫd", "-â"],
+	    [:Masc, :Plural, :Person2, "ē-ta-ḫd-â", "ē-ta-", "ḫd", "-â"],
+	    [:Masc, :Singular, :Person2, "ē-ta-ḫdu", "ē-ta-", "ḫdu", "_NULL"],
+	    [:Common, :Singular, :Person1, "ayy-a-ḫdu", "ayy-a-", "ḫdu", "_NULL"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :wrd,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Imperative,
+	    :token-pref :⊤,
+	    :token-stem :rid}
+    :terms [[:gender, :number, :token, :token-suff]  ;; schema
+	    [:Masc, :Singular, "⊤rid", "_NULL"],
+	    [:Common, :Plural, "⊤rid-ā", "-ā"],
+	    [:Fem, :Singular, "⊤rid-ī", "-ī"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :kun,
+	    :pos :Verb,
+	    :rootClass :CuC,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person2, "ta-kunn-ī", "ta-", "kunn", "-ī"],
+	    [:Masc, :Singular, :Person2, "ta-kân", "ta-", "kân", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-kunn-ū", "i-", "kunn", "-ū"],
+	    [:Common, :Singular, :Person1, "a-kân", "a-", "kân", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-kunn-ā", "ta-", "kunn", "-ā"],
+	    [:Fem, :Plural, :Person2, "ta-kunn-ā", "ta-", "kunn", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-kân", "i-", "kân", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-kân", "ni-", "kân", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-kunn-ā", "i-", "kunn", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-kân", "i-", "kân", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ark,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Precative,
+	    :token-stem :rik}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "lū-rik", "lū-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "lī-rik-ū", "lī-", "-ū"],
+	    [:Common, :Plural, :Person1, "i nī-rik", "i nī-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "lī-rik-ā", "lī-", "-ā"],
+	    [:Common, :Singular, :Person3, "lī-rik", "lī-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :qis,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CiC,
+	    :tam :Imperative,
+	    :token-pref :⊤,
+	    :token-stem :qīš}
+    :terms [[:gender, :number, :token, :token-suff]  ;; schema
+	    [:Masc, :Singular, "⊤qīš", "_NULL"],
+	    [:Fem, :Singular, "⊤qīš-ī", "-ī"],
+	    [:Common, :Plural, "⊤qīš-ā", "-ā"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :alk,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Precative,
+	    :token-stem :llik}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "i ni-llik", "i ni-", "_NULL"],
+	    [:Common, :Singular, :Person3, "li-llik", "li-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "li-llik-ā", "li-", "-ā"],
+	    [:Common, :Singular, :Person1, "lu-llik", "lu-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "li-llik-ū", "li-", "-ū"]]
+    }
+    {:common {:ablautClass :aClass,
+	    :derivedStem :B,
+	    :lexeme :sbt,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person3, "i-ṣṣabat", "i-", "ṣṣabat", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-ṣṣabat", "ni-", "ṣṣabat", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-ṣṣabt-ā", "ta-", "ṣṣabt", "-ā"],
+	    [:Common, :Singular, :Person1, "a-ṣṣabat", "a-", "ṣṣabat", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-ṣṣabat", "ta-", "ṣṣabat", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-ṣṣabt-ū", "i-", "ṣṣabt", "-ū"],
+	    [:Fem, :Singular, :Person3, "ta-ṣṣabat", "i-", "ṣṣabat", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-ṣṣabt-ā", "i-", "ṣṣabt", "-ā"],
+	    [:Masc, :Plural, :Person2, "ta-ṣṣabt-ā", "ta-", "ṣṣabt", "-ā"],
+	    [:Fem, :Singular, :Person2, "ta-ṣṣabt-ī", "ta-", "ṣṣabt", "-ī"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :amr,
+	    :pos :Verb,
+	    :rootClass :aCC,
+	    :tam :Present,
+	    :token-stem :mmar}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person2, "ta-mmar-ī", "ta-", "-ī"],
+	    [:Masc, :Plural, :Person3, "i-mmar-ū", "i-", "-ū"],
+	    [:Fem, :Plural, :Person2, "ta-mmar-ā", "ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-mmar", "a-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-mmar", "i-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-mmar-ā", "ta-", "-ā"],
+	    [:Fem, :Plural, :Person3, "ta-mmar-ā", "i-", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-mmar", "ni-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-mmar", "i-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-mmar", "ta-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :mla,
+	    :pos :Verb,
+	    :rootClass :CCa,
+	    :tam :Preterite}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "ta-mla", "ta-", "mla", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-ml-â", "ta-", "ml", "-â"],
+	    [:Fem, :Plural, :Person3, "ta-ml-â", "i-", "ml", "-â"],
+	    [:Fem, :Singular, :Person2, "ta-ml-î", "ta-", "ml", "-î"],
+	    [:Common, :Plural, :Person1, "ni-mla", "ni-", "mla", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-mla", "i-", "mla", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-ml-â", "ta-", "ml", "-â"],
+	    [:Common, :Singular, :Person1, "a-mla", "a-", "mla", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-mla", "i-", "mla", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-ml-û", "i-", "ml", "-û"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :nqr,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Preterite,
+	    :token-stem :qqur}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person3, "i-qqur", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-qqur-ī", "ta-", "-ī"],
+	    [:Masc, :Plural, :Person3, "i-qqur-ū", "i-", "-ū"],
+	    [:Common, :Singular, :Person1, "a-qqur", "a-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-qqur", "i-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-qqur", "ta-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-qqur", "ni-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-qqur-ā", "ta-", "-ā"],
+	    [:Masc, :Plural, :Person2, "ta-qqur-ā", "ta-", "-ā"],
+	    [:Fem, :Plural, :Person3, "ta-qqur-ā", "i-", "-ā"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :nsk,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, "⊤usk-ī", "usk", "-ī"],
+	    [:Common, :Plural, "⊤usk-ā", "usk", "-ā"],
+	    [:Masc, :Singular, "⊤usuk", "usuk", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :mla,
+	    :pos :Verb,
+	    :rootClass :CCa,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "ni-malla", "ni-", "malla", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-mall-î", "ta-", "mall", "-î"],
+	    [:Masc, :Singular, :Person3, "i-malla", "i-", "malla", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-malla", "ta-", "malla", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-malla", "i-", "malla", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-mall-â", "i-", "mall", "-â"],
+	    [:Common, :Singular, :Person1, "a-malla", "a-", "malla", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-mall-â", "ta-", "mall", "-â"],
+	    [:Masc, :Plural, :Person3, "i-mall-û", "i-", "mall", "-û"],
+	    [:Masc, :Plural, :Person2, "ta-mall-â", "ta-", "mall", "-â"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :lqe,
+	    :pos :Verb,
+	    :rootClass :CCe,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person2, "te-lteqe-ā", "te-", "lteqe", "-ā"],
+	    [:Fem, :Singular, :Person2, "te-lteq-î", "te-", "lteq", "-î"],
+	    [:Fem, :Plural, :Person2, "te-lteqe-ā", "te-", "lteqe", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-lteqe", "ni-", "lteqe", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-lteqe", "i-", "lteqe", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-lteqe", "i-", "lteqe", "_NULL"],
+	    [:Common, :Singular, :Person1, "e-lteqe", "e-", "lteqe", "_NULL"],
+	    [:Masc, :Singular, :Person2, "te-lteqe", "te-", "lteqe", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-lteq-û", "i-", "lteq", "-û"],
+	    [:Fem, :Plural, :Person3, "ta-lteqe-ā", "i-", "lteqe", "-ā"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :srq,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Preterite,
+	    :token-stem :šriq}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "a-šriq", "a-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-šriq-ū", "i-", "-ū"],
+	    [:Fem, :Plural, :Person2, "ta-šriq-ā", "ta-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-šriq", "i-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-šriq", "i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-šriq", "ni-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-šriq", "ta-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-šriq-ā", "ta-", "-ā"],
+	    [:Fem, :Plural, :Person3, "ta-šriq-ā", "i-", "-ā"],
+	    [:Fem, :Singular, :Person2, "ta-šriq-ī", "ta-", "-ī"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :sal,
+	    :pos :Verb,
+	    :rootClass :CaC,
+	    :tam :Preterite,
+	    :token-stem :šāl}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person3, "ta-šāl", "i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-šāl", "ni-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-šāl-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-šāl", "ta-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-šāl-ā", "ta-", "-ā"],
+	    [:Fem, :Plural, :Person3, "ta-šāl-ā", "i-", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-šāl", "i-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-šāl-ū", "i-", "-ū"],
+	    [:Fem, :Singular, :Person2, "ta-šāl-ī", "ta-", "-ī"],
+	    [:Common, :Singular, :Person1, "a-šāl", "a-", "_NULL"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :amr,
+	    :pos :Verb,
+	    :rootClass :aCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person3, "tā-tamar", "ī-", "tamar", "_NULL"],
+	    [:Fem, :Plural, :Person3, "tā-tamr-ā", "ī-", "tamr", "-ā"],
+	    [:Masc, :Plural, :Person2, "tā-tamr-ā", "tā-", "tamr", "-ā"],
+	    [:Masc, :Singular, :Person3, "ī-tamar", "ī-", "tamar", "_NULL"],
+	    [:Common, :Plural, :Person1, "nī-tamar", "nī-", "tamar", "_NULL"],
+	    [:Common, :Singular, :Person1, "ā-tamar", "ā-", "tamar", "_NULL"],
+	    [:Fem, :Plural, :Person2, "tā-tamr-ā", "tā-", "tamr", "-ā"],
+	    [:Masc, :Singular, :Person2, "tā-tamar", "tā-", "tamar", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ī-tamr-ū", "ī-", "tamr", "-ū"],
+	    [:Fem, :Singular, :Person2, "tā-tamr-ī", "tā-", "tamr", "-ī"]]
+    }
+    {:common {:ablautClass :e-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "ē-tepeš/tepuš", "ē-", "tepeš/tepuš", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ī-tepeš/tepuš", "ī-", "tepeš/tepuš", "_NULL"],
+	    [:Masc, :Plural, :Person2, "tē-tepš-ā", "tē-", "tepš", "-ā"],
+	    [:Fem, :Singular, :Person2, "tē-tepš-ī", "tē-", "tepš", "-ī"],
+	    [:Fem, :Plural, :Person3, "tā-tepš-ā", "ī-", "tepš", "-ā"],
+	    [:Fem, :Singular, :Person3, "tā-tepeš/tepuš", "ī-", "tepeš/tepuš", "_NULL"],
+	    [:Masc, :Singular, :Person2, "tē-tepeš/tepuš", "tē-", "tepeš/tepuš", "_NULL"],
+	    [:Common, :Plural, :Person1, "nī-tepeš/tepuš", "nī-", "tepeš/tepuš", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ī-tepš-ū", "ī-", "tepš", "-ū"],
+	    [:Fem, :Plural, :Person2, "tē-tepš-ā", "tē-", "tepš", "-ā"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :kun,
+	    :pos :Verb,
+	    :rootClass :CuC,
+	    :tam :Precative,
+	    :token-stem :kūn}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "i ni-kūn", "i ni-", "_NULL"],
+	    [:Common, :Singular, :Person1, "lu-kūn", "lu-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "li-kūn-ā", "li-", "-ā"],
+	    [:Masc, :Plural, :Person3, "li-kūn-ū", "li-", "-ū"],
+	    [:Common, :Singular, :Person3, "li-kūn", "li-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :qis,
+	    :pos :Verb,
+	    :rootClass :CiC,
+	    :tam :Preterite,
+	    :token-stem :qīš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person2, "ta-qīš-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-qīš", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-qīš-ā", "i-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-qīš", "a-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-qīš-ī", "ta-", "-ī"],
+	    [:Masc, :Plural, :Person2, "ta-qīš-ā", "ta-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-qīš", "i-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-qīš", "ta-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-qīš-ū", "i-", "-ū"],
+	    [:Common, :Plural, :Person1, "ni-qīš", "ni-", "_NULL"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Precative,
+	    :token-stem :prus}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "i ni-prus", "i ni-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "li-prus-ū", "li-", "-ū"],
+	    [:Common, :Singular, :Person1, "lu-prus", "lu-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "li-prus-ā", "li-", "-ā"],
+	    [:Common, :Singular, :Person3, "li-prus", "li-", "_NULL"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :wrd,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Vetitive,
+	    :token-stem :rid}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person2, "ē-tu-rid-ī", "ē-tu-", "-ī"],
+	    [:Masc, :Plural, :Person3, "ayy-u-rid-ū", "ayy-u-", "-ū"],
+	    [:Masc, :Singular, :Person2, "ē-tu-rid", "ē-tu-", "_NULL"],
+	    [:Common, :Singular, :Person1, "ayy-u-rid", "ayy-u-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ē-tu-rid-ā", "ē-tu-", "-ā"],
+	    [:Masc, :Plural, :Person2, "ē-tu-rid-ā", "ē-tu-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ayy-tu-rid", "ayy-u-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ē-nu-rid", "ē-nu-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-tu-rid-ā", "ayy-u-", "-ā"],
+	    [:Masc, :Singular, :Person3, "ayy-u-rid", "ayy-u-", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :nks,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, "⊤ikis", "ikis", "_NULL"],
+	    [:Common, :Plural, "⊤iks-ā", "iks", "-ā"],
+	    [:Fem, :Singular, "⊤iks-ī", "iks", "-ī"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :erb,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Common, :Plural, "⊤erb-ā", "erb", "-ā"],
+	    [:Fem, :Singular, "⊤erb-ī", "erb", "-ī"],
+	    [:Masc, :Singular, "⊤erub", "erub", "_NULL"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :erb,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Preterite,
+	    :token-stem :rub}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person2, "tē-rub-ā", "tē-", "-ā"],
+	    [:Common, :Singular, :Person1, "ē-rub", "ē-", "_NULL"],
+	    [:Common, :Plural, :Person1, "nī-rub", "nī-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ī-rub-ū", "ī-", "-ū"],
+	    [:Masc, :Plural, :Person2, "tē-rub-ā", "tē-", "-ā"],
+	    [:Masc, :Singular, :Person2, "tē-rub", "tē-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ī-rub", "ī-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "tē-rub-ī", "tē-", "-ī"],
+	    [:Fem, :Singular, :Person3, "tā-rub", "ī-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "tā-rub-ā", "ī-", "-ā"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :nsk,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person3, "ta-ttasuk", "i-", "ttasuk", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-ttasuk", "i-", "ttasuk", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-ttasuk", "ni-", "ttasuk", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-ttasuk", "a-", "ttasuk", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-ttask-ī", "ta-", "ttask", "-ī"],
+	    [:Masc, :Plural, :Person2, "ta-ttask-ā", "ta-", "ttask", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-ttask-ū", "i-", "ttask", "-ū"],
+	    [:Masc, :Singular, :Person2, "ta-ttasuk", "ta-", "ttasuk", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-ttask-ā", "ta-", "ttask", "-ā"],
+	    [:Fem, :Plural, :Person3, "ta-ttask-ā", "i-", "ttask", "-ā"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ezb,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Precative,
+	    :token-stem :zib}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person3, "lī-zib", "lī-", "_NULL"],
+	    [:Common, :Plural, :Person1, "i nī-zib", "i nī-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "lī-zib-ū", "lī-", "-ū"],
+	    [:Fem, :Plural, :Person3, "lī-zib-ā", "lī-", "-ā"],
+	    [:Common, :Singular, :Person1, "lū-zib", "lū-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :bni,
+	    :pos :Verb,
+	    :rootClass :CCi,
+	    :tam :Precative}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person3, "li-bni-ā", "li-", "bni", "-ā"],
+	    [:Masc, :Plural, :Person3, "li-bn-û", "li-", "bn", "-û"],
+	    [:Common, :Singular, :Person3, "li-bni", "li-", "bni", "_NULL"],
+	    [:Common, :Singular, :Person1, "lu-bni", "lu-", "bni", "_NULL"],
+	    [:Common, :Plural, :Person1, "i ni-bni", "i ni-", "bni", "_NULL"]]
+    }
+    {:common {:ablautClass :e-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, "⊤epuš", "epuš", "_NULL"],
+	    [:Common, :Plural, "⊤epš-ā", "epš", "-ā"],
+	    [:Fem, :Singular, "⊤epš-ī", "epš", "-ī"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :qis,
+	    :pos :Verb,
+	    :rootClass :CiC,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "i-qišš-ū", "i-", "qišš", "-ū"],
+	    [:Common, :Singular, :Person1, "a-qīaš", "a-", "qīaš", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-qišš-ā", "ta-", "qišš", "-ā"],
+	    [:Fem, :Singular, :Person2, "ta-qišš-ī", "ta-", "qišš", "-ī"],
+	    [:Fem, :Plural, :Person2, "ta-qišš-ā", "ta-", "qišš", "-ā"],
+	    [:Fem, :Plural, :Person3, "ta-qišš-ā", "i-", "qišš", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-qīaš", "i-", "qīaš", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-qīaš", "ta-", "qīaš", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-qīaš", "i-", "qīaš", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-qīaš", "ni-", "qīaš", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :mla,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCa,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, "⊤mila", "mila", "_NULL"],
+	    [:Fem, :Singular, "⊤mil-î", "mil", "-î"],
+	    [:Common, :Plural, "⊤mil-â", "mil", "-â"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :amr,
+	    :pos :Verb,
+	    :rootClass :aCC,
+	    :tam :Preterite,
+	    :token-stem :mur}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "tā-mur", "tā-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ī-mur-ū", "ī-", "-ū"],
+	    [:Masc, :Singular, :Person3, "ī-mur", "ī-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "tā-mur-ā", "tā-", "-ā"],
+	    [:Fem, :Singular, :Person2, "tā-mur-ī", "tā-", "-ī"],
+	    [:Fem, :Plural, :Person2, "tā-mur-ā", "tā-", "-ā"],
+	    [:Fem, :Singular, :Person3, "tā-mur", "ī-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "tā-mur-ā", "ī-", "-ā"],
+	    [:Common, :Singular, :Person1, "ā-mur", "ā-", "_NULL"],
+	    [:Common, :Plural, :Person1, "nī-mur", "nī-", "_NULL"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Present,
+	    :token-stem :parras}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "a-parras", "a-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-parras", "ta-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-parras-ā", "i-", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-parras", "ni-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-parras-ī", "ta-", "-ī"],
+	    [:Masc, :Plural, :Person2, "ta-parras-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-parras", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-parras-ā", "ta-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-parras", "i-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-parras-ū", "i-", "-ū"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :aks,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Preterite,
+	    :token-stem :kuš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "nī-kuš", "nī-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "tā-kuš", "tā-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "tā-kuš", "ī-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "tā-kuš-ā", "tā-", "-ā"],
+	    [:Fem, :Plural, :Person3, "tā-kuš-ā", "ī-", "-ā"],
+	    [:Fem, :Singular, :Person2, "tā-kuš-ī", "tā-", "-ī"],
+	    [:Masc, :Plural, :Person3, "ī-kuš-ū", "ī-", "-ū"],
+	    [:Masc, :Plural, :Person2, "tā-kuš-ā", "tā-", "-ā"],
+	    [:Common, :Singular, :Person1, "ā-kuš", "ā-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ī-kuš", "ī-", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ark,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Vetitive,
+	    :token-stem :rik}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "ē-nī-rik", "ē-nī-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-tā-rik-ā", "ē-tā-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ayy-tā--rik", "ayy-ī-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ayy-ī-rik", "ayy-ī-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-tā-rik", "ē-tā-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-tā-rik-ī", "ē-tā-", "-ī"],
+	    [:Masc, :Plural, :Person3, "ayy-ī-rik-ū", "ayy-ī-", "-ū"],
+	    [:Fem, :Plural, :Person3, "ayy-tā--rik-ā", "ayy-ī-", "-ā"],
+	    [:Fem, :Plural, :Person2, "ē-tā-rik-ā", "ē-tā-", "-ā"],
+	    [:Common, :Singular, :Person1, "ayy-ā-rik", "ayy-ā-", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :nks,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Preterite,
+	    :token-stem :kkis}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person2, "ta-kkis-ā", "ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-kkis", "a-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-kkis-ā", "i-", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-kkis", "ta-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-kkis", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-kkis-ī", "ta-", "-ī"],
+	    [:Masc, :Plural, :Person3, "i-kkis-ū", "i-", "-ū"],
+	    [:Common, :Plural, :Person1, "ni-kkis", "ni-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-kkis-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-kkis", "i-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :kun,
+	    :pos :Verb,
+	    :rootClass :CuC,
+	    :tam :Preterite,
+	    :token-stem :kūn}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person2, "ta-kūn-ā", "ta-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-kūn", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-kūn-ī", "ta-", "-ī"],
+	    [:Masc, :Singular, :Person2, "ta-kūn", "ta-", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-kūn", "a-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-kūn-ū", "i-", "-ū"],
+	    [:Masc, :Singular, :Person3, "i-kūn", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-kūn-ā", "ta-", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-kūn", "ni-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-kūn-ā", "i-", "-ā"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :wrd,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person3, "it-tarad", "it-", "tarad", "_NULL"],
+	    [:Common, :Singular, :Person1, "at-tarad", "at-", "tarad", "_NULL"],
+	    [:Masc, :Plural, :Person3, "it-tard-ū", "it-", "tard", "-ū"],
+	    [:Fem, :Singular, :Person2, "tat-tard-ī", "tat-", "tard", "-ī"],
+	    [:Fem, :Plural, :Person3, "tat-tard-ā", "it-", "tard", "-ā"],
+	    [:Masc, :Plural, :Person2, "tat-tard-ā", "tat-", "tard", "-ā"],
+	    [:Fem, :Singular, :Person3, "tat-tarad", "it-", "tarad", "_NULL"],
+	    [:Fem, :Plural, :Person2, "tat-tard-ā", "tat-", "tard", "-ā"],
+	    [:Masc, :Singular, :Person2, "tat-tarad", "tat-", "tarad", "_NULL"],
+	    [:Common, :Plural, :Person1, "nit-tarad", "nit-", "tarad", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ezb,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Vetitive,
+	    :token-stem :zib}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person2, "ē-tē-zib-ā", "ē-tē-", "-ā"],
+	    [:Masc, :Singular, :Person3, "ayy-ī-zib", "ayy-ī-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-tē-zib", "ē-tē-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-tē-zib-ī", "ē-tē-", "-ī"],
+	    [:Fem, :Plural, :Person2, "ē-tē-zib-ā", "ē-tē-", "-ā"],
+	    [:Fem, :Plural, :Person3, "ayy-tā--zib-ā", "ayy-ī-", "-ā"],
+	    [:Common, :Plural, :Person1, "ē-nī-zib", "ē-nī-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ayy-ī-zib-ū", "ayy-ī-", "-ū"],
+	    [:Fem, :Singular, :Person3, "ayy-tā--zib", "ayy-ī-", "_NULL"],
+	    [:Common, :Singular, :Person1, "ayy-ē-zib", "ayy-ē-", "_NULL"]]
+    }
+    {:common {:ablautClass :e-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Vetitive,
+	    :token-stem :puš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "ayy-ī-puš-ū", "ayy-ī-", "-ū"],
+	    [:Fem, :Singular, :Person3, "ayy-tā--puš", "ayy-ī-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-tē-puš", "ē-tē-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-tē-puš-ā", "ē-tē-", "-ā"],
+	    [:Common, :Singular, :Person1, "ayy-ē-puš", "ayy-ē-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-tā--puš-ā", "ayy-ī-", "-ā"],
+	    [:Common, :Plural, :Person1, "ē-nī-puš", "ē-nī-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-tē-puš-ī", "ē-tē-", "-ī"],
+	    [:Fem, :Plural, :Person2, "ē-tē-puš-ā", "ē-tē-", "-ā"],
+	    [:Masc, :Singular, :Person3, "ayy-ī-puš", "ayy-ī-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :sal,
+	    :pos :Verb,
+	    :rootClass :CaC,
+	    :tam :Precative,
+	    :token-stem :šāl}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "li-šāl-ū", "li-", "-ū"],
+	    [:Common, :Singular, :Person1, "lu-šāl", "lu-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "li-šāl-ā", "li-", "-ā"],
+	    [:Common, :Singular, :Person3, "li-šāl", "li-", "_NULL"],
+	    [:Common, :Plural, :Person1, "i ni-šāl", "i ni-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :ner,
+	    :pos :Verb,
+	    :rootClass :CeC,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person3, "i-nêr ~ nâr", "i-", "nêr ~ nâr", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-nerr ~ narr-ū", "i-", "nerr ~ narr", "-ū"],
+	    [:Masc, :Plural, :Person2, "te-/ta-nerr ~ narr-ā", "te-/ta-", "nerr ~ narr", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-nêr ~ nâr", "i-", "nêr ~ nâr", "_NULL"],
+	    [:Fem, :Singular, :Person2, "te-/ta-nerr ~ narr-ī", "te-/ta-", "nerr ~ narr", "-ī"],
+	    [:Fem, :Plural, :Person2, "te-/ta-nerr ~ narr-ā", "te-/ta-", "nerr ~ narr", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-nêr ~ nâr", "ni-", "nêr ~ nâr", "_NULL"],
+	    [:Common, :Singular, :Person1, "e-/a-nêr ~ nâr", "e-/a-", "nêr ~ nâr", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-nerr ~ narr-ā", "i-", "nerr ~ narr", "-ā"],
+	    [:Masc, :Singular, :Person2, "te-/ta-nêr ~ nâr", "te-/ta-", "nêr ~ nâr", "_NULL"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :nsk,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Precative,
+	    :token-stem :ssuk}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person3, "li-ssuk", "li-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "li-ssuk-ā", "li-", "-ā"],
+	    [:Masc, :Plural, :Person3, "li-ssuk-ū", "li-", "-ū"],
+	    [:Common, :Plural, :Person1, "i ni-ssuk", "i ni-", "_NULL"],
+	    [:Common, :Singular, :Person1, "lu-ssuk", "lu-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :hdu,
+	    :pos :Verb,
+	    :rootClass :CCu,
+	    :tam :Precative}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "li-ḫd-û", "li-", "ḫd", "-û"],
+	    [:Fem, :Plural, :Person3, "li-ḫd-â", "li-", "ḫd", "-â"],
+	    [:Common, :Singular, :Person3, "li-ḫdu", "li-", "ḫdu", "_NULL"],
+	    [:Common, :Plural, :Person1, "i ni-ḫdu", "i ni-", "ḫdu", "_NULL"],
+	    [:Common, :Singular, :Person1, "lu-ḫdu", "lu-", "ḫdu", "_NULL"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, "⊤purus", "purus", "_NULL"],
+	    [:Common, :Plural, "⊤purs-ā", "purs", "-ā"],
+	    [:Fem, :Singular, "⊤purs-ī", "purs", "-ī"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :alk,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person3, "ta-ttalak", "i-", "ttalak", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-ttalk-ī", "ta-", "ttalk", "-ī"],
+	    [:Fem, :Plural, :Person2, "ta-ttalk-ā", "ta-", "ttalk", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-ttalak", "i-", "ttalak", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-ttalk-ū", "i-", "ttalk", "-ū"],
+	    [:Masc, :Plural, :Person2, "ta-ttalk-ā", "ta-", "ttalk", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-ttalak", "ni-", "ttalak", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-ttalak", "ta-", "ttalak", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-ttalak", "a-", "ttalak", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-ttalk-ā", "i-", "ttalk", "-ā"]]
+    }
+    {:common {:ablautClass :e-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Present,
+	    :token-stem :ppeš/ppuš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person3, "ta-ppeš/ppuš", "i-", "_NULL"],
+	    [:Common, :Singular, :Person1, "e-ppeš/ppuš", "e-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "te-ppeš/ppuš", "te-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-ppeš/ppuš-ā", "i-", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-ppeš/ppuš-ū", "i-", "-ū"],
+	    [:Masc, :Singular, :Person3, "i-ppeš/ppuš", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "te-ppeš/ppuš-ī", "te-", "-ī"],
+	    [:Fem, :Plural, :Person2, "te-ppeš/ppuš-ā", "te-", "-ā"],
+	    [:Masc, :Plural, :Person2, "te-ppeš/ppuš-ā", "te-", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-ppeš/ppuš", "ni-", "_NULL"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :erb,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Present,
+	    :token-stem :rrub}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "e-rrub", "e-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "te-rrub-ī", "te-", "-ī"],
+	    [:Fem, :Singular, :Person3, "ta-rrub", "i-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "te-rrub-ā", "te-", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-rrub", "i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-rrub", "ni-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "te-rrub", "te-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "te-rrub-ā", "te-", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-rrub-ū", "i-", "-ū"],
+	    [:Fem, :Plural, :Person3, "ta-rrub-ā", "i-", "-ā"]]
+    }
+    {:common {:ablautClass :e-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Precative,
+	    :token-stem :puš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person3, "lī-puš-ā", "lī-", "-ā"],
+	    [:Common, :Plural, :Person1, "i nī-puš", "i nī-", "_NULL"],
+	    [:Common, :Singular, :Person1, "lū-puš", "lū-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "lī-puš-ū", "lī-", "-ū"],
+	    [:Common, :Singular, :Person3, "lī-puš", "lī-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :sal,
+	    :pos :Verb,
+	    :rootClass :CaC,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person2, "ta-šall-ī", "ta-", "šall", "-ī"],
+	    [:Masc, :Singular, :Person3, "i-šâl", "i-", "šâl", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-šâl", "a-", "šâl", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-šall-ū", "i-", "šall", "-ū"],
+	    [:Masc, :Plural, :Person2, "ta-šall-ā", "ta-", "šall", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-šâl", "ta-", "šâl", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-šâl", "i-", "šâl", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-šall-ā", "i-", "šall", "-ā"],
+	    [:Fem, :Plural, :Person2, "ta-šall-ā", "ta-", "šall", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-šâl", "ni-", "šâl", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :hdu,
+	    :pos :Verb,
+	    :rootClass :CCu,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person3, "ta-ḫtad-â", "i-", "ḫtad", "-â"],
+	    [:Fem, :Singular, :Person2, "ta-ḫtad-î", "ta-", "ḫtad", "-î"],
+	    [:Fem, :Plural, :Person2, "ta-ḫtad-â", "ta-", "ḫtad", "-â"],
+	    [:Common, :Singular, :Person1, "a-ḫtadu", "a-", "ḫtadu", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-ḫtadu", "i-", "ḫtadu", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-ḫtad-û", "i-", "ḫtad", "-û"],
+	    [:Masc, :Singular, :Person2, "ta-ḫtadu", "ta-", "ḫtadu", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-ḫtadu", "i-", "ḫtadu", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-ḫtad-â", "ta-", "ḫtad", "-â"],
+	    [:Common, :Plural, :Person1, "ni-ḫtadu", "ni-", "ḫtadu", "_NULL"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :alk,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, "⊤alk-ī", "alk", "-ī"],
+	    [:Masc, :Singular, "⊤alik", "alik", "_NULL"],
+	    [:Common, :Plural, "⊤alk-ā", "alk", "-ā"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ark,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "ī-tark-ū", "ī-", "tark", "-ū"],
+	    [:Masc, :Singular, :Person2, "tā-tarik", "tā-", "tarik", "_NULL"],
+	    [:Common, :Singular, :Person1, "ā-tarik", "ā-", "tarik", "_NULL"],
+	    [:Common, :Plural, :Person1, "nī-tarik", "nī-", "tarik", "_NULL"],
+	    [:Fem, :Singular, :Person3, "tā-tarik", "ī-", "tarik", "_NULL"],
+	    [:Fem, :Singular, :Person2, "tā-tark-ī", "tā-", "tark", "-ī"],
+	    [:Fem, :Plural, :Person3, "tā-tark-ā", "ī-", "tark", "-ā"],
+	    [:Masc, :Singular, :Person3, "ī-tarik", "ī-", "tarik", "_NULL"],
+	    [:Fem, :Plural, :Person2, "tā-tark-ā", "tā-", "tark", "-ā"],
+	    [:Masc, :Plural, :Person2, "tā-tark-ā", "tā-", "tark", "-ā"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :sal,
+	    :pos :Verb,
+	    :rootClass :CaC,
+	    :tam :Vetitive,
+	    :token-stem :šāl}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person2, "ē-ta-šāl-ī", "ē-ta-", "-ī"],
+	    [:Masc, :Plural, :Person2, "ē-ta-šāl-ā", "ē-ta-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--šāl", "ayy-i-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ayy-i-šāl", "ayy-i-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ayy-i-šāl-ū", "ayy-i-", "-ū"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--šāl-ā", "ayy-i-", "-ā"],
+	    [:Fem, :Plural, :Person2, "ē-ta-šāl-ā", "ē-ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "ayy-a-šāl", "ayy-a-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-ta-šāl", "ē-ta-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ē-ni-šāl", "ē-ni-", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ezb,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Preterite,
+	    :token-stem :zib}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "nī-zib", "nī-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "tē-zib", "tē-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ī-zib-ū", "ī-", "-ū"],
+	    [:Fem, :Singular, :Person3, "tā-zib", "ī-", "_NULL"],
+	    [:Common, :Singular, :Person1, "ē-zib", "ē-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "tē-zib-ī", "tē-", "-ī"],
+	    [:Masc, :Plural, :Person2, "tē-zib-ā", "tē-", "-ā"],
+	    [:Fem, :Plural, :Person2, "tē-zib-ā", "tē-", "-ā"],
+	    [:Fem, :Plural, :Person3, "tā-zib-ā", "ī-", "-ā"],
+	    [:Masc, :Singular, :Person3, "ī-zib", "ī-", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :srq,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Present,
+	    :token-stem :šarriq}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "i-šarriq-ū", "i-", "-ū"],
+	    [:Fem, :Plural, :Person3, "ta-šarriq-ā", "i-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-šarriq", "i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-šarriq", "ni-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-šarriq", "ta-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-šarriq", "i-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-šarriq-ā", "ta-", "-ā"],
+	    [:Fem, :Plural, :Person2, "ta-šarriq-ā", "ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-šarriq", "a-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-šarriq-ī", "ta-", "-ī"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :kun,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CuC,
+	    :tam :Imperative,
+	    :token-pref :⊤,
+	    :token-stem :kūn}
+    :terms [[:gender, :number, :token, :token-suff]  ;; schema
+	    [:Common, :Plural, "⊤kūn-ā", "-ā"],
+	    [:Fem, :Singular, "⊤kūn-ī", "-ī"],
+	    [:Masc, :Singular, "⊤kūn", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :qis,
+	    :pos :Verb,
+	    :rootClass :CiC,
+	    :tam :Vetitive,
+	    :token-stem :qīš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person3, "ayy-ta--qīš", "ayy-i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ē-ni-qīš", "ē-ni-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--qīš-ā", "ayy-i-", "-ā"],
+	    [:Fem, :Singular, :Person2, "ē-ta-qīš-ī", "ē-ta-", "-ī"],
+	    [:Masc, :Plural, :Person2, "ē-ta-qīš-ā", "ē-ta-", "-ā"],
+	    [:Fem, :Plural, :Person2, "ē-ta-qīš-ā", "ē-ta-", "-ā"],
+	    [:Masc, :Plural, :Person3, "ayy-i-qīš-ū", "ayy-i-", "-ū"],
+	    [:Common, :Singular, :Person1, "ayy-a-qīš", "ayy-a-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-ta-qīš", "ē-ta-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ayy-i-qīš", "ayy-i-", "_NULL"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :nqr,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Vetitive,
+	    :token-stem :qqur}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person2, "ē-ta-qqur-ā", "ē-ta-", "-ā"],
+	    [:Masc, :Plural, :Person2, "ē-ta-qqur-ā", "ē-ta-", "-ā"],
+	    [:Masc, :Singular, :Person2, "ē-ta-qqur", "ē-ta-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ayy-i-qqur-ū", "ayy-i-", "-ū"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--qqur", "ayy-i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-ta-qqur-ī", "ē-ta-", "-ī"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--qqur-ā", "ayy-i-", "-ā"],
+	    [:Common, :Singular, :Person1, "ayy-a-qqur", "ayy-a-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "ayy-i-qqur", "ayy-i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ē-ni-qqur", "ē-ni-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :lqe,
+	    :pos :Verb,
+	    :rootClass :CCe,
+	    :tam :Preterite}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person3, "ta-lqe-ā", "i-", "lqe", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-lqe", "i-", "lqe", "_NULL"],
+	    [:Common, :Singular, :Person1, "e-/a-lqe", "e-/a-", "lqe", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-lqe", "ni-", "lqe", "_NULL"],
+	    [:Masc, :Singular, :Person2, "te-/ta-lqe", "te-/ta-", "lqe", "_NULL"],
+	    [:Masc, :Plural, :Person2, "te-/ta-lqe-ā", "te-/ta-", "lqe", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-lqe", "i-", "lqe", "_NULL"],
+	    [:Fem, :Plural, :Person2, "te-/ta-lqe-ā", "te-/ta-", "lqe", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-lq-û", "i-", "lq", "-û"],
+	    [:Fem, :Singular, :Person2, "te-/ta-lq-î", "te-/ta-", "lq", "-î"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :amr,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :aCC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, "⊤amr-ī", "amr", "-ī"],
+	    [:Common, :Plural, "⊤amr-ā", "amr", "-ā"],
+	    [:Masc, :Singular, "⊤amur", "amur", "_NULL"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :nqr,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Precative,
+	    :token-stem :qqur}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person3, "li-qqur-ā", "li-", "-ā"],
+	    [:Common, :Plural, :Person1, "i ni-qqur", "i ni-", "_NULL"],
+	    [:Common, :Singular, :Person3, "li-qqur", "li-", "_NULL"],
+	    [:Common, :Singular, :Person1, "lu-qqur", "lu-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "li-qqur-ū", "li-", "-ū"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :hdu,
+	    :pos :Verb,
+	    :rootClass :CCu,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "i-ḫadd-û", "i-", "ḫadd", "-û"],
+	    [:Common, :Singular, :Person1, "a-ḫaddu", "a-", "ḫaddu", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-ḫadd-â", "ta-", "ḫadd", "-â"],
+	    [:Masc, :Singular, :Person3, "i-ḫaddu", "i-", "ḫaddu", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-ḫadd-î", "ta-", "ḫadd", "-î"],
+	    [:Masc, :Plural, :Person2, "ta-ḫadd-â", "ta-", "ḫadd", "-â"],
+	    [:Masc, :Singular, :Person2, "ta-ḫaddu", "ta-", "ḫaddu", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-ḫaddu", "i-", "ḫaddu", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-ḫaddu", "ni-", "ḫaddu", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-ḫadd-â", "i-", "ḫadd", "-â"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :lqe,
+	    :pos :Verb,
+	    :rootClass :CCe,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "te-/ta-leqqe/laqqe", "te-/ta-", "leqqe/laqqe", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-leqqe/laqqe-ā", "i-", "leqqe/laqqe", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-leqq/laqq-û", "i-", "leqq/laqq", "-û"],
+	    [:Fem, :Singular, :Person2, "te-/ta-leqq/laqq-î", "te-/ta-", "leqq/laqq", "-î"],
+	    [:Common, :Singular, :Person1, "e-/a-leqqe/laqqe", "e-/a-", "leqqe/laqqe", "_NULL"],
+	    [:Masc, :Plural, :Person2, "te-/ta-leqqe/laqqe-ā", "te-/ta-", "leqqe/laqqe", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-leqqe/laqqe", "ni-", "leqqe/laqqe", "_NULL"],
+	    [:Fem, :Plural, :Person2, "te-/ta-leqqe/laqqe-ā", "te-/ta-", "leqqe/laqqe", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-leqqe/laqqe", "i-", "leqqe/laqqe", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-leqqe/laqqe", "i-", "leqqe/laqqe", "_NULL"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :aks,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Common, :Plural, "⊤akš-ā", "akš", "-ā"],
+	    [:Masc, :Singular, "⊤akuš", "akuš", "_NULL"],
+	    [:Fem, :Singular, "⊤akš-ī", "akš", "-ī"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :nks,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "i-ttaks-ū", "i-", "ttaks", "-ū"],
+	    [:Fem, :Singular, :Person3, "ta-ttakis", "i-", "ttakis", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-ttaks-ā", "ta-", "ttaks", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-ttakis", "i-", "ttakis", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-ttakis", "a-", "ttakis", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-ttaks-ā", "i-", "ttaks", "-ā"],
+	    [:Fem, :Plural, :Person2, "ta-ttaks-ā", "ta-", "ttaks", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-ttakis", "ta-", "ttakis", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-ttaks-ī", "ta-", "ttaks", "-ī"],
+	    [:Common, :Plural, :Person1, "ni-ttakis", "ni-", "ttakis", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ark,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, "⊤ark-ī", "ark", "-ī"],
+	    [:Masc, :Singular, "⊤arik", "arik", "_NULL"],
+	    [:Common, :Plural, "⊤ark-ā", "ark", "-ā"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :nsk,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Preterite,
+	    :token-stem :ssuk}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person2, "ta-ssuk-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-ssuk", "i-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-ssuk", "i-", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-ssuk", "ni-", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-ssuk", "a-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-ssuk-ī", "ta-", "-ī"],
+	    [:Masc, :Singular, :Person2, "ta-ssuk", "ta-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-ssuk-ā", "ta-", "-ā"],
+	    [:Fem, :Plural, :Person3, "ta-ssuk-ā", "i-", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-ssuk-ū", "i-", "-ū"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :hdu,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCu,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, "⊤ḫud-î", "ḫud", "-î"],
+	    [:Common, :Plural, "⊤ḫud-â", "ḫud", "-â"],
+	    [:Masc, :Singular, "⊤ḫudu", "ḫudu", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :ner,
+	    :pos :Verb,
+	    :rootClass :CeC,
+	    :tam :Vetitive,
+	    :token-stem :nēr ~ nār}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Plural, :Person1, "ē-ni-nēr ~ nār", "ē-ni-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--nēr ~ nār-ā", "ayy-i-", "-ā"],
+	    [:Masc, :Singular, :Person3, "ayy-i-nēr ~ nār", "ayy-i-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-te-/ta-nēr ~ nār-ā", "ē-te-/ta-", "-ā"],
+	    [:Fem, :Plural, :Person2, "ē-te-/ta-nēr ~ nār-ā", "ē-te-/ta-", "-ā"],
+	    [:Fem, :Singular, :Person2, "ē-te-/ta-nēr ~ nār-ī", "ē-te-/ta-", "-ī"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--nēr ~ nār", "ayy-i-", "_NULL"],
+	    [:Common, :Singular, :Person1, "ayy-e-/a-nēr ~ nār", "ayy-e-/a-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ayy-i-nēr ~ nār-ū", "ayy-i-", "-ū"],
+	    [:Masc, :Singular, :Person2, "ē-te-/ta-nēr ~ nār", "ē-te-/ta-", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :mla,
+	    :pos :Verb,
+	    :rootClass :CCa,
+	    :tam :Vetitive}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person3, "ayy-ta--ml-â", "ayy-i-", "ml", "-â"],
+	    [:Masc, :Singular, :Person3, "ayy-i-mla", "ayy-i-", "mla", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-ta-mla", "ē-ta-", "mla", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-ta-ml-î", "ē-ta-", "ml", "-î"],
+	    [:Masc, :Plural, :Person3, "ayy-i-ml-û", "ayy-i-", "ml", "-û"],
+	    [:Common, :Singular, :Person1, "ayy-a-mla", "ayy-a-", "mla", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--mla", "ayy-i-", "mla", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-ta-ml-â", "ē-ta-", "ml", "-â"],
+	    [:Common, :Plural, :Person1, "ē-ni-mla", "ē-ni-", "mla", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ē-ta-ml-â", "ē-ta-", "ml", "-â"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :sal,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CaC,
+	    :tam :Imperative,
+	    :token-pref :⊤,
+	    :token-stem :šāl}
+    :terms [[:gender, :number, :token, :token-suff]  ;; schema
+	    [:Masc, :Singular, "⊤šāl", "_NULL"],
+	    [:Common, :Plural, "⊤šāl-ā", "-ā"],
+	    [:Fem, :Singular, "⊤šāl-ī", "-ī"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :alk,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Present,
+	    :token-stem :llak}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person3, "ta-llak", "i-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-llak", "ta-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-llak-ū", "i-", "-ū"],
+	    [:Common, :Plural, :Person1, "ni-llak", "ni-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-llak-ā", "ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "a-llak", "a-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-llak-ī", "ta-", "-ī"],
+	    [:Masc, :Singular, :Person3, "i-llak", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-llak-ā", "ta-", "-ā"],
+	    [:Fem, :Plural, :Person3, "ta-llak-ā", "i-", "-ā"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :bni,
+	    :person :Person2,
+	    :pos :Verb,
+	    :rootClass :CCi,
+	    :tam :Imperative,
+	    :token-pref :⊤}
+    :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, "⊤bin-î", "bin", "-î"],
+	    [:Masc, :Singular, "⊤bini", "bini", "_NULL"],
+	    [:Common, :Plural, "⊤bini-ā", "bini", "-ā"]]
+    }
+    {:common {:ablautClass :a-iClass,
+	    :derivedStem :B,
+	    :lexeme :wrd,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Precative,
+	    :token-stem :rid}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person3, "lu-rid-ū", "lu-", "-ū"],
+	    [:Fem, :Plural, :Person3, "lu-rid-ā", "lu-", "-ā"],
+	    [:Common, :Singular, :Person3, "lu-rid", "lu-", "_NULL"],
+	    [:Common, :Singular, :Person1, "lu-rid", "lu-", "_NULL"],
+	    [:Common, :Plural, :Person1, "i nu-rid", "i nu-", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :nks,
+	    :pos :Verb,
+	    :rootClass :NCC,
+	    :tam :Present,
+	    :token-stem :nakkis}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person1, "a-nakkis", "a-", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-nakkis", "i-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-nakkis-ā", "i-", "-ā"],
+	    [:Masc, :Plural, :Person2, "ta-nakkis-ā", "ta-", "-ā"],
+	    [:Fem, :Singular, :Person2, "ta-nakkis-ī", "ta-", "-ī"],
+	    [:Common, :Plural, :Person1, "ni-nakkis", "ni-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-nakkis", "i-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-nakkis-ū", "i-", "-ū"],
+	    [:Fem, :Plural, :Person2, "ta-nakkis-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-nakkis", "ta-", "_NULL"]]
+    }
+    {:common {:ablautClass :a-uClass,
+	    :derivedStem :B,
+	    :lexeme :prs,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "ta-ptaras", "ta-", "ptaras", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ta-ptaras", "i-", "ptaras", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-ptars-ā", "ta-", "ptars", "-ā"],
+	    [:Masc, :Plural, :Person3, "i-ptars-ū", "i-", "ptars", "-ū"],
+	    [:Fem, :Singular, :Person2, "ta-ptars-ī", "ta-", "ptars", "-ī"],
+	    [:Common, :Singular, :Person1, "a-ptaras", "a-", "ptaras", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-ptaras", "i-", "ptaras", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-ptaras", "ni-", "ptaras", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-ptars-ā", "ta-", "ptars", "-ā"],
+	    [:Fem, :Plural, :Person3, "ta-ptars-ā", "i-", "ptars", "-ā"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :bni,
+	    :pos :Verb,
+	    :rootClass :CCi,
+	    :tam :Preterite}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person2, "ta-bni-ā", "ta-", "bni", "-ā"],
+	    [:Fem, :Singular, :Person2, "ta-bn-î", "ta-", "bn", "-î"],
+	    [:Fem, :Plural, :Person3, "ta-bni-ā", "i-", "bni", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-bni", "ta-", "bni", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-bn-û", "i-", "bn", "-û"],
+	    [:Fem, :Singular, :Person3, "ta-bni", "i-", "bni", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-bni", "i-", "bni", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-bni-ā", "ta-", "bni", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-bni", "ni-", "bni", "_NULL"],
+	    [:Common, :Singular, :Person1, "a-bni", "a-", "bni", "_NULL"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :ezb,
+	    :pos :Verb,
+	    :rootClass :ECC,
+	    :tam :Perfect}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Plural, :Person3, "tā-tezb-ā", "ī-", "tezb", "-ā"],
+	    [:Fem, :Plural, :Person2, "tē-tezb-ā", "tē-", "tezb", "-ā"],
+	    [:Common, :Plural, :Person1, "nī-tezib", "nī-", "tezib", "_NULL"],
+	    [:Masc, :Singular, :Person2, "tē-tezib", "tē-", "tezib", "_NULL"],
+	    [:Fem, :Singular, :Person3, "tā-tezib", "ī-", "tezib", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ī-tezb-ū", "ī-", "tezb", "-ū"],
+	    [:Masc, :Singular, :Person3, "ī-tezib", "ī-", "tezib", "_NULL"],
+	    [:Fem, :Singular, :Person2, "tē-tezb-ī", "tē-", "tezb", "-ī"],
+	    [:Masc, :Plural, :Person2, "tē-tezb-ā", "tē-", "tezb", "-ā"],
+	    [:Common, :Singular, :Person1, "ē-tezib", "ē-", "tezib", "_NULL"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :lqe,
+	    :pos :Verb,
+	    :rootClass :CCe,
+	    :tam :Precative}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Common, :Singular, :Person3, "li-lqe", "li-", "lqe", "_NULL"],
+	    [:Common, :Plural, :Person1, "i ni-lqe", "i ni-", "lqe", "_NULL"],
+	    [:Masc, :Plural, :Person3, "li-lq-û", "li-", "lq", "-û"],
+	    [:Common, :Singular, :Person1, "lu-lqe", "lu-", "lqe", "_NULL"],
+	    [:Fem, :Plural, :Person3, "li-lqe-ā", "li-", "lqe", "-ā"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :qis,
+	    :pos :Verb,
+	    :rootClass :CiC,
+	    :tam :Perfect,
+	    :token-stem :qtīš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Plural, :Person2, "ta-qtīš-ā", "ta-", "-ā"],
+	    [:Masc, :Singular, :Person3, "i-qtīš", "i-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ta-qtīš", "ta-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ta-qtīš-ā", "i-", "-ā"],
+	    [:Common, :Plural, :Person1, "ni-qtīš", "ni-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-qtīš-ī", "ta-", "-ī"],
+	    [:Common, :Singular, :Person1, "a-qtīš", "a-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-qtīš-ā", "ta-", "-ā"],
+	    [:Fem, :Singular, :Person3, "ta-qtīš", "i-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "i-qtīš-ū", "i-", "-ū"]]
+    }
+    {:common {:ablautClass :_NULL,
+	    :derivedStem :B,
+	    :lexeme :bni,
+	    :pos :Verb,
+	    :rootClass :CCi,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+	    [:Fem, :Singular, :Person3, "ta-banni", "i-", "banni", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ta-banni-ā", "ta-", "banni", "-ā"],
+	    [:Masc, :Singular, :Person2, "ta-banni", "ta-", "banni", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ta-bann-î", "ta-", "bann", "-î"],
+	    [:Masc, :Plural, :Person3, "i-bann-û", "i-", "bann", "-û"],
+	    [:Common, :Singular, :Person1, "a-banni", "a-", "banni", "_NULL"],
+	    [:Common, :Plural, :Person1, "ni-banni", "ni-", "banni", "_NULL"],
+	    [:Masc, :Singular, :Person3, "i-banni", "i-", "banni", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ta-banni-ā", "ta-", "banni", "-ā"],
+	    [:Fem, :Plural, :Person3, "ta-banni-ā", "i-", "banni", "-ā"]]
+    }
+    {:common {:ablautClass :IClass,
+	    :derivedStem :B,
+	    :lexeme :srq,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Vetitive,
+	    :token-stem :šriq}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person2, "ē-ta-šriq", "ē-ta-", "_NULL"],
+	    [:Fem, :Plural, :Person3, "ayy-ta--šriq-ā", "ayy-i-", "-ā"],
+	    [:Masc, :Plural, :Person3, "ayy-i-šriq-ū", "ayy-i-", "-ū"],
+	    [:Fem, :Plural, :Person2, "ē-ta-šriq-ā", "ē-ta-", "-ā"],
+	    [:Common, :Plural, :Person1, "ē-ni-šriq", "ē-ni-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-ta-šriq-ā", "ē-ta-", "-ā"],
+	    [:Common, :Singular, :Person1, "ayy-a-šriq", "ayy-a-", "_NULL"],
+	    [:Fem, :Singular, :Person3, "ayy-ta--šriq", "ayy-i-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-ta-šriq-ī", "ē-ta-", "-ī"],
+	    [:Masc, :Singular, :Person3, "ayy-i-šriq", "ayy-i-", "_NULL"]]
+    }
+    {:common {:ablautClass :UClass,
+	    :derivedStem :B,
+	    :lexeme :aks,
+	    :pos :Verb,
+	    :rootClass :CCC,
+	    :tam :Vetitive,
+	    :token-stem :kuš}
+    :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:Masc, :Singular, :Person3, "ayy-ī-kuš", "ayy-ī-", "_NULL"],
+	    [:Masc, :Plural, :Person3, "ayy-ī-kuš-ū", "ayy-ī-", "-ū"],
+	    [:Fem, :Singular, :Person3, "ayy-tā--kuš", "ayy-ī-", "_NULL"],
+	    [:Masc, :Singular, :Person2, "ē-tā-kuš", "ē-tā-", "_NULL"],
+	    [:Fem, :Singular, :Person2, "ē-tā-kuš-ī", "ē-tā-", "-ī"],
+	    [:Common, :Singular, :Person1, "ayy-ā-kuš", "ayy-ā-", "_NULL"],
+	    [:Masc, :Plural, :Person2, "ē-tā-kuš-ā", "ē-tā-", "-ā"],
+	    [:Common, :Plural, :Person1, "ē-nī-kuš", "ē-nī-", "_NULL"],
+	    [:Fem, :Plural, :Person2, "ē-tā-kuš-ā", "ē-tā-", "-ā"],
+	    [:Fem, :Plural, :Person3, "ayy-tā--kuš-ā", "ayy-ī-", "-ā"]]
+    }}
+:muterms #{
+    {:common {:morpheme :PROIND,
+	    :pos :Pronoun,
+	    :proClass :Independent}
+    :terms [[:case, :gender, :number, :person, :token]  ;; schema
+	    [:Dative, :Masc, :Plural, :Person3, "šunūšim"],
+	    [:GenAcc, :Fem, :Plural, :Person3, "šināti"],
+	    [:Nominative, :Fem, :Plural, :Person3, "šina"],
+	    [:GenAcc, :Masc, :Plural, :Person3, "šunūti"],
+	    [:GenAcc, :Masc, :Singular, :Person3, "šuāti ~ šuātu ~ šâtu ~ i"],
+	    [:Nominative, :Fem, :Plural, :Person2, "attina"],
+	    [:Dative, :Fem, :Plural, :Person2, "kināšim"],
+	    [:Dative, :Masc, :Plural, :Person2, "kunūšim"],
+	    [:Nominative, :Masc, :Plural, :Person2, "attunu"],
+	    [:Nominative, :Fem, :Singular, :Person2, "atti"],
+	    [:Nominative, :Fem, :Singular, :Person3, "⊤"],
+	    [:Nominative, :Masc, :Plural, :Person3, "šunu"],
+	    [:Dative, :Fem, :Plural, :Person3, "šināšim"],
+	    [:Nominative, :Common, :Plural, :Person1, "nīnū"],
+	    [:Dative, :Fem, :Singular, :Person2, "kâšim"],
+	    [:GenAcc, :Common, :Plural, :Person1, "niāti"],
+	    [:Dative, :Fem, :Singular, :Person3, "šuāšim ~ šâšim ~ šiāšim"],
+	    [:GenAcc, :Masc, :Plural, :Person2, "kunūti"],
+	    [:Nominative, :Masc, :Singular, :Person3, "⊤"],
+	    [:GenAcc, :Common, :Singular, :Person1, "yâti"],
+	    [:GenAcc, :Fem, :Singular, :Person3, "šuāti ~ šâti ~ šiāti"],
+	    [:Dative, :Masc, :Singular, :Person3, "šuāšim ~ šâšim ~ šâšum"],
+	    [:Nominative, :Masc, :Singular, :Person2, "atta"],
+	    [:GenAcc, :Fem, :Singular, :Person2, "kâti"],
+	    [:Dative, :Masc, :Singular, :Person2, "kâšim ~ kâšum"],
+	    [:Dative, :Common, :Singular, :Person1, "yâšim"],
+	    [:Nominative, :Common, :Singular, :Person1, "anāku"],
+	    [:Dative, :Common, :Plural, :Person1, "niāšim"],
+	    [:GenAcc, :Masc, :Singular, :Person2, "kâta ~ kâti"],
+	    [:GenAcc, :Fem, :Plural, :Person2, "kināti"]]
+    }
+    {:common {:morpheme :PROPOSSIND,
+	    :pos :Pronoun,
+	    :proClass :PossInd}
+    :terms [[:genderHead, :numHead, :number, :person, :token]  ;; schema
+	    [:Fem, :Singular, :Plural, :Person1, "niattum ~ niattun"],
+	    [:Fem, :Plural, :Plural, :Person1, "⊤"],
+	    [:Masc, :Plural, :Plural, :Person1, "nûttum ~ nûttun"],
+	    [:Masc, :Singular, :Singular, :Person1, "yûm (yaʾum) ~ yêm ~ yâm"],
+	    [:Masc, :Plural, :Singular, :Person2, "kûttum ~ kûttun"],
+	    [:Fem, :Singular, :Plural, :Person2, "⊤"],
+	    [:Fem, :Plural, :Plural, :Person2, "⊤"],
+	    [:Fem, :Plural, :Singular, :Person1, "yât(t)um ~ yât(t)un"],
+	    [:Masc, :Singular, :Plural, :Person3, "šunûm ~ šunîm ~ šuniam"],
+	    [:Masc, :Plural, :Singular, :Person3, "šûttum ~ šûttun"],
+	    [:Fem, :Singular, :Singular, :Person3, "šattum ~ šattun"],
+	    [:Fem, :Plural, :Singular, :Person3, "⊤"],
+	    [:Fem, :Plural, :Singular, :Person2, "kâttum ~ kâttun"],
+	    [:Masc, :Plural, :Plural, :Person3, "⊤"],
+	    [:Fem, :Singular, :Singular, :Person1, "yattum ~ yattun"],
+	    [:Fem, :Singular, :Singular, :Person2, "kattum ~ kattun"],
+	    [:Masc, :Plural, :Singular, :Person1, "yaʾūt(t)um ~ yaʾūt(t)un ~ yût(t)um ~ yût(t)un"],
+	    [:Fem, :Plural, :Plural, :Person3, "⊤"],
+	    [:Masc, :Plural, :Plural, :Person2, "⊤"],
+	    [:Masc, :Singular, :Singular, :Person3, "šûm ~ šêm ~ šuʾam (šâm)"],
+	    [:Masc, :Singular, :Plural, :Person2, "kunûm"],
+	    [:Fem, :Singular, :Plural, :Person3, "⊤"],
+	    [:Masc, :Singular, :Plural, :Person1, "nûm ~ nîm ~ nâm (niam)"],
+	    [:Masc, :Singular, :Singular, :Person2, "kûm ~ kêm ~ kâm"]]
+    }
+    {:common {:case :Possessive,
+	    :morpheme :PROPOSS,
+	    :pos :Pronoun,
+	    :proClass :Possessive}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "-ī ~ ya"],
+	    [:Masc, :Plural, :Person3, "-šunu"],
+	    [:Masc, :Singular, :Person2, "-ka"],
+	    [:Masc, :Plural, :Person2, "-kunu"],
+	    [:Common, :Plural, :Person1, "-ni"],
+	    [:Fem, :Singular, :Person3, "-ša"],
+	    [:Fem, :Plural, :Person3, "-šina"],
+	    [:Masc, :Singular, :Person3, "-šu"],
+	    [:Fem, :Plural, :Person2, "-kina"],
+	    [:Fem, :Singular, :Person2, "-ki"]]
+    }
+    {:common {:morpheme :PROOBJCLITIC,
+	    :pos :Pronoun,
+	    :proClass :ObjClitic}
+    :terms [[:case, :gender, :number, :person, :token]  ;; schema
+	    [:Accusative, :Masc, :Plural, :Person3, "-šunūti"],
+	    [:Accusative, :Masc, :Singular, :Person2, "-ka"],
+	    [:Dative, :Masc, :Singular, :Person2, "-kum"],
+	    [:Dative, :Masc, :Singular, :Person3, "-šum"],
+	    [:Accusative, :Masc, :Plural, :Person2, "-kunūti"],
+	    [:Dative, :Fem, :Plural, :Person2, "-kināšim"],
+	    [:Dative, :Fem, :Plural, :Person3, "-šināšim"],
+	    [:Dative, :Common, :Singular, :Person1, "-am ~ -m ~ -nim"],
+	    [:Accusative, :Masc, :Singular, :Person3, "-šu"],
+	    [:Dative, :Masc, :Plural, :Person3, "-šunūšim"],
+	    [:Accusative, :Common, :Singular, :Person1, "-anni ~ -nni ~ -ninni"],
+	    [:Accusative, :Fem, :Plural, :Person2, "-kināti"],
+	    [:Accusative, :Fem, :Plural, :Person3, "-šināti"],
+	    [:Dative, :Masc, :Plural, :Person2, "-kunūšim"],
+	    [:Accusative, :Common, :Plural, :Person1, "-niāti"],
+	    [:Accusative, :Fem, :Singular, :Person2, "-ki"],
+	    [:Dative, :Common, :Plural, :Person1, "-niāšim"],
+	    [:Dative, :Fem, :Singular, :Person3, "-šim"],
+	    [:Dative, :Fem, :Singular, :Person2, "-kim"],
+	    [:Accusative, :Fem, :Singular, :Person3, "-ši"]]
+    }
+    {:common {:pos :Verb,
+	    :morpheme :DERVSTEM,
+	    :verbMorphClass :Theme}
+    :terms [[:ablautClass, :derivedStem, :rootClass, :tam, :token]  ;; schema
+	    [:IClass, :N, :CCi, :Present, "-bbanni ~ -bbannV̂"],
+	    [:Common, :Dtn, :NCC, :Preterite, "-ttaqqer-"],
+	    [:a-uClass, :Bt, :NCC, :Perfect, "-ttatqar-"],
+	    [:Common, :St, :NCC, :Present, "-qqar-"],
+	    [:Common, :B, :WCC, :Present, "urrad- ~ ittir-"],
+	    [:aClass, :St, :WCC, :Preterite, "uštābil-"],
+	    [:Common, :St, :CCC, :Preterite, "-pris-"],
+	    [:IClass, :N, :CCC, :Perfect, "-ttapqid-"],
+	    [:Common, :Dt, :NCC, :Perfect, "-ttataqqer-"],
+	    [:Common, :Common, :CCC, :Present, "-pras-"],
+	    [:Common, :Bt, :WCC, :Preterite, "ittarad-"],
+	    [:a-iClass, :Btn, :CūC, :Preterite, "-qtīš ~ -qtišš-"],
+	    [:Common, :Stn, :aCC, :Preterite, "-ḫḫiz-"],
+	    [:EClass, :Dt, :CCe, :Preterite, "-lteqqi ~ -ltaqqi ~ -lteqqV̂ ~ -ltaqqV̂"],
+	    [:Common, :D, :aCC, :Present, "- ḫḫaz-"],
+	    [:EClass, :N, :CūC, :Present, "-nnêr ~ -nnerr-"],
+	    [:Common, :Dt, :ECC, :Perfect, "ūteteppiš-"],
+	    [:EClass, :St, :WCC, :Present, "ušterred-"],
+	    [:Common, :Stn, :NCC, :Present, "-naqqar-"],
+	    [:Common, :D, :aCC, :Preterite, "-ḫḫiz-"],
+	    [:IClass, :Btn, :CCi, :Present, "-btananni ~ -btanannV̂"],
+	    [:EClass, :Common, :WCC, :Perfect, "uštērid-"],
+	    [:Common, :Common, :ECC, :Preterite, "ušēpiš-"],
+	    [:Common, :Dt, :aCC, :Preterite, "ūtaḫḫiz-"],
+	    [:EClass, :D, :CCe, :Perfect, "-lteqqi ~ -ltaqqi ~ -lteqqV̂ ~ -ltaqqV̂"],
+	    [:aClass, :Common, :WCC, :Present, "ušabbal-"],
+	    [:a-uClass, :Ntn, :NCC, :Present, "-ttananqar-"],
+	    [:Common, :D, :CCa, :Preterite, "-malli ~ -mallV̂"],
+	    [:a-uClass, :Btn, :aCC, :Perfect, "ītataḫḫaz-"],
+	    [:Common, :Dtn, :CCC, :Preterite, "-ptarris-"],
+	    [:Common, :Dtn, :WCC, :Perfect, "ūtataššir-"],
+	    [:UClass, :Btn, :NCC, :Present, "-ttanassuk-"],
+	    [:Common, :Stn, :CCa, :Present, "-namla ~ -namlV̂"],
+	    [:UClass, :B, :aCC, :Perfect, "ītakus-"],
+	    [:Common, :St, :aCC, :Perfect, "-tāḫiz-"],
+	    [:a-uClass, :Btn, :NCC, :Present, "-ttanaqqar-"],
+	    [:e-uClass, :Ntn, :ECC, :Perfect, "⊤"],
+	    [:IClass, :Ntn, :ECC, :Perfect, "⊤"],
+	    [:Common, :D, :CūC, :Present, "-kān ~ -kann-"],
+	    [:a-uClass, :Btn, :CūC, :Preterite, "-ktūn ~ -ktunn-"],
+	    [:UClass, :B, :ECC, :Preterite, "īrub-"],
+	    [:Common, :Dt, :CūC, :Present, "-ktān ~ -ktann-"],
+	    [:Common, :Stn, :CCa, :Perfect, "-mli ~ -mlV̂"],
+	    [:Common, :Dt, :CūC, :Preterite, "-ktīn ~ -ktinn-"],
+	    [:IClass, :Ntn, :CCi, :Preterite, "-ttabni ~ -ttabnV̂"],
+	    [:a-iClass, :N, :CūC, :Present, "-qqīaš ~ -qqišš-"],
+	    [:Common, :Stn, :ECC, :Present, "ušteneppeš-"],
+	    [:Common, :D, :CCC, :Perfect, "-ptarris-"],
+	    [:EClass, :St, :CCe, :Present, "uštelqe ~ uštelqV̂"],
+	    [:IClass, :Ntn, :NCC, :Perfect, "-ttatankis-"],
+	    [:aClass, :Bt, :CCa, :Preterite, "-mtala ~ -mtalV̂"],
+	    [:UClass, :N, :CCu, :Present, "-mmannu ~ -mmannV̂"],
+	    [:EClass, :B, :CūC, :Present, "-nêr ~ -nerr-"],
+	    [:Common, :D, :ECC, :Perfect, "ūtappiš-"],
+	    [:UClass, :B, :aCC, :Preterite, "īkus-"],
+	    [:aClass, :Btn, :CCa, :Present, "-mtanalla ~ -mtanallV̂"],
+	    [:a-iClass, :B, :Alk, :Perfect, "-ttalak-"],
+	    [:aClass, :Common, :WCC, :Preterite, "ušābil-"],
+	    [:EClass, :Dtn, :CCe, :Preterite, "-lteqqi ~ -ltaqqi ~ -lteqqV̂ ~ -ltaqqV̂"],
+	    [:IClass, :Btn, :NCC, :Preterite, "-ttakkis-"],
+	    [:Common, :D, :aCC, :Perfect, "ūtaḫḫiz-"],
+	    [:Common, :B, :CCC, :Preterite, "-prus-"],
+	    [:a-uClass, :Btn, :aCC, :Present, "ītanaḫḫaz-"],
+	    [:aClass, :Stn, :WCC, :Preterite, "-bbil-"],
+	    [:e-uClass, :Btn, :ECC, :Present, "īteneppeš-"],
+	    [:Common, :St, :CūC, :Preterite, "-mīt ~ -mitt-"],
+	    [:Common, :Dtn, :CūC, :Present, "-ktanān ~ -ktanann-"],
+	    [:EClass, :Bt, :CCe, :Preterite, "-lteqe ~ -lteqV̂"],
+	    [:Common, :St, :aCC, :Present, "-ḫḫaz-"],
+	    [:IClass, :B, :CCi, :Present, "-banni ~ -bannV̂"],
+	    [:IClass, :Bt, :NCC, :Preterite, "-ttakis-"],
+	    [:UClass, :Btn, :CCu, :Present, "-mtanannu ~ -mtanannV̂"],
+	    [:Common, :Dtn, :ECC, :Preterite, "ūteppiš-"],
+	    [:EClass, :Stn, :WCC, :Preterite, "ušterrid-"],
+	    [:Common, :Stn, :aCC, :Present, "-naḫḫaz-"],
+	    [:Common, :Stn, :CCC, :Present, "-napras-"],
+	    [:a-uClass, :B, :NCC, :Present, "-naqqar-"],
+	    [:Common, :Btn, :CCC, :Present, "-ptanarras-"],
+	    [:Common, :Stn, :aCC, :Perfect, "-taḫḫiz-"],
+	    [:aClass, :N, :CCC, :Preterite, "-pparis-"],
+	    [:aClass, :N, :CCC, :Present, "-pparras-"],
+	    [:aClass, :N, :CūC, :Present, "-ššâm ~ -ššamm-"],
+	    [:Common, :Dt, :NCC, :Preterite, "-ttaqqer-"],
+	    [:Common, :Dtn, :CCC, :Perfect, "-ptatarris-"],
+	    [:aClass, :B, :CūC, :Present, "-šâl ~ -šall-"],
+	    [:IClass, :N, :ECC, :Present, "-nnezzib-"],
+	    [:Common, :Bt, :CCC, :Preterite, "-ptaras-"],
+	    [:UClass, :Bt, :CCu, :Perfect, "-mtatnu ~ -mtatnV̂"],
+	    [:Common, :D, :CCC, :Preterite, "-parris-"],
+	    [:a-iClass, :Bt, :CūC, :Present, "ittīal ~ ittill-"],
+	    [:IClass, :Bt, :NCC, :Perfect, "-ttatkis-"],
+	    [:EClass, :B, :CūC, :Perfect, "ittēr-"],
+	    [:EClass, :Ntn, :CCe, :Perfect, "-ttetelqe ~ -ttetelqV̂"],
+	    [:Common, :Dt, :CCC, :Present, "-ptarras-"],
+	    [:UClass, :Bt, :CCu, :Preterite, "-mtanu ~ -mtanV̂"],
+	    [:Common, :Btn, :CCC, :Perfect, "-ptatarras-"],
+	    [:Common, :Btn, :Alk, :Perfect, "-ttatallak-"],
+	    [:a-uClass, :N, :NCC, :Preterite, "-nnaqer-"],
+	    [:a-uClass, :Btn, :CūC, :Perfect, "⊤"],
+	    [:a-iClass, :Bt, :CūC, :Perfect, "ittatīl-"],
+	    [:Common, :Dt, :ECC, :Preterite, "ūteppiš-"],
+	    [:a-uClass, :Btn, :aCC, :Preterite, "ītaḫḫaz-"],
+	    [:Common, :D, :CūC, :Preterite, "-kīn ~ -kinn-"],
+	    [:Common, :Dt, :ECC, :Present, "ūteppeš-"],
+	    [:Common, :Dt, :aCC, :Present, "ūtaḫḫaz-"],
+	    [:UClass, :Bt, :ECC, :Perfect, "ītetrub-"],
+	    [:a-uClass, :Bt, :CūC, :Perfect, "-ktatūn-"],
+	    [:IClass, :Btn, :NCC, :Present, "-ttanakkis-"],
+	    [:EClass, :D, :CCe, :Present, "-leqqe ~ -laqqa ~ -leqqV̂ ~ -laqqV̂"],
+	    [:Common, :St, :CCC, :Perfect, "-pris-"],
+	    [:Common, :Dt, :aCC, :Perfect, "ūtataḫḫiz-"],
+	    [:IClass, :Btn, :CCi, :Preterite, "-btanni ~ -btannV̂"],
+	    [:EClass, :N, :CCe, :Present, "-lleqqe ~ -llaqqe ~ -lleqqV̂ ~ -llaqqV̂"],
+	    [:Common, :Common, :NCC, :Perfect, "-qqer-"],
+	    [:UClass, :Btn, :aCC, :Preterite, "ītakkus-"],
+	    [:EClass, :Dt, :CCe, :Perfect, "-lteteqqi ~ -ltataqqi ~ -lteteqqV̂ ~ -ltataqqV̂"],
+	    [:Common, :St, :NCC, :Preterite, "-qqer-"],
+	    [:UClass, :B, :NCC, :Perfect, "-ttasuk-"],
+	    [:EClass, :B, :CCe, :Preterite, "-lqe ~ -lqV̂"],
+	    [:Common, :Bt, :WCC, :Perfect, "ittatrad-"],
+	    [:IClass, :Btn, :CCi, :Perfect, "-btatanni ~ -btatannV̂"],
+	    [:Common, :N, :WCC, :Preterite, "-wwalid-"],
+	    [:a-iClass, :Bt, :CūC, :Preterite, "ittīl-"],
+	    [:Common, :Dtn, :CCC, :Present, "-ptanarras-"],
+	    [:UClass, :Bt, :NCC, :Perfect, "-ttassuk- (and*ttatsuk)"],
+	    [:aClass, :Bt, :CūC, :Perfect, "-štatāl-"],
+	    [:Common, :D, :CCC, :Present, "-parras-"],
+	    [:EClass, :N, :CūC, :Perfect, "⊤"],
+	    [:Common, :N, :WCC, :Perfect, "⊤"],
+	    [:Common, :Bt, :WCC, :Present, "ittarrad-"],
+	    [:a-uClass, :Ntn, :aCC, :Perfect, "⊤"],
+	    [:e-uClass, :N, :ECC, :Present, "-nneppeš-"],
+	    [:Common, :Bt, :Alk, :Present, "-ttallak-"],
+	    [:a-iClass, :B, :CūC, :Present, "-qīaš ~ -qišš-"],
+	    [:Common, :Ntn, :CCC, :Preterite, "-ttapras-"],
+	    [:EClass, :Bt, :CCe, :Perfect, "-ltetqe ~ -ltetqV̂"],
+	    [:Common, :Stn, :NCC, :Perfect, "-qqer-"],
+	    [:a-iClass, :B, :Alk, :Present, "-llak-"],
+	    [:a-uClass, :Bt, :aCC, :Perfect, "ītatḫaz-"],
+	    [:e-uClass, :Btn, :ECC, :Preterite, "īteppeš-"],
+	    [:Common, :Btn, :Alk, :Present, "-ttanallak-"],
+	    [:UClass, :Btn, :CCu, :Perfect, "-mtatannu ~ -mtatannV̂"],
+	    [:a-uClass, :Bt, :NCC, :Preterite, "-ttaqar-"],
+	    [:a-iClass, :Btn, :CūC, :Perfect, "⊤"],
+	    [:aClass, :Btn, :CCa, :Preterite, "-mtalla ~ -mtallV̂"],
+	    [:aClass, :Btn, :CūC, :Present, "-štanaʾʾal- ~ -štanâl ~ -štanall-"],
+	    [:a-uClass, :N, :aCC, :Preterite, "-nnaḫiz-"],
+	    [:EClass, :St, :WCC, :Perfect, "uštetērid-"],
+	    [:UClass, :Btn, :NCC, :Perfect, "-ttatassuk-"],
+	    [:EClass, :Stn, :WCC, :Perfect, "ušteterrid-"],
+	    [:Common, :Stn, :NCC, :Preterite, "-qqer-"],
+	    [:EClass, :Dtn, :CCe, :Perfect, "-lteteqqi ~ -ltataqqi ~ -lteteqqV̂ ~ -ltataqqV̂"],
+	    [:UClass, :Bt, :ECC, :Present, "īterrub-"],
+	    [:a-uClass, :B, :NCC, :Preterite, "-qqur-"],
+	    [:IClass, :Btn, :ECC, :Present, "ītenezzib-"],
+	    [:Common, :Dt, :WCC, :Present, "ūtaššar-"],
+	    [:aClass, :Bt, :CūC, :Preterite, "-štāl-"],
+	    [:aClass, :Bt, :CCa, :Perfect, "-mtatla ~ -mtatlV̂"],
+	    [:Common, :Ntn, :CCC, :Present, "-ttanapras-"],
+	    [:EClass, :D, :CCe, :Preterite, "-leqqi ~ -laqqi ~ -leqqV̂ ~ -laqqV̂"],
+	    [:IClass, :Bt, :CCi, :Present, "-btanni ~ -btannV̂"],
+	    [:IClass, :N, :CCC, :Preterite, "-ppaqid-"],
+	    [:IClass, :Btn, :NCC, :Perfect, "-ttatakkis-"],
+	    [:a-uClass, :Bt, :NCC, :Present, "-ttaqqar-"],
+	    [:e-uClass, :N, :ECC, :Perfect, "-ttenpeš-"],
+	    [:Common, :Dtn, :aCC, :Perfect, "ūtataḫḫiz-"],
+	    [:Common, :Dt, :WCC, :Perfect, "ūtataššir-"],
+	    [:Common, :Common, :aCC, :Present, "ušaḫḫaz-"],
+	    [:a-uClass, :N, :aCC, :Present, "-nnaḫḫaz-"],
+	    [:Common, :Stn, :ECC, :Preterite, "ušteppiš-"],
+	    [:Common, :Stn, :ECC, :Perfect, "uštetēpiš-"],
+	    [:Common, :Common, :NCC, :Preterite, "-qqer-"],
+	    [:a-uClass, :B, :CūC, :Preterite, "-kūn-"],
+	    [:IClass, :N, :ECC, :Preterite, "-nnezib-"],
+	    [:Common, :Dt, :CCa, :Present, "-mtalla ~ -mtallV̂"],
+	    [:Common, :Dtn, :aCC, :Present, "ūtanaḫḫaz-"],
+	    [:IClass, :Ntn, :NCC, :Preterite, "-ttankis-"],
+	    [:Common, :B, :CCC, :Present, "-parras-"],
+	    [:Common, :Dtn, :WCC, :Preterite, "ūtaššir-"],
+	    [:IClass, :Bt, :CCi, :Perfect, "-btatni ~ -btatnV̂"],
+	    [:Common, :Dt, :CCa, :Perfect, "-mtatalli ~ -mtatallV̂"],
+	    [:aClass, :N, :CCa, :Perfect, "-ttamla ~ -ttamlV̂"],
+	    [:Common, :D, :WCC, :Present, "uwaššar-"],
+	    [:aClass, :B, :CūC, :Preterite, "-šāl-"],
+	    [:Common, :Common, :CūC, :Present, "ušmāt ~ ušmatt-"],
+	    [:UClass, :B, :aCC, :Present, "īkkus-"],
+	    [:a-uClass, :Ntn, :CCa, :Perfect, "-ttatamla ~ -ttatamlV̂"],
+	    [:a-uClass, :Ntn, :CCa, :Present, "-ttanamla ~ -ttanamlV̂"],
+	    [:EClass, :B, :CūC, :Preterite, "-nēr-"],
+	    [:UClass, :Btn, :ECC, :Preterite, "īterrub-"],
+	    [:aClass, :Btn, :CūC, :Preterite, "-štaʾʾal-"],
+	    [:Common, :D, :CūC, :Perfect, "-ktīn ~ ktinn-"],
+	    [:a-uClass, :Bt, :aCC, :Present, "ītaḫḫaz-"],
+	    [:a-uClass, :Btn, :NCC, :Perfect, "-ttataqqar-"],
+	    [:Common, :St, :CūC, :Perfect, "⊤"],
+	    [:IClass, :N, :NCC, :Perfect, "-ttankis-"],
+	    [:a-uClass, :N, :aCC, :Perfect, "-ttanḫaz-"],
+	    [:Common, :Dtn, :ECC, :Perfect, "ūteteppiš-"],
+	    [:a-uClass, :B, :CūC, :Perfect, "-ktūn-"],
+	    [:aClass, :N, :CCC, :Perfect, "-ttapras-"],
+	    [:aClass, :Bt, :CCa, :Present, "-mtalla ~ -mtallV̂"],
+	    [:UClass, :B, :ECC, :Perfect, "īterub-"],
+	    [:IClass, :N, :CCC, :Present, "-ppaqqid-"],
+	    [:IClass, :Ntn, :NCC, :Present, "-ttanankis-"],
+	    [:aClass, :Stn, :WCC, :Present, "-nabbal-"],
+	    [:Common, :D, :WCC, :Perfect, "ūtaššir-"],
+	    [:IClass, :Bt, :CCi, :Preterite, "-btani ~ -btanV̂"],
+	    [:aClass, :N, :CūC, :Perfect, "⊤"],
+	    [:Common, :D, :CCa, :Perfect, "-mtalli ~ -mtallV̂"],
+	    [:a-uClass, :B, :aCC, :Perfect, "ītaḫaz-"],
+	    [:UClass, :Btn, :NCC, :Preterite, "-ttassuk-"],
+	    [:Common, :Btn, :Alk, :Preterite, "-ttallak-"],
+	    [:UClass, :Bt, :CCu, :Present, "-mtannu ~ -mtannV̂"],
+	    [:Common, :Common, :NCC, :Present, "-qqar-"],
+	    [:aClass, :Stn, :WCC, :Perfect, "-tabbil-"],
+	    [:IClass, :Ntn, :CCi, :Perfect, "-ttatabni ~ -ttatabnV̂"],
+	    [:EClass, :St, :CCe, :Perfect, "uštetelqi ~ uštetelqV̂"],
+	    [:a-uClass, :Bt, :aCC, :Preterite, "ītaḫaz-"],
+	    [:a-uClass, :Bt, :CūC, :Present, "-ktân ~ -ktunn-"],
+	    [:a-iClass, :B, :CūC, :Preterite, "-qīš-"],
+	    [:e-uClass, :B, :ECC, :Perfect, "ītepeš- ~ ītepuš-"],
+	    [:EClass, :B, :CCe, :Present, "-leqqe ~ -laqqe ~ -leqqV̂ ~ -laqqV̂"],
+	    [:a-iClass, :B, :CūC, :Perfect, "-qtīš-"],
+	    [:Common, :Dtn, :WCC, :Present, "ūtanaššar-"],
+	    [:Common, :Dtn, :CūC, :Perfect, "-ktatīn ~ -ktatinn-"],
+	    [:UClass, :Bt, :NCC, :Preterite, "-ttasuk-"],
+	    [:IClass, :B, :ECC, :Present, "-zzib-"],
+	    [:UClass, :B, :CCu, :Preterite, "-mnu ~ -mnV̂"],
+	    [:aClass, :Btn, :CūC, :Perfect, "⊤"],
+	    [:Common, :Common, :aCC, :Perfect, "uštāḫiz-"],
+	    [:a-iClass, :Btn, :CūC, :Present, "-qtanīaš ~ -qtanišš-"],
+	    [:EClass, :N, :CCe, :Perfect, "-ttelqe ~ -ttalqe ~ -ttelqV̂ ~ -ttalqV̂"],
+	    [:a-uClass, :Btn, :NCC, :Preterite, "-ttaqqar-"],
+	    [:Common, :B, :WCC, :Perfect, "ittarad- ~ ītetir- ~ ītatir-"],
+	    [:EClass, :Common, :WCC, :Preterite, "ušērid-"],
+	    [:IClass, :N, :NCC, :Preterite, "-nnakis-"],
+	    [:EClass, :Ntn, :CCe, :Present, "-ttenelqe ~ -ttenelqV̂"],
+	    [:aClass, :N, :CūC, :Preterite, "-ššam-"],
+	    [:IClass, :Ntn, :CCi, :Present, "-ttanabni ~ -ttanabnV̂"],
+	    [:Common, :Common, :CCC, :Preterite, "-pris-"],
+	    [:EClass, :Btn, :CCe, :Preterite, "-lteqqe ~ -lteqqV̂"],
+	    [:UClass, :B, :CCu, :Present, "-mannu ~ -mannV̂"],
+	    [:Common, :D, :WCC, :Preterite, "uwaššir-"],
+	    [:UClass, :B, :ECC, :Present, "-rrub-"],
+	    [:Common, :Common, :CCC, :Perfect, "-pris-"],
+	    [:UClass, :B, :CCu, :Perfect, "-mtanu ~ -mtanV̂"],
+	    [:Common, :Common, :ECC, :Perfect, "uštēpiš-"],
+	    [:Common, :St, :CūC, :Present, "-māt ~ -matt-"],
+	    [:IClass, :Btn, :ECC, :Perfect, "ītetezzib-"],
+	    [:EClass, :Common, :WCC, :Present, "ušerred-"],
+	    [:aClass, :B, :CūC, :Perfect, "-štāl-"],
+	    [:EClass, :B, :CCe, :Perfect, "-lteqe ~ -lteqV̂"],
+	    [:Common, :Common, :CūC, :Perfect, "-mīt ~ -mitt-"],
+	    [:IClass, :B, :aCC, :Perfect, "ītarik-"],
+	    [:Common, :St, :ECC, :Preterite, "uštēpiš-"],
+	    [:a-uClass, :Ntn, :CCa, :Preterite, "-ttamla ~ -ttamlV̂"],
+	    [:a-uClass, :Ntn, :NCC, :Preterite, "-ttanqar-"],
+	    [:EClass, :Stn, :CCe, :Present, "uštenelqe ~ uštenelqV̂"],
+	    [:a-uClass, :N, :CūC, :Perfect, "⊤"],
+	    [:EClass, :Stn, :CCe, :Perfect, "uštetelqi ~ uštetelqV̂"],
+	    [:Common, :St, :ECC, :Present, "ušteppeš-"],
+	    [:Common, :D, :NCC, :Present, "-naqqar-"],
+	    [:Common, :D, :NCC, :Perfect, "-ttaqqer-"],
+	    [:Common, :Dt, :CCa, :Preterite, "-mtalli ~ -mtallV̂"],
+	    [:UClass, :Btn, :CCu, :Preterite, "-mtannu ~ -mtannV̂"],
+	    [:Common, :Bt, :CCC, :Perfect, "-ptatras-"],
+	    [:EClass, :Dt, :CCe, :Present, "-lteneqqe ~ -ltanaqqa ~ -lteneqqV̂ ~ -ltanaqqV̂"],
+	    [:Common, :Common, :CūC, :Preterite, "ušmīt ~ ušmitt-"],
+	    [:a-uClass, :B, :aCC, :Preterite, "īḫuz-"],
+	    [:EClass, :Dtn, :CCe, :Present, "-lteneqqe ~ -ltanaqqa ~ -lteneqqV̂ ~ -ltanaqqV̂"],
+	    [:IClass, :N, :CCi, :Perfect, "-ttabni ~ -ttabnV̂"],
+	    [:a-uClass, :N, :CūC, :Preterite, "-ddīk- ~ -ddūk-"],
+	    [:Common, :D, :CCa, :Present, "-malla ~ -mallV̂"],
+	    [:EClass, :N, :CūC, :Preterite, "-nnēr-"],
+	    [:aClass, :St, :WCC, :Perfect, "uštatābil-"],
+	    [:Common, :Dtn, :NCC, :Present, "-ttanaqqar-"],
+	    [:Common, :St, :ECC, :Perfect, "uštetēpiš-"],
+	    [:aClass, :B, :CCa, :Present, "-malla ~ -mallV̂"],
+	    [:aClass, :Common, :WCC, :Perfect, "uštābil-"],
+	    [:IClass, :Ntn, :ECC, :Present, "-ttenenzib- ~ -ttenezzib-"],
+	    [:Common, :B, :WCC, :Preterite, "urid- ~ ītir-"],
+	    [:a-uClass, :B, :CūC, :Present, "-kân ~ -kunn-"],
+	    [:e-uClass, :N, :ECC, :Preterite, "-nnepiš-"],
+	    [:aClass, :Btn, :CCa, :Perfect, "-mtatalla ~ -mtatallV̂"],
+	    [:IClass, :Ntn, :ECC, :Preterite, "-ttenzib- ~ -ttezzib-"],
+	    [:IClass, :N, :CCi, :Preterite, "-bbani ~ -bbanV̂"],
+	    [:a-uClass, :Bt, :CūC, :Preterite, "-ktūn-"],
+	    [:UClass, :Btn, :ECC, :Present, "ītenerrub-"],
+	    [:Common, :Dtn, :ECC, :Present, "ūteneppeš-"],
+	    [:a-uClass, :Btn, :CūC, :Present, "-ktanân ~ -ktanunn-"],
+	    [:IClass, :B, :NCC, :Preterite, "-kkis-"],
+	    [:a-uClass, :N, :NCC, :Present, "-nnaqqar-"],
+	    [:IClass, :Btn, :aCC, :Preterite, "ītarrik-"],
+	    [:EClass, :St, :WCC, :Preterite, "uštērid-"],
+	    [:a-uClass, :N, :CūC, :Present, "-ddâk ~ -ddukk-"],
+	    [:aClass, :B, :CCa, :Preterite, "-mla ~ -mlV̂"],
+	    [:Common, :Stn, :CCa, :Preterite, "-mli ~ -mlV̂"],
+	    [:Common, :Dtn, :CCa, :Perfect, "-mtatalli ~ -mtatallV̂"],
+	    [:IClass, :N, :NCC, :Present, "-nnakkis-"],
+	    [:Common, :Dt, :WCC, :Preterite, "ūtaššir-"],
+	    [:a-uClass, :Ntn, :NCC, :Perfect, "-ttatanqar-"],
+	    [:Common, :Dtn, :CCa, :Preterite, "-mtalli ~ -mtallV̂"],
+	    [:e-uClass, :Ntn, :ECC, :Preterite, "-ttenpeš- ~ -tteppeš-"],
+	    [:UClass, :B, :NCC, :Present, "-nassuk-"],
+	    [:Common, :St, :CCC, :Present, "-pras-"],
+	    [:UClass, :Bt, :NCC, :Present, "-ttassuk-"],
+	    [:IClass, :B, :CCi, :Preterite, "-bni ~ -bnV̂"],
+	    [:UClass, :B, :NCC, :Preterite, "-ssuk-"],
+	    [:Common, :Stn, :CCC, :Preterite, "-pris-"],
+	    [:Common, :St, :aCC, :Preterite, "uštāḫiz-"],
+	    [:IClass, :N, :ECC, :Perfect, "-ttenzib-"],
+	    [:a-uClass, :Ntn, :aCC, :Preterite, "-ttanḫaz- ~ -ttaḫḫaz-"],
+	    [:Common, :St, :NCC, :Perfect, "-qqer-"],
+	    [:UClass, :N, :CCu, :Preterite, "-mmani ~ -mmanV̂"],
+	    [:a-uClass, :B, :NCC, :Perfect, "-ttaqar-"],
+	    [:IClass, :B, :aCC, :Preterite, "īrik-"],
+	    [:a-iClass, :N, :CūC, :Perfect, "⊤"],
+	    [:a-uClass, :N, :NCC, :Perfect, "-ttanqar-"],
+	    [:EClass, :Bt, :CCe, :Present, "-lteqqe ~ -lteqqV̂"],
+	    [:Common, :Dt, :CCC, :Perfect, "-ptatarris-"],
+	    [:UClass, :N, :CCu, :Perfect, "-ttamnu ~ -ttamnV̂"],
+	    [:IClass, :B, :aCC, :Present, "īrrik-"],
+	    [:IClass, :B, :CCi, :Perfect, "-btani ~ -btanV̂"],
+	    [:UClass, :Bt, :ECC, :Preterite, "īterub-"],
+	    [:EClass, :Ntn, :CCe, :Preterite, "-ttelqe ~ -ttelqV̂"],
+	    [:UClass, :Btn, :ECC, :Perfect, "īteterrub-"],
+	    [:Common, :N, :WCC, :Present, "-wwallad-"],
+	    [:aClass, :B, :CCa, :Perfect, "-mtala ~ -mtalV̂"],
+	    [:Common, :Dtn, :NCC, :Perfect, "-ttataqqer-"],
+	    [:EClass, :N, :CCe, :Preterite, "-lleqi ~ -llaqi ~ -lleqV̂ ~ -llaqV̂"],
+	    [:IClass, :Btn, :ECC, :Preterite, "ītezzib-"],
+	    [:aClass, :Bt, :CūC, :Present, "-štâl ~ -štall-"],
+	    [:Common, :Dt, :CCC, :Preterite, "-ptarris-"],
+	    [:Common, :Dtn, :aCC, :Preterite, "ūtaḫḫiz-"],
+	    [:IClass, :Btn, :aCC, :Perfect, "ītatarrik-"],
+	    [:e-uClass, :Ntn, :ECC, :Present, "-ttenenpeš- ~ -tteneppeš-"],
+	    [:aClass, :N, :CCa, :Present, "-malla ~ -mmallV̂"],
+	    [:Common, :Dtn, :CūC, :Preterite, "-ktīn ~ -ktinn-"],
+	    [:EClass, :Btn, :CCe, :Perfect, "-lteteqqe ~ -lteteqqV̂"],
+	    [:aClass, :St, :WCC, :Present, "uštabbal-"],
+	    [:IClass, :Bt, :NCC, :Present, "-ttakkis-"],
+	    [:a-iClass, :N, :CūC, :Preterite, "-qqīš-"],
+	    [:IClass, :B, :NCC, :Perfect, "-ttakis-"],
+	    [:aClass, :N, :CCa, :Preterite, "-mmali ~ -mmalV̂"],
+	    [:Common, :Common, :aCC, :Preterite, "ušāḫiz-"],
+	    [:a-uClass, :B, :aCC, :Present, "iḫḫaz-"],
+	    [:EClass, :St, :CCe, :Preterite, "uštelqi ~ uštelqV̂"],
+	    [:Common, :Bt, :Alk, :Preterite, "-ttalak-"],
+	    [:EClass, :Stn, :CCe, :Preterite, "uštelqi ~ uštelqV̂"],
+	    [:Common, :Dtn, :CCa, :Present, "-mtanalla ~ -mtanallV̂"],
+	    [:e-uClass, :B, :ECC, :Preterite, "īpuš-"],
+	    [:Common, :Btn, :CCC, :Preterite, "-ptarras-"],
+	    [:Common, :D, :ECC, :Preterite, "-ppiš-"],
+	    [:IClass, :B, :ECC, :Perfect, "ītezib-"],
+	    [:Common, :Bt, :CCC, :Present, "-ptarras-"],
+	    [:EClass, :Btn, :CCe, :Present, "-lteneqqe ~ -lteneqqV̂"],
+	    [:e-uClass, :B, :ECC, :Present, "-ppeš- ~ -ppuš-"],
+	    [:Common, :Common, :ECC, :Present, "ušeppeš-"],
+	    [:IClass, :B, :ECC, :Preterite, "īzib-"],
+	    [:e-uClass, :Btn, :ECC, :Perfect, "īteteppeš-"],
+	    [:Common, :B, :CCC, :Perfect, "-ptaras-"],
+	    [:Common, :D, :ECC, :Present, "-ppaš-"],
+	    [:Common, :Dt, :CūC, :Perfect, "-ktatīn ~ ktatinn-"],
+	    [:a-iClass, :B, :Alk, :Preterite, "-llik-"],
+	    [:a-uClass, :Ntn, :aCC, :Present, "-ttananḫaz- ~ -ttanaḫḫaz-"],
+	    [:EClass, :Stn, :WCC, :Present, "uštenerred-"],
+	    [:IClass, :B, :NCC, :Present, "-nakkis-"],
+	    [:UClass, :Btn, :aCC, :Present, "ītanakkus-"],
+	    [:Common, :Bt, :Alk, :Perfect, "-ttatlak-"],
+	    [:IClass, :Btn, :aCC, :Present, "ītanarrik-"],
+	    [:UClass, :Btn, :aCC, :Perfect, "ītatakkus-"],
+	    [:Common, :Stn, :CCC, :Perfect, "-tapris-"],
+	    [:Common, :Dt, :NCC, :Present, "-ttaqqar-"],
+	    [:Common, :Ntn, :CCC, :Perfect, "-ttatapras-"],
+	    [:Common, :D, :NCC, :Preterite, "-naqqer-"]]
+    }
+    {:common {:morpheme :PRODEM,
+	    :pos :Pronoun,
+	    :proClass :Demonstrative}
+    :terms [[:case, :deixis, :gender, :number, :token]  ;; schema
+	    [:Nominative, :Far, :Fem, :Singular, "⊤"],
+	    [:Genitive, :Near, :Masc, :Singular, "annîm"],
+	    [:Oblique, :Near, :Fem, :Plural, "anniātim"],
+	    [:Nominative, :Far, :Masc, :Singular, "⊤"],
+	    [:Genitive, :Near, :Fem, :Singular, "annītim"],
+	    [:Nominative, :Far, :Masc, :Plural, "šunūti"],
+	    [:Oblique, :Far, :Masc, :Plural, "šunūšim"],
+	    [:Genitive, :Far, :Masc, :Singular, "šuāti ~ šuātu ~ šâti ~ šâtu"],
+	    [:Oblique, :Far, :Fem, :Plural, "šināšim*"],
+	    [:Accusative, :Near, :Masc, :Singular, "anniam"],
+	    [:Nominative, :Near, :Masc, :Plural, "annûtum"],
+	    [:Nominative, :Far, :Fem, :Plural, "šināti"],
+	    [:Nominative, :Near, :Fem, :Singular, "annītum"],
+	    [:Accusative, :Far, :Masc, :Singular, "šuāšim ~ šâšim ~ šâšum"],
+	    [:Nominative, :Near, :Masc, :Singular, "annûm"],
+	    [:Accusative, :Near, :Fem, :Singular, "annītam"],
+	    [:Accusative, :Far, :Fem, :Singular, "šuāšim ~ šâšim ~ šiāšim"],
+	    [:Nominative, :Near, :Fem, :Plural, "anniātum"],
+	    [:Oblique, :Near, :Masc, :Plural, "annûtim"],
+	    [:Genitive, :Far, :Fem, :Singular, "šuāti ~ šâti ~ šiāti"]]
+    }
+    {:common {:pos :Verb,
+	    :token-stem :⊤,
+	    :morpheme :SUBJMARKER,
+	    :verbMorphClass :SubjMarker}
+    :terms [[:derivedStem, :gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
+	    [:B, :Masc, :Plural, :Person2, "ta-⊤⊤", "ta-", "-ā"],
+	    [:B, :Masc, :Singular, :Person3, "i-⊤", "i-", "_NULL"],
+	    [:St, :Common, :Plural, :Person1, "nušta-⊤", "nušta-", "_NULL"],
+	    [:B, :Fem, :Singular, :Person2, "ta-⊤⊤", "ta-", "-ī"],
+	    [:S, :Fem, :Singular, :Person3, "uša-⊤", "tuša-", "_NULL"],
+	    [:D, :Masc, :Singular, :Person2, "tu-⊤", "tu-", "_NULL"],
+	    [:B, :Masc, :Plural, :Person3, "i-⊤⊤", "i-", "-ū"],
+	    [:D, :Fem, :Singular, :Person2, "tu-⊤⊤", "tu-", "-ī"],
+	    [:St, :Masc, :Singular, :Person2, "tušta-⊤", "tušta-", "_NULL"],
+	    [:St, :Fem, :Plural, :Person3, "tttušta-⊤⊤", "tušta-", "-ā"],
+	    [:B, :Fem, :Plural, :Person2, "ta-⊤⊤", "ta-", "-ā"],
+	    [:St, :Fem, :Plural, :Person2, "tušta-⊤⊤", "tušta-", "-ā"],
+	    [:S, :Masc, :Singular, :Person3, "uša-⊤", "uša-", "_NULL"],
+	    [:B, :Common, :Plural, :Person1, "ni-⊤", "ni-", "_NULL"],
+	    [:B, :Masc, :Singular, :Person2, "ta-⊤", "ta-", "_NULL"],
+	    [:St, :Masc, :Singular, :Person3, "ušta-⊤", "ušta-", "_NULL"],
+	    [:B, :Fem, :Plural, :Person3, "ttti-⊤⊤", "ta-", "-ā"],
+	    [:St, :Masc, :Plural, :Person2, "tušta-⊤⊤", "tušta-", "-ā"],
+	    [:S, :Masc, :Plural, :Person3, "uša-⊤⊤", "uša-", "-ū"],
+	    [:D, :Fem, :Plural, :Person3, "tttu-⊤⊤", "tu-", "-ā"],
+	    [:S, :Masc, :Plural, :Person2, "tuša-⊤⊤", "tuša-", "-ā"],
+	    [:S, :Fem, :Plural, :Person2, "tuša-⊤⊤", "tuša-", "-ā"],
+	    [:S, :Common, :Singular, :Person1, "uša-⊤", "uša-", "_NULL"],
+	    [:St, :Masc, :Plural, :Person3, "ušta-⊤⊤", "ušta-", "-ū"],
+	    [:D, :Masc, :Plural, :Person2, "tu-⊤⊤", "tu-", "-ā"],
+	    [:S, :Fem, :Singular, :Person2, "tuša-⊤⊤", "tuša-", "-ī"],
+	    [:D, :Common, :Plural, :Person1, "nu-⊤", "nu-", "_NULL"],
+	    [:S, :Masc, :Singular, :Person2, "tuša-⊤", "tuša-", "_NULL"],
+	    [:S, :Common, :Plural, :Person1, "nuša-⊤", "nuša-", "_NULL"],
+	    [:B, :Common, :Singular, :Person1, "a-⊤", "a-", "_NULL"],
+	    [:D, :Common, :Singular, :Person1, "u-⊤", "u-", "_NULL"],
+	    [:D, :Fem, :Plural, :Person2, "tu-⊤⊤", "tu-", "-ā"],
+	    [:St, :Fem, :Singular, :Person2, "tušta-⊤⊤", "tušta-", "-ī"],
+	    [:S, :Fem, :Plural, :Person3, "tttuša-⊤⊤", "tuša-", "-ā"],
+	    [:B, :Fem, :Singular, :Person3, "i-⊤", "ta-", "_NULL"],
+	    [:St, :Common, :Singular, :Person1, "ušta-⊤", "ušta-", "_NULL"],
+	    [:St, :Fem, :Singular, :Person3, "ušta-⊤", "tušta-", "_NULL"],
+	    [:D, :Masc, :Singular, :Person3, "u-⊤", "u-", "_NULL"],
+	    [:D, :Masc, :Plural, :Person3, "u-⊤⊤", "u-", "-ū"],
+	    [:D, :Fem, :Singular, :Person3, "u-⊤", "tu-", "_NULL"]]
+    }}
