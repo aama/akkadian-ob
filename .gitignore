@@ -1,5 +1,8 @@
 pom.xml
 *jar
+*rdf
+*ttl
+*html
 /lib/
 /classes/
 /targets/
