@@ -15,57 +15,59 @@
 	  :verbMorphClass {:SubjMarker, :Theme}
 	  ]
 :morphemes {
-  :PROIND {:gloss "[x]", :lemma "[y]", }
-  :PROPOSSIND {:gloss "[x]", :lemma "[y]", }
-  :PROPOSS {:gloss "[x]", :lemma "[y]", }
-  :PROOBJCLITIC {:gloss "[x]", :lemma "[y]", }
   :DERVSTEM {:gloss "[x]", :lemma "[y]", }
   :PRODEM {:gloss "[x]", :lemma "[y]", }
+  :PROIND {:gloss "[x]", :lemma "[y]", }
+  :PROOBJCLITIC {:gloss "[x]", :lemma "[y]", }
+  :PROPOSS {:gloss "[x]", :lemma "[y]", }
+  :PROPOSSIND {:gloss "[x]", :lemma "[y]", }
   :SUBJMARKER {:gloss "[x]", :lemma "[y]", }
 }
 :lexemes {
-  :bni-1 {:gloss "build", :lemma "bnʾ", :rootClass :CCw}
-  :hdu {:gloss "be glad", :lemma "ḫdu", :rootClass :CCu}
-  :prs {:ablautClass :a-uClass, :gloss "divide", :lemma "prus", :rootClass :CCC}
-  :eps {:ablautClass :e-uClass, :gloss "do", :lemma "epuš", :rootClass :ECC}
-  :wld {:gloss "beget", :lemma "wld", :rootClass :WCC}
-  :ner-1 {:gloss "slay", :lemma "nʾr", :rootClass :CūC}
-  :wrd-1 {:gloss "descend", :lemma "wrd", :rootClass :WCC}
-  :mnu {:gloss "count", :lemma "mnʾ", :rootClass :CCw}
-  :nul {:gloss "lie down", :lemma "nʾl", :rootClass :CūC}
-  :sal-1 {:gloss "ask", :lemma "šʾl", :rootClass :CūC}
-  :sam {:gloss "buy", :lemma "šʾm", :rootClass :CūC}
-  :mut {:gloss "die", :lemma "mʾt", :rootClass :CūC}
-  :kan {:gloss "be(come) firm", :lemma "kʾn", :rootClass :CūC}
-  :lqa {:gloss "take", :lemma "lqʾ", :rootClass :CCw}
-  :lqe {:gloss "take", :lemma "lqe", :rootClass :CCe}
-  :wbl {:gloss "bear", :lemma "wbl", :rootClass :WCC}
-  :nsk {:ablautClass :UClass, :gloss "throw", :lemma "nsuk", :rootClass :NCC}
-  :dwk {:gloss "kill", :lemma "dʾk", :rootClass :CūC}
-  :wsr {:derivedStem :D, :gloss "release, set free", :lemma "wšr", :rootClass :WCC}
-  :nqr {:ablautClass :a-uClass, :gloss "tear down", :lemma "nqur", :rootClass :CCC}
-  :erb {:ablautClass :UClass, :gloss "enter", :lemma "erub", :rootClass :ECC}
   :aks {:ablautClass :UClass, :gloss "go", :lemma "akuš", :rootClass :aCC}
-  :srq {:ablautClass :IClass, :gloss "steal", :lemma "šriq", :rootClass :CCC}
-  :kun {:gloss "be", :lemma "kūn", :rootClass :CūC}
-  :ner {:gloss "kill", :lemma "nēr", :rootClass :CēC}
-  :qis {:gloss "give", :lemma "qīš", :rootClass :CīC}
-  :qis-1 {:gloss "give", :lemma "qʾš", :rootClass :CūC}
   :alk {:ablautClass :a-iClass, :gloss "go", :lemma "alik", :rootClass :aCC}
   :amr {:ablautClass :a-uClass, :gloss "see", :lemma "amur", :rootClass :aCC}
-  :ezb {:ablautClass :IClass, :gloss "leave", :lemma "ezib", :rootClass :ECC}
-  :sbt {:ablautClass :aClass, :gloss "seize", :lemma "ṣbat", :rootClass :CCC}
-  :prs-1 {:gloss "separate", :lemma "prs", :rootClass :CCC}
   :ark {:ablautClass :IClass, :gloss "be long", :lemma "arik", :rootClass :aCC}
   :bni {:gloss "build", :lemma "bni", :rootClass :CCi}
-  :mla-1 {:gloss "be(come) full of", :lemma "mlʾ", :rootClass :CCw}
-  :sal {:gloss "ask", :lemma "šāl", :rootClass :CāC}
+  :bni-1 {:gloss "build", :lemma "bnʾ", :rootClass :CCw}
+  :dwk {:gloss "kill", :lemma "dʾk", :rootClass :CūC}
+  :eps {:ablautClass :e-uClass, :gloss "do", :lemma "epuš", :rootClass :ECC}
+  :erb {:ablautClass :UClass, :gloss "enter", :lemma "erub", :rootClass :ECC}
+  :ezb {:ablautClass :IClass, :gloss "leave", :lemma "ezib", :rootClass :ECC}
+  :hdu {:gloss "be glad", :lemma "ḫdu", :rootClass :CCu}
+  :kan {:gloss "be(come) firm", :lemma "kʾn", :rootClass :CūC}
+  :kun {:gloss "be", :lemma "kūn", :rootClass :CūC}
+  :lqa {:gloss "take", :lemma "lqʾ", :rootClass :CCw}
+  :lqe {:gloss "take", :lemma "lqe", :rootClass :CCe}
   :mla {:gloss "be full", :lemma "mal", :rootClass :CCa}
-  :wrd {:ablautClass :a-iClass, :gloss "go down", :lemma "wrid", :rootClass :WCC}
+  :mla-1 {:gloss "be(come) full of", :lemma "mlʾ", :rootClass :CCw}
+  :mnu {:gloss "count", :lemma "mnʾ", :rootClass :CCw}
+  :mut {:gloss "die", :lemma "mʾt", :rootClass :CūC}
+  :ner {:gloss "kill", :lemma "nēr", :rootClass :CēC}
+  :ner-1 {:gloss "slay", :lemma "nʾr", :rootClass :CūC}
   :nks {:ablautClass :IClass, :gloss "cut off", :lemma "nkis", :rootClass :NCC}
+  :nqr {:ablautClass :a-uClass, :gloss "tear down", :lemma "nqur", :rootClass :CCC}
+  :nsk {:ablautClass :UClass, :gloss "throw", :lemma "nsuk", :rootClass :NCC}
+  :nul {:gloss "lie down", :lemma "nʾl", :rootClass :CūC}
+  :prs {:ablautClass :a-uClass, :gloss "divide", :lemma "prus", :rootClass :CCC}
+  :prs-1 {:gloss "separate", :lemma "prs", :rootClass :CCC}
+  :qis {:gloss "give", :lemma "qīš", :rootClass :CīC}
+  :qis-1 {:gloss "give", :lemma "qʾš", :rootClass :CūC}
+  :sal {:gloss "ask", :lemma "šāl", :rootClass :CāC}
+  :sal-1 {:gloss "ask", :lemma "šʾl", :rootClass :CūC}
+  :sam {:gloss "buy", :lemma "šʾm", :rootClass :CūC}
+  :sbt {:ablautClass :aClass, :gloss "seize", :lemma "ṣbat", :rootClass :CCC}
+  :srq {:ablautClass :IClass, :gloss "steal", :lemma "šriq", :rootClass :CCC}
+  :wbl {:gloss "bear", :lemma "wbl", :rootClass :WCC}
+  :wld {:gloss "beget", :lemma "wld", :rootClass :WCC}
+  :wrd {:ablautClass :a-iClass, :gloss "go down", :lemma "wrid", :rootClass :WCC}
+  :wrd-1 {:gloss "descend", :lemma "wrd", :rootClass :WCC}
+  :wsr {:derivedStem :D, :gloss "release, set free", :lemma "wšr", :rootClass :WCC}
 }
 :lxterms #{
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VECCIClassPres-ezb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ezb,
 	    :pos :Verb,
@@ -84,7 +86,9 @@
 	    [:Common, :Plural, :Person1, "ni-zzib", "ni-", "_NULL"],
 	    [:Fem, :Plural, :Person2, "te-zzib-ā", "te-", "-ā"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VACCA-uClassPrecative-amr"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :pos :Verb,
@@ -98,7 +102,9 @@
 	    [:Fem, :Plural, :Person3, "lī-mur-ā", "lī-", "-ā"],
 	    [:Common, :Singular, :Person3, "lī-mur", "lī-", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VECCIClassImprtv-ezb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ezb,
 	    :person :Person2,
@@ -111,7 +117,9 @@
 	    [:Common, :Plural, "⊤tezb-ā", "tezb", "-ā"],
 	    [:Masc, :Singular, "⊤tezib", "tezib", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCaPerf-mla"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :mla,
 	    :pos :Verb,
@@ -129,7 +137,9 @@
 	    [:Common, :Plural, :Person1, "ni-mtala", "ni-", "mtala", "_NULL"],
 	    [:Fem, :Singular, :Person3, "ta-mtala", "i-", "mtala", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCaPrecative-mla"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :mla,
 	    :pos :Verb,
@@ -142,7 +152,9 @@
 	    [:Common, :Singular, :Person3, "li-mla", "li-", "mla", "_NULL"],
 	    [:Fem, :Plural, :Person3, "li-ml-â", "li-", "ml", "-â"]]
     }
-    {:common {:ablautClass :aClass,
+    {:label "akkadian_OB-VCCCAClassPrecative-sbt"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :aClass,
 	    :derivedStem :B,
 	    :lexeme :sbt,
 	    :pos :Verb,
@@ -156,7 +168,9 @@
 	    [:Common, :Singular, :Person3, "li-ṣbat", "li-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "li-ṣbat-ū", "li-", "-ū"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VNCCA-uClassPres-nqr"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :pos :Verb,
@@ -175,7 +189,9 @@
 	    [:Masc, :Plural, :Person3, "i-naqqar-ū", "i-", "-ū"],
 	    [:Common, :Singular, :Person1, "a-naqqar", "a-", "_NULL"]]
     }
-    {:common {:ablautClass :aClass,
+    {:label "akkadian_OB-VCCCAClassVetitive-sbt"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :aClass,
 	    :derivedStem :B,
 	    :lexeme :sbt,
 	    :pos :Verb,
@@ -194,7 +210,9 @@
 	    [:Masc, :Plural, :Person3, "ayy-i-ṣbat-ū", "ayy-i-", "-ū"],
 	    [:Fem, :Singular, :Person2, "ē-ta-ṣbat-ī", "ē-ta-", "-ī"]]
     }
-    {:common {:ablautClass :aClass,
+    {:label "akkadian_OB-VCCCAClassImprtv-sbt"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :aClass,
 	    :derivedStem :B,
 	    :lexeme :sbt,
 	    :person :Person2,
@@ -207,7 +225,9 @@
 	    [:Masc, :Singular, "⊤ṣabat", "ṣabat", "_NULL"],
 	    [:Common, :Plural, "⊤ṣabt-ā", "ṣabt", "-ā"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassPrecative-srq"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :srq,
 	    :pos :Verb,
@@ -221,7 +241,9 @@
 	    [:Common, :Plural, :Person1, "i ni-šriq", "i ni-", "_NULL"],
 	    [:Common, :Singular, :Person1, "lu-šriq", "lu-", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VNCCIClassPrecative-nks"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :nks,
 	    :pos :Verb,
@@ -235,7 +257,9 @@
 	    [:Masc, :Plural, :Person3, "li-kkis-ū", "li-", "-ū"],
 	    [:Fem, :Plural, :Person3, "li-kkis-ā", "li-", "-ā"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassPres-wrd"
+    :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :pos :Verb,
@@ -254,7 +278,9 @@
 	    [:Masc, :Plural, :Person3, "u-rrad-ū", "u-", "-ū"],
 	    [:Fem, :Singular, :Person3, "tu-rrad", "u-", "_NULL"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VECCUClassVetitive-erb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :erb,
 	    :pos :Verb,
@@ -273,7 +299,9 @@
 	    [:Fem, :Plural, :Person3, "ayy-tā--rub-ā", "ayy-ī-", "-ā"],
 	    [:Common, :Plural, :Person1, "ē-nī-rub", "ē-nī-", "_NULL"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VNCCUClassPres-nsk"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :nsk,
 	    :pos :Verb,
@@ -292,7 +320,9 @@
 	    [:Masc, :Singular, :Person3, "i-nassuk", "i-", "_NULL"],
 	    [:Fem, :Singular, :Person2, "ta-nassuk-ī", "ta-", "-ī"]]
     }
-    {:common {:ablautClass :aClass,
+    {:label "akkadian_OB-VCCCAClassPret-sbt"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :aClass,
 	    :derivedStem :B,
 	    :lexeme :sbt,
 	    :pos :Verb,
@@ -311,7 +341,9 @@
 	    [:Common, :Singular, :Person1, "a-ṣbat", "a-", "_NULL"],
 	    [:Fem, :Singular, :Person2, "ta-ṣbat-ī", "ta-", "-ī"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VECCUClassPrecative-erb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :erb,
 	    :pos :Verb,
@@ -325,7 +357,9 @@
 	    [:Common, :Singular, :Person3, "lī-rub", "lī-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "lī-rub-ā", "lī-", "-ā"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCiVetitive-bni"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :bni,
 	    :pos :Verb,
@@ -343,7 +377,9 @@
 	    [:Fem, :Plural, :Person2, "ē-ta-bni-ā", "ē-ta-", "bni", "-ā"],
 	    [:Fem, :Singular, :Person2, "ē-ta-bn-î", "ē-ta-", "bn", "-î"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VCCCUClassPrecative-aks"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :aks,
 	    :pos :Verb,
@@ -357,7 +393,9 @@
 	    [:Common, :Singular, :Person3, "lī-kuš", "lī-", "_NULL"],
 	    [:Common, :Singular, :Person1, "lū-kuš", "lū-", "_NULL"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassPret-wrd"
+    :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :pos :Verb,
@@ -375,7 +413,9 @@
 	    [:Masc, :Plural, :Person2, "tu-rd-ā", "tu-", "rd", "-ā"],
 	    [:Common, :Singular, :Person1, "u-rid", "u-", "rid", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VPrecative-ner"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :ner,
 	    :pos :Verb,
@@ -389,7 +429,9 @@
 	    [:Common, :Singular, :Person1, "lu-nēr ~ nār", "lu-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "li-nēr ~ nār-ū", "li-", "-ū"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassPret-alk"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :pos :Verb,
@@ -408,7 +450,9 @@
 	    [:Common, :Plural, :Person1, "ni-llik", "ni-", "_NULL"],
 	    [:Masc, :Singular, :Person2, "ta-llik", "ta-", "_NULL"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VNCCA-uClassPerf-nqr"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :pos :Verb,
@@ -426,7 +470,9 @@
 	    [:Masc, :Plural, :Person3, "i-ttaqr-ū", "i-", "ttaqr", "-ū"],
 	    [:Fem, :Plural, :Person2, "ta-ttaqr-ā", "ta-", "ttaqr", "-ā"]]
     }
-    {:common {:ablautClass :e-uClass,
+    {:label "akkadian_OB-VECCE-uClassPret-prs"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :e-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -445,7 +491,9 @@
 	    [:Common, :Plural, :Person1, "nī-puš", "nī-", "_NULL"],
 	    [:Masc, :Plural, :Person2, "tē-puš-ā", "tē-", "-ā"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VCCCUClassPerf-aks"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :aks,
 	    :pos :Verb,
@@ -463,7 +511,9 @@
 	    [:Fem, :Singular, :Person3, "tā-takuš", "ī-", "takuš", "_NULL"],
 	    [:Common, :Plural, :Person1, "nī-takuš", "nī-", "takuš", "_NULL"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VECCUClassPerf-erb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :erb,
 	    :pos :Verb,
@@ -481,7 +531,9 @@
 	    [:Common, :Plural, :Person1, "nī-terub", "nī-", "terub", "_NULL"],
 	    [:Fem, :Plural, :Person3, "tā-terb-ā", "ī-", "terb", "-ā"]]
     }
-    {:common {:ablautClass :aClass,
+    {:label "akkadian_OB-VCCCAClassPres-sbt"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :aClass,
 	    :derivedStem :B,
 	    :lexeme :sbt,
 	    :pos :Verb,
@@ -500,7 +552,9 @@
 	    [:Fem, :Plural, :Person3, "ta-ṣabbat-ā", "i-", "-ā"],
 	    [:Fem, :Plural, :Person2, "ta-ṣabbat-ā", "ta-", "-ā"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VACCA-uClassVetitive-amr"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :pos :Verb,
@@ -519,7 +573,9 @@
 	    [:Masc, :Plural, :Person2, "ē-tā-mur-ā", "ē-tā-", "-ā"],
 	    [:Common, :Plural, :Person1, "ē-nī-mur", "ē-nī-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCiCPrecative-qis"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :qis,
 	    :pos :Verb,
@@ -533,7 +589,9 @@
 	    [:Common, :Plural, :Person1, "i ni-qīš", "i ni-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "li-qīš-ā", "li-", "-ā"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassPres-ark"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ark,
 	    :pos :Verb,
@@ -552,7 +610,9 @@
 	    [:Common, :Plural, :Person1, "ni-rrik", "ni-", "_NULL"],
 	    [:Masc, :Singular, :Person3, "i-rrik", "i-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCeImprtv-lqe"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :lqe,
 	    :person :Person2,
@@ -565,7 +625,9 @@
 	    [:Common, :Plural, "⊤leqe/liqe-ā", "leqe/liqe", "-ā"],
 	    [:Masc, :Singular, "⊤leqe/liqe", "leqe/liqe", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassPerf-srq"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :srq,
 	    :pos :Verb,
@@ -583,7 +645,9 @@
 	    [:Masc, :Plural, :Person3, "i-štarq-ū", "i-", "štarq", "-ū"],
 	    [:Masc, :Plural, :Person2, "ta-štarq-ā", "ta-", "štarq", "-ā"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VPerf-sal"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :sal,
 	    :pos :Verb,
@@ -602,7 +666,9 @@
 	    [:Masc, :Singular, :Person3, "i-štāl", "i-", "_NULL"],
 	    [:Fem, :Plural, :Person2, "ta-štāl-ā", "ta-", "-ā"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassImprtv-srq"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :srq,
 	    :person :Person2,
@@ -615,7 +681,9 @@
 	    [:Fem, :Singular, "⊤širq-ī", "širq", "-ī"],
 	    [:Masc, :Singular, "⊤širiq", "širiq", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCuCVetitive-kun"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :kun,
 	    :pos :Verb,
@@ -634,7 +702,9 @@
 	    [:Masc, :Singular, :Person2, "ē-ta-kūn", "ē-ta-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "ayy-i-kūn-ū", "ayy-i-", "-ū"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCuCPerf-kun"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :kun,
 	    :pos :Verb,
@@ -653,7 +723,9 @@
 	    [:Fem, :Plural, :Person2, "ta-ktūn-ā", "ta-", "-ā"],
 	    [:Common, :Plural, :Person1, "ni-ktūn", "ni-", "_NULL"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VCCCUClassPres-aks"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :aks,
 	    :pos :Verb,
@@ -672,7 +744,9 @@
 	    [:Fem, :Singular, :Person2, "ta-kkuš-ī", "ta-", "-ī"],
 	    [:Fem, :Singular, :Person3, "ta-kkuš", "i-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VPerf-ner"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :ner,
 	    :pos :Verb,
@@ -691,7 +765,9 @@
 	    [:Fem, :Singular, :Person3, "ta-ttēr ~ ttār", "i-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "ta-ttēr ~ ttār-ā", "i-", "-ā"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassVetitive-alk"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :pos :Verb,
@@ -710,7 +786,9 @@
 	    [:Fem, :Singular, :Person3, "ayy-ta--llik", "ayy-i-", "_NULL"],
 	    [:Masc, :Singular, :Person3, "ayy-i-llik", "ayy-i-", "_NULL"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VNCCA-uClassImprtv-nqr"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :person :Person2,
@@ -723,7 +801,9 @@
 	    [:Common, :Plural, "⊤uqr-ā", "uqr", "-ā"],
 	    [:Fem, :Singular, "⊤uqr-ī", "uqr", "-ī"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VCCCA-uPret-prs"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -742,7 +822,9 @@
 	    [:Masc, :Singular, :Person3, "i-prus", "i-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "ta-prus-ā", "i-", "-ā"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VPret-ner"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :ner,
 	    :pos :Verb,
@@ -761,7 +843,9 @@
 	    [:Masc, :Singular, :Person2, "te-/ta-nēr ~ nār", "te-/ta-", "_NULL"],
 	    [:Fem, :Singular, :Person2, "te-/ta-nēr ~ nār-ī", "te-/ta-", "-ī"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCiPerf-bni"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :bni,
 	    :pos :Verb,
@@ -779,7 +863,9 @@
 	    [:Masc, :Plural, :Person3, "i-btan-û", "i-", "btan", "-û"],
 	    [:Fem, :Plural, :Person3, "ta-btani-ā", "i-", "btani", "-ā"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VNCCUClassVetitive-nsk"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :nsk,
 	    :pos :Verb,
@@ -798,7 +884,9 @@
 	    [:Masc, :Plural, :Person2, "ē-ta-ssuk-ā", "ē-ta-", "-ā"],
 	    [:Fem, :Singular, :Person3, "ayy-ta--ssuk", "ayy-i-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCeVetitive-lqe"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :lqe,
 	    :pos :Verb,
@@ -816,7 +904,9 @@
 	    [:Masc, :Plural, :Person2, "ē-te-/ta-lqe-ā", "ē-te-/ta-", "lqe", "-ā"],
 	    [:Fem, :Singular, :Person3, "ayy-ta--lqe", "ayy-i-", "lqe", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VNCCIClassVetitive-nks"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :nks,
 	    :pos :Verb,
@@ -835,7 +925,9 @@
 	    [:Masc, :Singular, :Person2, "ē-ta-kkis", "ē-ta-", "_NULL"],
 	    [:Fem, :Plural, :Person2, "ē-ta-kkis-ā", "ē-ta-", "-ā"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCuPret-hdu"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :hdu,
 	    :pos :Verb,
@@ -853,7 +945,9 @@
 	    [:Fem, :Singular, :Person3, "ta-ḫdu", "i-", "ḫdu", "_NULL"],
 	    [:Common, :Plural, :Person1, "ni-ḫdu", "ni-", "ḫdu", "_NULL"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VCCCA-uVetitive-prs"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -872,7 +966,9 @@
 	    [:Fem, :Singular, :Person3, "ayy-ta--prus", "ayy-i-", "_NULL"],
 	    [:Common, :Plural, :Person1, "ē-ni-prus", "ē-ni-", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassPret-ark"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ark,
 	    :pos :Verb,
@@ -891,7 +987,9 @@
 	    [:Common, :Plural, :Person1, "nī-rik", "nī-", "_NULL"],
 	    [:Masc, :Plural, :Person2, "tā-rik-ā", "tā-", "-ā"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VImprtv-ner"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :ner,
 	    :person :Person2,
@@ -905,7 +1003,9 @@
 	    [:Masc, :Singular, "⊤nēr ~ nār", "_NULL"],
 	    [:Fem, :Singular, "⊤nēr ~ nār-ī", "-ī"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCuVetitive-hdu"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :hdu,
 	    :pos :Verb,
@@ -923,7 +1023,9 @@
 	    [:Masc, :Singular, :Person2, "ē-ta-ḫdu", "ē-ta-", "ḫdu", "_NULL"],
 	    [:Common, :Singular, :Person1, "ayy-a-ḫdu", "ayy-a-", "ḫdu", "_NULL"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassImprtv-wrd"
+    :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :person :Person2,
@@ -937,7 +1039,9 @@
 	    [:Common, :Plural, "⊤rid-ā", "-ā"],
 	    [:Fem, :Singular, "⊤rid-ī", "-ī"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCuCPres-kun"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :kun,
 	    :pos :Verb,
@@ -955,7 +1059,9 @@
 	    [:Fem, :Plural, :Person3, "ta-kunn-ā", "i-", "kunn", "-ā"],
 	    [:Masc, :Singular, :Person3, "i-kân", "i-", "kân", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassPrecative-ark"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ark,
 	    :pos :Verb,
@@ -969,7 +1075,9 @@
 	    [:Fem, :Plural, :Person3, "lī-rik-ā", "lī-", "-ā"],
 	    [:Common, :Singular, :Person3, "lī-rik", "lī-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCiCImprtv-qis"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :qis,
 	    :person :Person2,
@@ -983,7 +1091,9 @@
 	    [:Fem, :Singular, "⊤qīš-ī", "-ī"],
 	    [:Common, :Plural, "⊤qīš-ā", "-ā"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassPrecative-alk"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :pos :Verb,
@@ -997,7 +1107,9 @@
 	    [:Common, :Singular, :Person1, "lu-llik", "lu-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "li-llik-ū", "li-", "-ū"]]
     }
-    {:common {:ablautClass :aClass,
+    {:label "akkadian_OB-VCCCAClassPerf-sbt"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :aClass,
 	    :derivedStem :B,
 	    :lexeme :sbt,
 	    :pos :Verb,
@@ -1015,7 +1127,9 @@
 	    [:Masc, :Plural, :Person2, "ta-ṣṣabt-ā", "ta-", "ṣṣabt", "-ā"],
 	    [:Fem, :Singular, :Person2, "ta-ṣṣabt-ī", "ta-", "ṣṣabt", "-ī"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VACCA-uClassPres-amr"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :pos :Verb,
@@ -1034,7 +1148,9 @@
 	    [:Masc, :Singular, :Person3, "i-mmar", "i-", "_NULL"],
 	    [:Masc, :Singular, :Person2, "ta-mmar", "ta-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCaPret-mla"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :mla,
 	    :pos :Verb,
@@ -1052,7 +1168,9 @@
 	    [:Masc, :Singular, :Person3, "i-mla", "i-", "mla", "_NULL"],
 	    [:Masc, :Plural, :Person3, "i-ml-û", "i-", "ml", "-û"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VNCCA-uClassPret-nqr"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :pos :Verb,
@@ -1071,7 +1189,9 @@
 	    [:Masc, :Plural, :Person2, "ta-qqur-ā", "ta-", "-ā"],
 	    [:Fem, :Plural, :Person3, "ta-qqur-ā", "i-", "-ā"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VNCCUClassImprtv-nsk"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :nsk,
 	    :person :Person2,
@@ -1084,7 +1204,9 @@
 	    [:Common, :Plural, "⊤usk-ā", "usk", "-ā"],
 	    [:Masc, :Singular, "⊤usuk", "usuk", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCaPres-mla"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :mla,
 	    :pos :Verb,
@@ -1102,7 +1224,9 @@
 	    [:Masc, :Plural, :Person3, "i-mall-û", "i-", "mall", "-û"],
 	    [:Masc, :Plural, :Person2, "ta-mall-â", "ta-", "mall", "-â"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCePerf-lqe"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :lqe,
 	    :pos :Verb,
@@ -1120,7 +1244,9 @@
 	    [:Masc, :Plural, :Person3, "i-lteq-û", "i-", "lteq", "-û"],
 	    [:Fem, :Plural, :Person3, "ta-lteqe-ā", "i-", "lteqe", "-ā"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassPret-srq"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :srq,
 	    :pos :Verb,
@@ -1139,7 +1265,9 @@
 	    [:Fem, :Plural, :Person3, "ta-šriq-ā", "i-", "-ā"],
 	    [:Fem, :Singular, :Person2, "ta-šriq-ī", "ta-", "-ī"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VPret-sal"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :sal,
 	    :pos :Verb,
@@ -1158,7 +1286,9 @@
 	    [:Fem, :Singular, :Person2, "ta-šāl-ī", "ta-", "-ī"],
 	    [:Common, :Singular, :Person1, "a-šāl", "a-", "_NULL"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VACCA-uClassPerf-amr"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :pos :Verb,
@@ -1176,7 +1306,9 @@
 	    [:Masc, :Plural, :Person3, "ī-tamr-ū", "ī-", "tamr", "-ū"],
 	    [:Fem, :Singular, :Person2, "tā-tamr-ī", "tā-", "tamr", "-ī"]]
     }
-    {:common {:ablautClass :e-uClass,
+    {:label "akkadian_OB-VECCE-uClassPerf-prs"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :e-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1194,7 +1326,9 @@
 	    [:Masc, :Plural, :Person3, "ī-tepš-ū", "ī-", "tepš", "-ū"],
 	    [:Fem, :Plural, :Person2, "tē-tepš-ā", "tē-", "tepš", "-ā"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCuCPrecative-kun"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :kun,
 	    :pos :Verb,
@@ -1208,7 +1342,9 @@
 	    [:Masc, :Plural, :Person3, "li-kūn-ū", "li-", "-ū"],
 	    [:Common, :Singular, :Person3, "li-kūn", "li-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCiCPret-qis"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :qis,
 	    :pos :Verb,
@@ -1227,7 +1363,9 @@
 	    [:Masc, :Plural, :Person3, "i-qīš-ū", "i-", "-ū"],
 	    [:Common, :Plural, :Person1, "ni-qīš", "ni-", "_NULL"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VCCCA-uPrecative-prs"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1241,7 +1379,9 @@
 	    [:Fem, :Plural, :Person3, "li-prus-ā", "li-", "-ā"],
 	    [:Common, :Singular, :Person3, "li-prus", "li-", "_NULL"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassVetitive-wrd"
+    :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :pos :Verb,
@@ -1260,7 +1400,9 @@
 	    [:Fem, :Plural, :Person3, "ayy-tu-rid-ā", "ayy-u-", "-ā"],
 	    [:Masc, :Singular, :Person3, "ayy-u-rid", "ayy-u-", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VNCCIClassImprtv-nks"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :nks,
 	    :person :Person2,
@@ -1273,7 +1415,9 @@
 	    [:Common, :Plural, "⊤iks-ā", "iks", "-ā"],
 	    [:Fem, :Singular, "⊤iks-ī", "iks", "-ī"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VECCUClassImprtv-erb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :erb,
 	    :person :Person2,
@@ -1286,7 +1430,9 @@
 	    [:Fem, :Singular, "⊤erb-ī", "erb", "-ī"],
 	    [:Masc, :Singular, "⊤erub", "erub", "_NULL"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VECCUClassPret-erb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :erb,
 	    :pos :Verb,
@@ -1305,7 +1451,9 @@
 	    [:Fem, :Singular, :Person3, "tā-rub", "ī-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "tā-rub-ā", "ī-", "-ā"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VNCCUClassPerf-nsk"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :nsk,
 	    :pos :Verb,
@@ -1323,7 +1471,9 @@
 	    [:Fem, :Plural, :Person2, "ta-ttask-ā", "ta-", "ttask", "-ā"],
 	    [:Fem, :Plural, :Person3, "ta-ttask-ā", "i-", "ttask", "-ā"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VECCIClassPrecative-ezb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ezb,
 	    :pos :Verb,
@@ -1337,7 +1487,9 @@
 	    [:Fem, :Plural, :Person3, "lī-zib-ā", "lī-", "-ā"],
 	    [:Common, :Singular, :Person1, "lū-zib", "lū-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCiPrecative-bni"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :bni,
 	    :pos :Verb,
@@ -1350,7 +1502,9 @@
 	    [:Common, :Singular, :Person1, "lu-bni", "lu-", "bni", "_NULL"],
 	    [:Common, :Plural, :Person1, "i ni-bni", "i ni-", "bni", "_NULL"]]
     }
-    {:common {:ablautClass :e-uClass,
+    {:label "akkadian_OB-VECCE-uClassImprtv-prs"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :e-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :person :Person2,
@@ -1363,7 +1517,9 @@
 	    [:Common, :Plural, "⊤epš-ā", "epš", "-ā"],
 	    [:Fem, :Singular, "⊤epš-ī", "epš", "-ī"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCiCPres-qis"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :qis,
 	    :pos :Verb,
@@ -1381,7 +1537,9 @@
 	    [:Masc, :Singular, :Person3, "i-qīaš", "i-", "qīaš", "_NULL"],
 	    [:Common, :Plural, :Person1, "ni-qīaš", "ni-", "qīaš", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCaImprtv-mla"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :mla,
 	    :person :Person2,
@@ -1394,7 +1552,9 @@
 	    [:Fem, :Singular, "⊤mil-î", "mil", "-î"],
 	    [:Common, :Plural, "⊤mil-â", "mil", "-â"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VACCA-uClassPret-amr"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :pos :Verb,
@@ -1413,7 +1573,9 @@
 	    [:Common, :Singular, :Person1, "ā-mur", "ā-", "_NULL"],
 	    [:Common, :Plural, :Person1, "nī-mur", "nī-", "_NULL"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VCCCA-uPres-prs"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1432,7 +1594,9 @@
 	    [:Fem, :Singular, :Person3, "ta-parras", "i-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "i-parras-ū", "i-", "-ū"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VCCCUClassPret-aks"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :aks,
 	    :pos :Verb,
@@ -1451,7 +1615,9 @@
 	    [:Common, :Singular, :Person1, "ā-kuš", "ā-", "_NULL"],
 	    [:Masc, :Singular, :Person3, "ī-kuš", "ī-", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassVetitive-ark"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ark,
 	    :pos :Verb,
@@ -1470,7 +1636,9 @@
 	    [:Fem, :Plural, :Person2, "ē-tā-rik-ā", "ē-tā-", "-ā"],
 	    [:Common, :Singular, :Person1, "ayy-ā-rik", "ayy-ā-", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VNCCIClassPret-nks"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :nks,
 	    :pos :Verb,
@@ -1489,7 +1657,9 @@
 	    [:Masc, :Plural, :Person2, "ta-kkis-ā", "ta-", "-ā"],
 	    [:Masc, :Singular, :Person3, "i-kkis", "i-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCuCPret-kun"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :kun,
 	    :pos :Verb,
@@ -1508,7 +1678,9 @@
 	    [:Common, :Plural, :Person1, "ni-kūn", "ni-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "ta-kūn-ā", "i-", "-ā"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassPerf-wrd"
+    :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :pos :Verb,
@@ -1526,7 +1698,9 @@
 	    [:Masc, :Singular, :Person2, "tat-tarad", "tat-", "tarad", "_NULL"],
 	    [:Common, :Plural, :Person1, "nit-tarad", "nit-", "tarad", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VECCIClassVetitive-ezb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ezb,
 	    :pos :Verb,
@@ -1545,7 +1719,9 @@
 	    [:Fem, :Singular, :Person3, "ayy-tā--zib", "ayy-ī-", "_NULL"],
 	    [:Common, :Singular, :Person1, "ayy-ē-zib", "ayy-ē-", "_NULL"]]
     }
-    {:common {:ablautClass :e-uClass,
+    {:label "akkadian_OB-VECCE-uClassVetitive-prs"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :e-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1564,7 +1740,9 @@
 	    [:Fem, :Plural, :Person2, "ē-tē-puš-ā", "ē-tē-", "-ā"],
 	    [:Masc, :Singular, :Person3, "ayy-ī-puš", "ayy-ī-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VPrecative-sal"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :sal,
 	    :pos :Verb,
@@ -1578,7 +1756,9 @@
 	    [:Common, :Singular, :Person3, "li-šāl", "li-", "_NULL"],
 	    [:Common, :Plural, :Person1, "i ni-šāl", "i ni-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VPres-ner"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :ner,
 	    :pos :Verb,
@@ -1596,7 +1776,9 @@
 	    [:Fem, :Plural, :Person3, "ta-nerr ~ narr-ā", "i-", "nerr ~ narr", "-ā"],
 	    [:Masc, :Singular, :Person2, "te-/ta-nêr ~ nâr", "te-/ta-", "nêr ~ nâr", "_NULL"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VNCCUClassPrecative-nsk"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :nsk,
 	    :pos :Verb,
@@ -1610,7 +1792,9 @@
 	    [:Common, :Plural, :Person1, "i ni-ssuk", "i ni-", "_NULL"],
 	    [:Common, :Singular, :Person1, "lu-ssuk", "lu-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCuPrecative-hdu"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :hdu,
 	    :pos :Verb,
@@ -1623,7 +1807,9 @@
 	    [:Common, :Plural, :Person1, "i ni-ḫdu", "i ni-", "ḫdu", "_NULL"],
 	    [:Common, :Singular, :Person1, "lu-ḫdu", "lu-", "ḫdu", "_NULL"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VCCCA-uImprtv-prs"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :person :Person2,
@@ -1636,7 +1822,9 @@
 	    [:Common, :Plural, "⊤purs-ā", "purs", "-ā"],
 	    [:Fem, :Singular, "⊤purs-ī", "purs", "-ī"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassPerf-alk"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :pos :Verb,
@@ -1654,7 +1842,9 @@
 	    [:Common, :Singular, :Person1, "a-ttalak", "a-", "ttalak", "_NULL"],
 	    [:Fem, :Plural, :Person3, "ta-ttalk-ā", "i-", "ttalk", "-ā"]]
     }
-    {:common {:ablautClass :e-uClass,
+    {:label "akkadian_OB-VECCE-uClassPres-prs"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :e-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1673,7 +1863,9 @@
 	    [:Masc, :Plural, :Person2, "te-ppeš/ppuš-ā", "te-", "-ā"],
 	    [:Common, :Plural, :Person1, "ni-ppeš/ppuš", "ni-", "_NULL"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VECCUClassPres-erb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :erb,
 	    :pos :Verb,
@@ -1692,7 +1884,9 @@
 	    [:Masc, :Plural, :Person3, "i-rrub-ū", "i-", "-ū"],
 	    [:Fem, :Plural, :Person3, "ta-rrub-ā", "i-", "-ā"]]
     }
-    {:common {:ablautClass :e-uClass,
+    {:label "akkadian_OB-VECCE-uClassPrecative-prs"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :e-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1706,7 +1900,9 @@
 	    [:Masc, :Plural, :Person3, "lī-puš-ū", "lī-", "-ū"],
 	    [:Common, :Singular, :Person3, "lī-puš", "lī-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VPres-sal"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :sal,
 	    :pos :Verb,
@@ -1724,7 +1920,9 @@
 	    [:Fem, :Plural, :Person2, "ta-šall-ā", "ta-", "šall", "-ā"],
 	    [:Common, :Plural, :Person1, "ni-šâl", "ni-", "šâl", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCuPerf-hdu"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :hdu,
 	    :pos :Verb,
@@ -1742,7 +1940,9 @@
 	    [:Masc, :Plural, :Person2, "ta-ḫtad-â", "ta-", "ḫtad", "-â"],
 	    [:Common, :Plural, :Person1, "ni-ḫtadu", "ni-", "ḫtadu", "_NULL"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassImprtv-alk"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :person :Person2,
@@ -1755,7 +1955,9 @@
 	    [:Masc, :Singular, "⊤alik", "alik", "_NULL"],
 	    [:Common, :Plural, "⊤alk-ā", "alk", "-ā"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassPerf-ark"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ark,
 	    :pos :Verb,
@@ -1773,7 +1975,9 @@
 	    [:Fem, :Plural, :Person2, "tā-tark-ā", "tā-", "tark", "-ā"],
 	    [:Masc, :Plural, :Person2, "tā-tark-ā", "tā-", "tark", "-ā"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VVetitive-sal"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :sal,
 	    :pos :Verb,
@@ -1792,7 +1996,9 @@
 	    [:Masc, :Singular, :Person2, "ē-ta-šāl", "ē-ta-", "_NULL"],
 	    [:Common, :Plural, :Person1, "ē-ni-šāl", "ē-ni-", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VECCIClassPret-ezb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ezb,
 	    :pos :Verb,
@@ -1811,7 +2017,9 @@
 	    [:Fem, :Plural, :Person3, "tā-zib-ā", "ī-", "-ā"],
 	    [:Masc, :Singular, :Person3, "ī-zib", "ī-", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassPres-srq"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :srq,
 	    :pos :Verb,
@@ -1830,7 +2038,9 @@
 	    [:Common, :Singular, :Person1, "a-šarriq", "a-", "_NULL"],
 	    [:Fem, :Singular, :Person2, "ta-šarriq-ī", "ta-", "-ī"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCuCImprtv-kun"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :kun,
 	    :person :Person2,
@@ -1844,7 +2054,9 @@
 	    [:Fem, :Singular, "⊤kūn-ī", "-ī"],
 	    [:Masc, :Singular, "⊤kūn", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCiCVetitive-qis"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :qis,
 	    :pos :Verb,
@@ -1863,7 +2075,9 @@
 	    [:Masc, :Singular, :Person2, "ē-ta-qīš", "ē-ta-", "_NULL"],
 	    [:Masc, :Singular, :Person3, "ayy-i-qīš", "ayy-i-", "_NULL"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VNCCA-uClassVetitive-nqr"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :pos :Verb,
@@ -1882,7 +2096,9 @@
 	    [:Masc, :Singular, :Person3, "ayy-i-qqur", "ayy-i-", "_NULL"],
 	    [:Common, :Plural, :Person1, "ē-ni-qqur", "ē-ni-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCePret-lqe"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :lqe,
 	    :pos :Verb,
@@ -1900,7 +2116,9 @@
 	    [:Masc, :Plural, :Person3, "i-lq-û", "i-", "lq", "-û"],
 	    [:Fem, :Singular, :Person2, "te-/ta-lq-î", "te-/ta-", "lq", "-î"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VACCA-uClassImprtv-amr"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :person :Person2,
@@ -1913,7 +2131,9 @@
 	    [:Common, :Plural, "⊤amr-ā", "amr", "-ā"],
 	    [:Masc, :Singular, "⊤amur", "amur", "_NULL"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VNCCA-uClassPrecative-nqr"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :pos :Verb,
@@ -1927,7 +2147,9 @@
 	    [:Common, :Singular, :Person1, "lu-qqur", "lu-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "li-qqur-ū", "li-", "-ū"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCuPres-hdu"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :hdu,
 	    :pos :Verb,
@@ -1945,7 +2167,9 @@
 	    [:Common, :Plural, :Person1, "ni-ḫaddu", "ni-", "ḫaddu", "_NULL"],
 	    [:Fem, :Plural, :Person3, "ta-ḫadd-â", "i-", "ḫadd", "-â"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCePres-lqe"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :lqe,
 	    :pos :Verb,
@@ -1963,7 +2187,9 @@
 	    [:Masc, :Singular, :Person3, "i-leqqe/laqqe", "i-", "leqqe/laqqe", "_NULL"],
 	    [:Fem, :Singular, :Person3, "ta-leqqe/laqqe", "i-", "leqqe/laqqe", "_NULL"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VCCCUClassImprtv-aks"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :aks,
 	    :person :Person2,
@@ -1976,7 +2202,9 @@
 	    [:Masc, :Singular, "⊤akuš", "akuš", "_NULL"],
 	    [:Fem, :Singular, "⊤akš-ī", "akš", "-ī"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VNCCIClassPerf-nks"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :nks,
 	    :pos :Verb,
@@ -1994,7 +2222,9 @@
 	    [:Fem, :Singular, :Person2, "ta-ttaks-ī", "ta-", "ttaks", "-ī"],
 	    [:Common, :Plural, :Person1, "ni-ttakis", "ni-", "ttakis", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassImprtv-ark"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ark,
 	    :person :Person2,
@@ -2007,7 +2237,9 @@
 	    [:Masc, :Singular, "⊤arik", "arik", "_NULL"],
 	    [:Common, :Plural, "⊤ark-ā", "ark", "-ā"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VNCCUClassPret-nsk"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :nsk,
 	    :pos :Verb,
@@ -2026,7 +2258,9 @@
 	    [:Fem, :Plural, :Person3, "ta-ssuk-ā", "i-", "-ā"],
 	    [:Masc, :Plural, :Person3, "i-ssuk-ū", "i-", "-ū"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCuImprtv-hdu"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :hdu,
 	    :person :Person2,
@@ -2039,7 +2273,9 @@
 	    [:Common, :Plural, "⊤ḫud-â", "ḫud", "-â"],
 	    [:Masc, :Singular, "⊤ḫudu", "ḫudu", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VVetitive-ner"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :ner,
 	    :pos :Verb,
@@ -2058,7 +2294,9 @@
 	    [:Masc, :Plural, :Person3, "ayy-i-nēr ~ nār-ū", "ayy-i-", "-ū"],
 	    [:Masc, :Singular, :Person2, "ē-te-/ta-nēr ~ nār", "ē-te-/ta-", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCaVetitive-mla"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :mla,
 	    :pos :Verb,
@@ -2076,7 +2314,9 @@
 	    [:Common, :Plural, :Person1, "ē-ni-mla", "ē-ni-", "mla", "_NULL"],
 	    [:Fem, :Plural, :Person2, "ē-ta-ml-â", "ē-ta-", "ml", "-â"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VImprtv-sal"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :sal,
 	    :person :Person2,
@@ -2090,7 +2330,9 @@
 	    [:Common, :Plural, "⊤šāl-ā", "-ā"],
 	    [:Fem, :Singular, "⊤šāl-ī", "-ī"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassPres-alk"
+    :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :pos :Verb,
@@ -2109,7 +2351,9 @@
 	    [:Fem, :Plural, :Person2, "ta-llak-ā", "ta-", "-ā"],
 	    [:Fem, :Plural, :Person3, "ta-llak-ā", "i-", "-ā"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCiImprtv-bni"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :bni,
 	    :person :Person2,
@@ -2122,7 +2366,9 @@
 	    [:Masc, :Singular, "⊤bini", "bini", "_NULL"],
 	    [:Common, :Plural, "⊤bini-ā", "bini", "-ā"]]
     }
-    {:common {:ablautClass :a-iClass,
+    {:label "akkadian_OB-VCCCA-iClassPrecative-wrd"
+    :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+    :common {:ablautClass :a-iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :pos :Verb,
@@ -2136,7 +2382,9 @@
 	    [:Common, :Singular, :Person1, "lu-rid", "lu-", "_NULL"],
 	    [:Common, :Plural, :Person1, "i nu-rid", "i nu-", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VNCCIClassPres-nks"
+    :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :nks,
 	    :pos :Verb,
@@ -2155,7 +2403,9 @@
 	    [:Fem, :Plural, :Person2, "ta-nakkis-ā", "ta-", "-ā"],
 	    [:Masc, :Singular, :Person2, "ta-nakkis", "ta-", "_NULL"]]
     }
-    {:common {:ablautClass :a-uClass,
+    {:label "akkadian_OB-VCCCA-uPerf-prs"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :a-uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -2173,7 +2423,9 @@
 	    [:Masc, :Plural, :Person2, "ta-ptars-ā", "ta-", "ptars", "-ā"],
 	    [:Fem, :Plural, :Person3, "ta-ptars-ā", "i-", "ptars", "-ā"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCiPret-bni"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :bni,
 	    :pos :Verb,
@@ -2191,7 +2443,9 @@
 	    [:Common, :Plural, :Person1, "ni-bni", "ni-", "bni", "_NULL"],
 	    [:Common, :Singular, :Person1, "a-bni", "a-", "bni", "_NULL"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VECCIClassPerf-ezb"
+    :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :ezb,
 	    :pos :Verb,
@@ -2209,7 +2463,9 @@
 	    [:Masc, :Plural, :Person2, "tē-tezb-ā", "tē-", "tezb", "-ā"],
 	    [:Common, :Singular, :Person1, "ē-tezib", "ē-", "tezib", "_NULL"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCePrecative-lqe"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :lqe,
 	    :pos :Verb,
@@ -2222,7 +2478,9 @@
 	    [:Common, :Singular, :Person1, "lu-lqe", "lu-", "lqe", "_NULL"],
 	    [:Fem, :Plural, :Person3, "li-lqe-ā", "li-", "lqe", "-ā"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCiCPerf-qis"
+    :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :qis,
 	    :pos :Verb,
@@ -2241,7 +2499,9 @@
 	    [:Fem, :Singular, :Person3, "ta-qtīš", "i-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "i-qtīš-ū", "i-", "-ū"]]
     }
-    {:common {:ablautClass :_NULL,
+    {:label "akkadian_OB-VCCiPres-bni"
+    :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+    :common {:ablautClass :_NULL,
 	    :derivedStem :B,
 	    :lexeme :bni,
 	    :pos :Verb,
@@ -2259,7 +2519,9 @@
 	    [:Fem, :Plural, :Person2, "ta-banni-ā", "ta-", "banni", "-ā"],
 	    [:Fem, :Plural, :Person3, "ta-banni-ā", "i-", "banni", "-ā"]]
     }
-    {:common {:ablautClass :IClass,
+    {:label "akkadian_OB-VCCCIClassVetitive-srq"
+    :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+    :common {:ablautClass :IClass,
 	    :derivedStem :B,
 	    :lexeme :srq,
 	    :pos :Verb,
@@ -2278,7 +2540,9 @@
 	    [:Fem, :Singular, :Person2, "ē-ta-šriq-ī", "ē-ta-", "-ī"],
 	    [:Masc, :Singular, :Person3, "ayy-i-šriq", "ayy-i-", "_NULL"]]
     }
-    {:common {:ablautClass :UClass,
+    {:label "akkadian_OB-VCCCUClassVetitive-aks"
+    :note "Huehnergard2005 8a-b (pp. 616-617)"
+    :common {:ablautClass :UClass,
 	    :derivedStem :B,
 	    :lexeme :aks,
 	    :pos :Verb,
@@ -2298,7 +2562,9 @@
 	    [:Fem, :Plural, :Person3, "ayy-tā--kuš-ā", "ayy-ī-", "-ā"]]
     }}
 :muterms #{
-    {:common {:morpheme :PROIND,
+    {:label "akkadian_OB-PInd"
+    :note "Huehnergard2005 p. 11,272;akkadian_OB uses three different sets of independent pronouns depending on the case of the pronoun."
+    :common {:morpheme :PROIND,
 	    :pos :Pronoun,
 	    :proClass :Independent}
     :terms [[:case, :gender, :number, :person, :token]  ;; schema
@@ -2333,7 +2599,9 @@
 	    [:GenAcc, :Masc, :Singular, :Person2, "kâta ~ kâti"],
 	    [:GenAcc, :Fem, :Plural, :Person2, "kināti"]]
     }
-    {:common {:morpheme :PROPOSSIND,
+    {:label "akkadian_OB-PPossInd"
+    :note "Huehnergard2005 p. 273-74;appear as predicates of a verbless clause (\the house is mine\) or to emphasize possession. See Huehnergard p. 273 for more information."
+    :common {:morpheme :PROPOSSIND,
 	    :pos :Pronoun,
 	    :proClass :PossInd}
     :terms [[:genderHead, :numHead, :number, :person, :token]  ;; schema
@@ -2362,7 +2630,9 @@
 	    [:Masc, :Singular, :Plural, :Person1, "nûm ~ nîm ~ nâm (niam)"],
 	    [:Masc, :Singular, :Singular, :Person2, "kûm ~ kêm ~ kâm"]]
     }
-    {:common {:case :Possessive,
+    {:label "akkadian_OB-PPoss"
+    :note "HUEHNEGARD2005 pp. 84-89;1cs possessive suffix varies:-ī before \all singular nouns and adjectives in the nom. and acc.\;otherwise,-ya is used."
+    :common {:case :Possessive,
 	    :morpheme :PROPOSS,
 	    :pos :Pronoun,
 	    :proClass :Possessive}
@@ -2378,7 +2648,9 @@
 	    [:Fem, :Plural, :Person2, "-kina"],
 	    [:Fem, :Singular, :Person2, "-ki"]]
     }
-    {:common {:morpheme :PROOBJCLITIC,
+    {:label "akkadian_OB-PObjClitic"
+    :note "Huehnergard p. 169;Akkadian/OB attaches two sets of suffixes on verbal forms,one paradigm for the acc. and another for the dat. Huehnergard puts both sets under the heading \Object Pronominal Suffixes on the Verb,\§18.2."
+    :common {:morpheme :PROOBJCLITIC,
 	    :pos :Pronoun,
 	    :proClass :ObjClitic}
     :terms [[:case, :gender, :number, :person, :token]  ;; schema
@@ -2403,7 +2675,9 @@
 	    [:Dative, :Fem, :Singular, :Person2, "-kim"],
 	    [:Accusative, :Fem, :Singular, :Person3, "-ši"]]
     }
-    {:common {:pos :Verb,
+    {:label "akkadian_OB-VDervStems"
+    :note "cf. Huehnergard2005 pdgms 1-15,pp. 611-636;V̂ = long vowel arising out of contraction of final root vowel and desinence vowel "
+    :common {:pos :Verb,
 	    :morpheme :DERVSTEM,
 	    :verbMorphClass :Theme}
     :terms [[:ablautClass, :derivedStem, :rootClass, :tam, :token]  ;; schema
@@ -2783,7 +3057,9 @@
 	    [:Common, :Ntn, :CCC, :Perfect, "-ttatapras-"],
 	    [:Common, :D, :NCC, :Preterite, "-naqqer-"]]
     }
-    {:common {:morpheme :PRODEM,
+    {:label "akkadian_OB-PDem"
+    :note "Huehnergard2005 p. 40-41. * marks an unattested form."
+    :common {:morpheme :PRODEM,
 	    :pos :Pronoun,
 	    :proClass :Demonstrative}
     :terms [[:case, :deixis, :gender, :number, :token]  ;; schema
@@ -2808,7 +3084,8 @@
 	    [:Oblique, :Near, :Masc, :Plural, "annûtim"],
 	    [:Genitive, :Far, :Fem, :Singular, "šuāti ~ šâti ~ šiāti"]]
     }
-    {:common {:pos :Verb,
+    {:label "aama:pdgmlabel akkadian_OB-VSubjMarker"
+    :common {:pos :Verb,
 	    :token-stem :⊤,
 	    :morpheme :SUBJMARKER,
 	    :verbMorphClass :SubjMarker}
