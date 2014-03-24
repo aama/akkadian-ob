@@ -1,19 +1,22 @@
+{
 :lang :akkadian-ob
-:schemata [:ablautClass {:Common, :EClass, :IClass, :UClass, :_NULL, :a-iClass, :a-uClass, :aClass, :e-uClass}
-	  :case {:Accusative, :Dative, :GenAcc, :Genitive, :Nominative, :Oblique, :Possessive}
-	  :deixis {:Far, :Near}
-	  :derivedStem {:B, :Bt, :Btn, :Common, :D, :Dt, :Dtn, :N, :Ntn, :S, :St, :Stn}
-	  :gender {:Common, :Fem, :Masc}
-	  :genderHead {:Fem, :Masc}
-	  :numHead {:Plural, :Singular}
-	  :number {:Plural, :Singular}
-	  :person {:Person1, :Person2, :Person3}
-	  :pos {:Pronoun, :Verb}
-	  :proClass {:Demonstrative, :Independent, :ObjClitic, :PossInd, :Possessive}
-	  :rootClass {:Alk, :CCC, :CCa, :CCe, :CCi, :CCu, :CCw, :CaC, :CeC, :CiC, :CuC, :CāC, :CēC, :CīC, :CūC, :ECC, :NCC, :WCC, :aCC}
-	  :tam {:Imperative, :Perfect, :Precative, :Present, :Preterite, :Vetitive}
-	  :verbMorphClass {:SubjMarker, :Theme}
-	  ]
+:sgpref "aob"
+:schemata {
+:ablautClass [:Common, :EClass, :IClass, :UClass, :_NULL, :a-iClass, :a-uClass, :aClass, :e-uClass]
+	  :case [:Accusative, :Dative, :GenAcc, :Genitive, :Nominative, :Oblique, :Possessive]
+	  :deixis [:Far, :Near]
+	  :derivedStem [:B, :Bt, :Btn, :Common, :D, :Dt, :Dtn, :N, :Ntn, :S, :St, :Stn]
+	  :gender [:Common, :Fem, :Masc]
+	  :genderHead [:Fem, :Masc]
+	  :numHead [:Plural, :Singular]
+	  :number [:Plural, :Singular]
+	  :person [:Person1, :Person2, :Person3]
+	  :pos [:Pronoun, :Verb]
+	  :proClass [:Demonstrative, :Independent, :ObjClitic, :PossInd, :Possessive]
+	  :rootClass [:Alk, :CCC, :CCa, :CCe, :CCi, :CCu, :CCw, :CaC, :CeC, :CiC, :CuC, :CāC, :CēC, :CīC, :CūC, :ECC, :NCC, :WCC, :aCC]
+	  :tam [:Imperative, :Perfect, :Precative, :Present, :Preterite, :Vetitive]
+	  :verbMorphClass [:SubjMarker, :Theme]
+	  }
 :morphemes {
   :DERVSTEM {:gloss "[x]", :lemma "[y]", }
   :PRODEM {:gloss "[x]", :lemma "[y]", }
@@ -3131,3 +3134,4 @@
 	    [:D, :Masc, :Plural, :Person3, "u-⊤⊤", "u-", "-ū"],
 	    [:D, :Fem, :Singular, :Person3, "u-⊤", "tu-", "_NULL"]]
     }}
+}
