@@ -76,7 +76,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Present,
-	    :token-stem :zzib}
+	    :token-stem "zzib"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person3, "i-zzib", "i-", "_NULL"],
 	    [:Fem, :Singular, :Person3, "ta-zzib", "i-", "_NULL"],
@@ -97,7 +97,7 @@
 	    :pos :Verb,
 	    :rootClass :aCC,
 	    :tam :Precative,
-	    :token-stem :mur}
+	    :token-stem "mur"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "lū-mur", "lū-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "lī-mur-ū", "lī-", "-ū"],
@@ -114,7 +114,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Fem, :Singular, "⊤tezb-ī", "tezb", "-ī"],
 	    [:Common, :Plural, "⊤tezb-ā", "tezb", "-ā"],
@@ -128,7 +128,7 @@
 	    :pos :Verb,
 	    :rootClass :CCa,
 	    :tam :Perfect}
-    :terms [[:gender, :number, :person, :token, :token-pref, :token-stem, :token-suff]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-pref, "token-stem", :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person2, "ta-mtal-â", "ta-", "mtal", "-â"],
 	    [:Masc, :Singular, :Person3, "i-mtala", "i-", "mtala", "_NULL"],
 	    [:Masc, :Plural, :Person3, "i-mtal-û", "i-", "mtal", "-û"],
@@ -163,7 +163,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Precative,
-	    :token-stem :ṣbat}
+	    :token-stem "ṣbat"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person3, "li-ṣbat-ā", "li-", "-ā"],
 	    [:Common, :Singular, :Person1, "lu-ṣbat", "lu-", "_NULL"],
@@ -179,7 +179,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Present,
-	    :token-stem :naqqar}
+	    :token-stem "naqqar"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Singular, :Person3, "ta-naqqar", "i-", "_NULL"],
 	    [:Common, :Plural, :Person1, "ni-naqqar", "ni-", "_NULL"],
@@ -200,7 +200,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Vetitive,
-	    :token-stem :ṣbat}
+	    :token-stem "ṣbat"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person2, "ē-ta-ṣbat-ā", "ē-ta-", "-ā"],
 	    [:Fem, :Plural, :Person2, "ē-ta-ṣbat-ā", "ē-ta-", "-ā"],
@@ -222,7 +222,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Fem, :Singular, "⊤ṣabt-ī", "ṣabt", "-ī"],
 	    [:Masc, :Singular, "⊤ṣabat", "ṣabat", "_NULL"],
@@ -236,7 +236,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Precative,
-	    :token-stem :šriq}
+	    :token-stem "šriq"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person3, "li-šriq-ū", "li-", "-ū"],
 	    [:Fem, :Plural, :Person3, "li-šriq-ā", "li-", "-ā"],
@@ -252,7 +252,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Precative,
-	    :token-stem :kkis}
+	    :token-stem "kkis"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person3, "li-kkis", "li-", "_NULL"],
 	    [:Common, :Singular, :Person1, "lu-kkis", "lu-", "_NULL"],
@@ -268,7 +268,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Present,
-	    :token-stem :rrad}
+	    :token-stem "rrad"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "nu-rrad", "nu-", "_NULL"],
 	    [:Fem, :Singular, :Person2, "tu-rrad-ī", "tu-", "-ī"],
@@ -289,7 +289,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Vetitive,
-	    :token-stem :rub}
+	    :token-stem "rub"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person2, "ē-tē-rub", "ē-tē-", "_NULL"],
 	    [:Fem, :Singular, :Person2, "ē-tē-rub-ī", "ē-tē-", "-ī"],
@@ -310,7 +310,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Present,
-	    :token-stem :nassuk}
+	    :token-stem "nassuk"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person2, "ta-nassuk-ā", "ta-", "-ā"],
 	    [:Masc, :Plural, :Person2, "ta-nassuk-ā", "ta-", "-ā"],
@@ -331,7 +331,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Preterite,
-	    :token-stem :ṣbat}
+	    :token-stem "ṣbat"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "ni-ṣbat", "ni-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "ta-ṣbat-ā", "i-", "-ā"],
@@ -352,7 +352,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Precative,
-	    :token-stem :rub}
+	    :token-stem "rub"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "i nī-rub", "i nī-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "lī-rub-ū", "lī-", "-ū"],
@@ -388,7 +388,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Precative,
-	    :token-stem :kuš}
+	    :token-stem "kuš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "i nī-kuš", "i nī-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "lī-kuš-ū", "lī-", "-ū"],
@@ -424,7 +424,7 @@
 	    :pos :Verb,
 	    :rootClass :CeC,
 	    :tam :Precative,
-	    :token-stem :nēr ~ nār}
+	    :token-stem "nēr ~ nār"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person3, "li-nēr ~ nār-ā", "li-", "-ā"],
 	    [:Common, :Plural, :Person1, "i ni-nēr ~ nār", "i ni-", "_NULL"],
@@ -440,7 +440,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Preterite,
-	    :token-stem :llik}
+	    :token-stem "llik"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person3, "i-llik", "i-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "ta-llik-ā", "i-", "-ā"],
@@ -481,7 +481,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Preterite,
-	    :token-stem :puš}
+	    :token-stem "puš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person2, "tē-puš", "tē-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "tā-puš-ā", "ī-", "-ā"],
@@ -542,7 +542,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Present,
-	    :token-stem :ṣabbat}
+	    :token-stem "ṣabbat"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person2, "ta-ṣabbat-ā", "ta-", "-ā"],
 	    [:Common, :Singular, :Person1, "a-ṣabbat", "a-", "_NULL"],
@@ -563,7 +563,7 @@
 	    :pos :Verb,
 	    :rootClass :aCC,
 	    :tam :Vetitive,
-	    :token-stem :mur}
+	    :token-stem "mur"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "ayy-ā-mur", "ayy-ā-", "_NULL"],
 	    [:Fem, :Plural, :Person2, "ē-tā-mur-ā", "ē-tā-", "-ā"],
@@ -584,7 +584,7 @@
 	    :pos :Verb,
 	    :rootClass :CiC,
 	    :tam :Precative,
-	    :token-stem :qīš}
+	    :token-stem "qīš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person3, "li-qīš-ū", "li-", "-ū"],
 	    [:Common, :Singular, :Person3, "li-qīš", "li-", "_NULL"],
@@ -600,7 +600,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Present,
-	    :token-stem :rrik}
+	    :token-stem "rrik"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Singular, :Person2, "ta-rrik-ī", "ta-", "-ī"],
 	    [:Fem, :Plural, :Person3, "ta-rrik-ā", "i-", "-ā"],
@@ -622,7 +622,7 @@
 	    :pos :Verb,
 	    :rootClass :CCe,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Fem, :Singular, "⊤leq/liq-î", "leq/liq", "-î"],
 	    [:Common, :Plural, "⊤leqe/liqe-ā", "leqe/liqe", "-ā"],
@@ -656,7 +656,7 @@
 	    :pos :Verb,
 	    :rootClass :CaC,
 	    :tam :Perfect,
-	    :token-stem :štāl}
+	    :token-stem "štāl"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person2, "ta-štāl", "ta-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "i-štāl-ū", "i-", "-ū"],
@@ -678,7 +678,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Common, :Plural, "⊤širq-ā", "širq", "-ā"],
 	    [:Fem, :Singular, "⊤širq-ī", "širq", "-ī"],
@@ -692,7 +692,7 @@
 	    :pos :Verb,
 	    :rootClass :CuC,
 	    :tam :Vetitive,
-	    :token-stem :kūn}
+	    :token-stem "kūn"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person3, "ayy-i-kūn", "ayy-i-", "_NULL"],
 	    [:Masc, :Plural, :Person2, "ē-ta-kūn-ā", "ē-ta-", "-ā"],
@@ -713,7 +713,7 @@
 	    :pos :Verb,
 	    :rootClass :CuC,
 	    :tam :Perfect,
-	    :token-stem :ktūn}
+	    :token-stem "ktūn"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person2, "ta-ktūn", "ta-", "_NULL"],
 	    [:Fem, :Singular, :Person2, "ta-ktūn-ī", "ta-", "-ī"],
@@ -734,7 +734,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Present,
-	    :token-stem :kkuš}
+	    :token-stem "kkuš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person3, "i-kkuš", "i-", "_NULL"],
 	    [:Fem, :Plural, :Person2, "ta-kkuš-ā", "ta-", "-ā"],
@@ -755,7 +755,7 @@
 	    :pos :Verb,
 	    :rootClass :CeC,
 	    :tam :Perfect,
-	    :token-stem :ttēr ~ ttār}
+	    :token-stem "ttēr ~ ttār"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person2, "te-/ta-ttēr ~ ttār", "te-/ta-", "_NULL"],
 	    [:Masc, :Plural, :Person2, "te-/ta-ttēr ~ ttār-ā", "te-/ta-", "-ā"],
@@ -776,7 +776,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Vetitive,
-	    :token-stem :llik}
+	    :token-stem "llik"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "ayy-a-llik", "ayy-a-", "_NULL"],
 	    [:Masc, :Plural, :Person2, "ē-ta-llik-ā", "ē-ta-", "-ā"],
@@ -798,7 +798,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Masc, :Singular, "⊤uqur", "uqur", "_NULL"],
 	    [:Common, :Plural, "⊤uqr-ā", "uqr", "-ā"],
@@ -812,7 +812,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Preterite,
-	    :token-stem :prus}
+	    :token-stem "prus"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "a-prus", "a-", "_NULL"],
 	    [:Masc, :Plural, :Person2, "ta-prus-ā", "ta-", "-ā"],
@@ -833,7 +833,7 @@
 	    :pos :Verb,
 	    :rootClass :CeC,
 	    :tam :Preterite,
-	    :token-stem :nēr ~ nār}
+	    :token-stem "nēr ~ nār"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person2, "te-/ta-nēr ~ nār-ā", "te-/ta-", "-ā"],
 	    [:Masc, :Plural, :Person3, "i-nēr ~ nār-ū", "i-", "-ū"],
@@ -874,7 +874,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Vetitive,
-	    :token-stem :ssuk}
+	    :token-stem "ssuk"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "ayy-a-ssuk", "ayy-a-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "ayy-ta--ssuk-ā", "ayy-i-", "-ā"],
@@ -915,7 +915,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Vetitive,
-	    :token-stem :kkis}
+	    :token-stem "kkis"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "ē-ni-kkis", "ē-ni-", "_NULL"],
 	    [:Masc, :Singular, :Person3, "ayy-i-kkis", "ayy-i-", "_NULL"],
@@ -956,7 +956,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Vetitive,
-	    :token-stem :prus}
+	    :token-stem "prus"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person3, "ayy-ta--prus-ā", "ayy-i-", "-ā"],
 	    [:Common, :Singular, :Person1, "ayy-a-prus", "ayy-a-", "_NULL"],
@@ -977,7 +977,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Preterite,
-	    :token-stem :rik}
+	    :token-stem "rik"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "ā-rik", "ā-", "_NULL"],
 	    [:Fem, :Singular, :Person2, "tā-rik-ī", "tā-", "-ī"],
@@ -999,8 +999,8 @@
 	    :pos :Verb,
 	    :rootClass :CeC,
 	    :tam :Imperative,
-	    :token-pref :⊤,
-	    :token-stem :nēr ~ nār}
+	    :token-pref "_NULL",
+	     :token-stem "nēr ~ nār"}
     :terms [[:gender, :number, :token, :token-suff]  ;; schema
 	    [:Common, :Plural, "⊤nēr ~ nār-ā", "-ā"],
 	    [:Masc, :Singular, "⊤nēr ~ nār", "_NULL"],
@@ -1035,8 +1035,8 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Imperative,
-	    :token-pref :⊤,
-	    :token-stem :rid}
+	    :token-pref "_NULL",
+	    :token-stem "rid"}
     :terms [[:gender, :number, :token, :token-suff]  ;; schema
 	    [:Masc, :Singular, "⊤rid", "_NULL"],
 	    [:Common, :Plural, "⊤rid-ā", "-ā"],
@@ -1070,7 +1070,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Precative,
-	    :token-stem :rik}
+	    :token-stem "rik"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "lū-rik", "lū-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "lī-rik-ū", "lī-", "-ū"],
@@ -1087,8 +1087,8 @@
 	    :pos :Verb,
 	    :rootClass :CiC,
 	    :tam :Imperative,
-	    :token-pref :⊤,
-	    :token-stem :qīš}
+	    :token-pref "_NULL",
+	    :token-stem "qīš"}
     :terms [[:gender, :number, :token, :token-suff]  ;; schema
 	    [:Masc, :Singular, "⊤qīš", "_NULL"],
 	    [:Fem, :Singular, "⊤qīš-ī", "-ī"],
@@ -1102,7 +1102,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Precative,
-	    :token-stem :llik}
+	    :token-stem "llik"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "i ni-llik", "i ni-", "_NULL"],
 	    [:Common, :Singular, :Person3, "li-llik", "li-", "_NULL"],
@@ -1138,7 +1138,7 @@
 	    :pos :Verb,
 	    :rootClass :aCC,
 	    :tam :Present,
-	    :token-stem :mmar}
+	    :token-stem "mmar"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Singular, :Person2, "ta-mmar-ī", "ta-", "-ī"],
 	    [:Masc, :Plural, :Person3, "i-mmar-ū", "i-", "-ū"],
@@ -1179,7 +1179,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Preterite,
-	    :token-stem :qqur}
+	    :token-stem "qqur"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person3, "i-qqur", "i-", "_NULL"],
 	    [:Fem, :Singular, :Person2, "ta-qqur-ī", "ta-", "-ī"],
@@ -1201,7 +1201,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Fem, :Singular, "⊤usk-ī", "usk", "-ī"],
 	    [:Common, :Plural, "⊤usk-ā", "usk", "-ā"],
@@ -1255,7 +1255,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Preterite,
-	    :token-stem :šriq}
+	    :token-stem "šriq"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "a-šriq", "a-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "i-šriq-ū", "i-", "-ū"],
@@ -1276,7 +1276,7 @@
 	    :pos :Verb,
 	    :rootClass :CaC,
 	    :tam :Preterite,
-	    :token-stem :šāl}
+	    :token-stem "šāl"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Singular, :Person3, "ta-šāl", "i-", "_NULL"],
 	    [:Common, :Plural, :Person1, "ni-šāl", "ni-", "_NULL"],
@@ -1337,7 +1337,7 @@
 	    :pos :Verb,
 	    :rootClass :CuC,
 	    :tam :Precative,
-	    :token-stem :kūn}
+	    :token-stem "kūn"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "i ni-kūn", "i ni-", "_NULL"],
 	    [:Common, :Singular, :Person1, "lu-kūn", "lu-", "_NULL"],
@@ -1353,7 +1353,7 @@
 	    :pos :Verb,
 	    :rootClass :CiC,
 	    :tam :Preterite,
-	    :token-stem :qīš}
+	    :token-stem "qīš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person2, "ta-qīš-ā", "ta-", "-ā"],
 	    [:Masc, :Singular, :Person3, "i-qīš", "i-", "_NULL"],
@@ -1374,7 +1374,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Precative,
-	    :token-stem :prus}
+	    :token-stem "prus"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "i ni-prus", "i ni-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "li-prus-ū", "li-", "-ū"],
@@ -1390,7 +1390,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Vetitive,
-	    :token-stem :rid}
+	    :token-stem "rid"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Singular, :Person2, "ē-tu-rid-ī", "ē-tu-", "-ī"],
 	    [:Masc, :Plural, :Person3, "ayy-u-rid-ū", "ayy-u-", "-ū"],
@@ -1412,7 +1412,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Masc, :Singular, "⊤ikis", "ikis", "_NULL"],
 	    [:Common, :Plural, "⊤iks-ā", "iks", "-ā"],
@@ -1427,7 +1427,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Common, :Plural, "⊤erb-ā", "erb", "-ā"],
 	    [:Fem, :Singular, "⊤erb-ī", "erb", "-ī"],
@@ -1441,7 +1441,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Preterite,
-	    :token-stem :rub}
+	    :token-stem "rub"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person2, "tē-rub-ā", "tē-", "-ā"],
 	    [:Common, :Singular, :Person1, "ē-rub", "ē-", "_NULL"],
@@ -1482,7 +1482,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Precative,
-	    :token-stem :zib}
+	    :token-stem "zib"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person3, "lī-zib", "lī-", "_NULL"],
 	    [:Common, :Plural, :Person1, "i nī-zib", "i nī-", "_NULL"],
@@ -1514,7 +1514,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Masc, :Singular, "⊤epuš", "epuš", "_NULL"],
 	    [:Common, :Plural, "⊤epš-ā", "epš", "-ā"],
@@ -1549,7 +1549,7 @@
 	    :pos :Verb,
 	    :rootClass :CCa,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Masc, :Singular, "⊤mila", "mila", "_NULL"],
 	    [:Fem, :Singular, "⊤mil-î", "mil", "-î"],
@@ -1563,7 +1563,7 @@
 	    :pos :Verb,
 	    :rootClass :aCC,
 	    :tam :Preterite,
-	    :token-stem :mur}
+	    :token-stem "mur"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person2, "tā-mur", "tā-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "ī-mur-ū", "ī-", "-ū"],
@@ -1584,7 +1584,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Present,
-	    :token-stem :parras}
+	    :token-stem "parras"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "a-parras", "a-", "_NULL"],
 	    [:Masc, :Singular, :Person2, "ta-parras", "ta-", "_NULL"],
@@ -1605,7 +1605,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Preterite,
-	    :token-stem :kuš}
+	    :token-stem "kuš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "nī-kuš", "nī-", "_NULL"],
 	    [:Masc, :Singular, :Person2, "tā-kuš", "tā-", "_NULL"],
@@ -1626,7 +1626,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Vetitive,
-	    :token-stem :rik}
+	    :token-stem "rik"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "ē-nī-rik", "ē-nī-", "_NULL"],
 	    [:Masc, :Plural, :Person2, "ē-tā-rik-ā", "ē-tā-", "-ā"],
@@ -1647,7 +1647,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Preterite,
-	    :token-stem :kkis}
+	    :token-stem "kkis"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person2, "ta-kkis-ā", "ta-", "-ā"],
 	    [:Common, :Singular, :Person1, "a-kkis", "a-", "_NULL"],
@@ -1668,7 +1668,7 @@
 	    :pos :Verb,
 	    :rootClass :CuC,
 	    :tam :Preterite,
-	    :token-stem :kūn}
+	    :token-stem "kūn"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person2, "ta-kūn-ā", "ta-", "-ā"],
 	    [:Fem, :Singular, :Person3, "ta-kūn", "i-", "_NULL"],
@@ -1709,7 +1709,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Vetitive,
-	    :token-stem :zib}
+	    :token-stem "zib"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person2, "ē-tē-zib-ā", "ē-tē-", "-ā"],
 	    [:Masc, :Singular, :Person3, "ayy-ī-zib", "ayy-ī-", "_NULL"],
@@ -1730,7 +1730,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Vetitive,
-	    :token-stem :puš}
+	    :token-stem "puš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person3, "ayy-ī-puš-ū", "ayy-ī-", "-ū"],
 	    [:Fem, :Singular, :Person3, "ayy-tā--puš", "ayy-ī-", "_NULL"],
@@ -1751,7 +1751,7 @@
 	    :pos :Verb,
 	    :rootClass :CaC,
 	    :tam :Precative,
-	    :token-stem :šāl}
+	    :token-stem "šāl"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person3, "li-šāl-ū", "li-", "-ū"],
 	    [:Common, :Singular, :Person1, "lu-šāl", "lu-", "_NULL"],
@@ -1787,7 +1787,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Precative,
-	    :token-stem :ssuk}
+	    :token-stem "ssuk"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person3, "li-ssuk", "li-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "li-ssuk-ā", "li-", "-ā"],
@@ -1819,7 +1819,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Masc, :Singular, "⊤purus", "purus", "_NULL"],
 	    [:Common, :Plural, "⊤purs-ā", "purs", "-ā"],
@@ -1853,7 +1853,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Present,
-	    :token-stem :ppeš/ppuš}
+	    :token-stem "ppeš/ppuš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Singular, :Person3, "ta-ppeš/ppuš", "i-", "_NULL"],
 	    [:Common, :Singular, :Person1, "e-ppeš/ppuš", "e-", "_NULL"],
@@ -1874,7 +1874,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Present,
-	    :token-stem :rrub}
+	    :token-stem "rrub"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "e-rrub", "e-", "_NULL"],
 	    [:Fem, :Singular, :Person2, "te-rrub-ī", "te-", "-ī"],
@@ -1895,7 +1895,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Precative,
-	    :token-stem :puš}
+	    :token-stem "puš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person3, "lī-puš-ā", "lī-", "-ā"],
 	    [:Common, :Plural, :Person1, "i nī-puš", "i nī-", "_NULL"],
@@ -1952,7 +1952,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Fem, :Singular, "⊤alk-ī", "alk", "-ī"],
 	    [:Masc, :Singular, "⊤alik", "alik", "_NULL"],
@@ -1986,7 +1986,7 @@
 	    :pos :Verb,
 	    :rootClass :CaC,
 	    :tam :Vetitive,
-	    :token-stem :šāl}
+	    :token-stem "šāl"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Singular, :Person2, "ē-ta-šāl-ī", "ē-ta-", "-ī"],
 	    [:Masc, :Plural, :Person2, "ē-ta-šāl-ā", "ē-ta-", "-ā"],
@@ -2007,7 +2007,7 @@
 	    :pos :Verb,
 	    :rootClass :ECC,
 	    :tam :Preterite,
-	    :token-stem :zib}
+	    :token-stem "zib"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "nī-zib", "nī-", "_NULL"],
 	    [:Masc, :Singular, :Person2, "tē-zib", "tē-", "_NULL"],
@@ -2028,7 +2028,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Present,
-	    :token-stem :šarriq}
+	    :token-stem "šarriq"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person3, "i-šarriq-ū", "i-", "-ū"],
 	    [:Fem, :Plural, :Person3, "ta-šarriq-ā", "i-", "-ā"],
@@ -2050,8 +2050,8 @@
 	    :pos :Verb,
 	    :rootClass :CuC,
 	    :tam :Imperative,
-	    :token-pref :⊤,
-	    :token-stem :kūn}
+	    :token-pref "_NULL",
+	    :token-stem "kūn"}
     :terms [[:gender, :number, :token, :token-suff]  ;; schema
 	    [:Common, :Plural, "⊤kūn-ā", "-ā"],
 	    [:Fem, :Singular, "⊤kūn-ī", "-ī"],
@@ -2065,7 +2065,7 @@
 	    :pos :Verb,
 	    :rootClass :CiC,
 	    :tam :Vetitive,
-	    :token-stem :qīš}
+	    :token-stem "qīš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Singular, :Person3, "ayy-ta--qīš", "ayy-i-", "_NULL"],
 	    [:Common, :Plural, :Person1, "ē-ni-qīš", "ē-ni-", "_NULL"],
@@ -2086,7 +2086,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Vetitive,
-	    :token-stem :qqur}
+	    :token-stem "qqur"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person2, "ē-ta-qqur-ā", "ē-ta-", "-ā"],
 	    [:Masc, :Plural, :Person2, "ē-ta-qqur-ā", "ē-ta-", "-ā"],
@@ -2128,7 +2128,7 @@
 	    :pos :Verb,
 	    :rootClass :aCC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Fem, :Singular, "⊤amr-ī", "amr", "-ī"],
 	    [:Common, :Plural, "⊤amr-ā", "amr", "-ā"],
@@ -2142,7 +2142,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Precative,
-	    :token-stem :qqur}
+	    :token-stem "qqur"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person3, "li-qqur-ā", "li-", "-ā"],
 	    [:Common, :Plural, :Person1, "i ni-qqur", "i ni-", "_NULL"],
@@ -2199,7 +2199,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Common, :Plural, "⊤akš-ā", "akš", "-ā"],
 	    [:Masc, :Singular, "⊤akuš", "akuš", "_NULL"],
@@ -2234,7 +2234,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Fem, :Singular, "⊤ark-ī", "ark", "-ī"],
 	    [:Masc, :Singular, "⊤arik", "arik", "_NULL"],
@@ -2248,7 +2248,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Preterite,
-	    :token-stem :ssuk}
+	    :token-stem "ssuk"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Plural, :Person2, "ta-ssuk-ā", "ta-", "-ā"],
 	    [:Masc, :Singular, :Person3, "i-ssuk", "i-", "_NULL"],
@@ -2270,7 +2270,7 @@
 	    :pos :Verb,
 	    :rootClass :CCu,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Fem, :Singular, "⊤ḫud-î", "ḫud", "-î"],
 	    [:Common, :Plural, "⊤ḫud-â", "ḫud", "-â"],
@@ -2284,7 +2284,7 @@
 	    :pos :Verb,
 	    :rootClass :CeC,
 	    :tam :Vetitive,
-	    :token-stem :nēr ~ nār}
+	     :token-stem "nēr ~ nār"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Plural, :Person1, "ē-ni-nēr ~ nār", "ē-ni-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "ayy-ta--nēr ~ nār-ā", "ayy-i-", "-ā"],
@@ -2326,8 +2326,8 @@
 	    :pos :Verb,
 	    :rootClass :CaC,
 	    :tam :Imperative,
-	    :token-pref :⊤,
-	    :token-stem :šāl}
+	    :token-pref "_NULL",
+	    :token-stem "šāl"}
     :terms [[:gender, :number, :token, :token-suff]  ;; schema
 	    [:Masc, :Singular, "⊤šāl", "_NULL"],
 	    [:Common, :Plural, "⊤šāl-ā", "-ā"],
@@ -2341,7 +2341,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Present,
-	    :token-stem :llak}
+	    :token-stem "llak"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Fem, :Singular, :Person3, "ta-llak", "i-", "_NULL"],
 	    [:Masc, :Singular, :Person2, "ta-llak", "ta-", "_NULL"],
@@ -2363,7 +2363,7 @@
 	    :pos :Verb,
 	    :rootClass :CCi,
 	    :tam :Imperative,
-	    :token-pref :⊤}
+	    :token-pref "_NULL"}
     :terms [[:gender, :number, :token, :token-stem, :token-suff]  ;; schema
 	    [:Fem, :Singular, "⊤bin-î", "bin", "-î"],
 	    [:Masc, :Singular, "⊤bini", "bini", "_NULL"],
@@ -2377,7 +2377,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Precative,
-	    :token-stem :rid}
+	    :token-stem "rid"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person3, "lu-rid-ū", "lu-", "-ū"],
 	    [:Fem, :Plural, :Person3, "lu-rid-ā", "lu-", "-ā"],
@@ -2393,7 +2393,7 @@
 	    :pos :Verb,
 	    :rootClass :NCC,
 	    :tam :Present,
-	    :token-stem :nakkis}
+	    :token-stem "nakkis"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Common, :Singular, :Person1, "a-nakkis", "a-", "_NULL"],
 	    [:Masc, :Singular, :Person3, "i-nakkis", "i-", "_NULL"],
@@ -2489,7 +2489,7 @@
 	    :pos :Verb,
 	    :rootClass :CiC,
 	    :tam :Perfect,
-	    :token-stem :qtīš}
+	    :token-stem "qtīš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Plural, :Person2, "ta-qtīš-ā", "ta-", "-ā"],
 	    [:Masc, :Singular, :Person3, "i-qtīš", "i-", "_NULL"],
@@ -2530,7 +2530,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Vetitive,
-	    :token-stem :šriq}
+	    :token-stem "šriq"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person2, "ē-ta-šriq", "ē-ta-", "_NULL"],
 	    [:Fem, :Plural, :Person3, "ayy-ta--šriq-ā", "ayy-i-", "-ā"],
@@ -2551,7 +2551,7 @@
 	    :pos :Verb,
 	    :rootClass :CCC,
 	    :tam :Vetitive,
-	    :token-stem :kuš}
+	    :token-stem "kuš"}
     :terms [[:gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
 	    [:Masc, :Singular, :Person3, "ayy-ī-kuš", "ayy-ī-", "_NULL"],
 	    [:Masc, :Plural, :Person3, "ayy-ī-kuš-ū", "ayy-ī-", "-ū"],
@@ -2603,7 +2603,7 @@
 	    [:GenAcc, :Fem, :Plural, :Person2, "kināti"]]
     }
     {:label "akkadian_OB-PPossInd"
-    :note "Huehnergard2005 p. 273-74;appear as predicates of a verbless clause (\the house is mine\) or to emphasize possession. See Huehnergard p. 273 for more information."
+    :note "Huehnergard2005 p. 273-74;appear as predicates of a verbless clause (\\the house is mine\\) or to emphasize possession. See Huehnergard p. 273 for more information."
     :common {:morpheme :PROPOSSIND,
 	    :pos :Pronoun,
 	    :proClass :PossInd}
@@ -2634,7 +2634,7 @@
 	    [:Masc, :Singular, :Singular, :Person2, "kûm ~ kêm ~ kâm"]]
     }
     {:label "akkadian_OB-PPoss"
-    :note "HUEHNEGARD2005 pp. 84-89;1cs possessive suffix varies:-ī before \all singular nouns and adjectives in the nom. and acc.\;otherwise,-ya is used."
+    :note "HUEHNEGARD2005 pp. 84-89;1cs possessive suffix varies:-ī before \\all singular nouns and adjectives in the nom. and acc.\\;otherwise,-ya is used."
     :common {:case :Possessive,
 	    :morpheme :PROPOSS,
 	    :pos :Pronoun,
@@ -2652,7 +2652,7 @@
 	    [:Fem, :Singular, :Person2, "-ki"]]
     }
     {:label "akkadian_OB-PObjClitic"
-    :note "Huehnergard p. 169;Akkadian/OB attaches two sets of suffixes on verbal forms,one paradigm for the acc. and another for the dat. Huehnergard puts both sets under the heading \Object Pronominal Suffixes on the Verb,\§18.2."
+    :note "Huehnergard p. 169;Akkadian/OB attaches two sets of suffixes on verbal forms,one paradigm for the acc. and another for the dat. Huehnergard puts both sets under the heading \\Object Pronominal Suffixes on the Verb,\\§18.2."
     :common {:morpheme :PROOBJCLITIC,
 	    :pos :Pronoun,
 	    :proClass :ObjClitic}
@@ -3089,7 +3089,7 @@
     }
     {:label "aama:pdgmlabel akkadian_OB-VSubjMarker"
     :common {:pos :Verb,
-	    :token-stem :⊤,
+	    :token-stem "_NULL",
 	    :morpheme :SUBJMARKER,
 	    :verbMorphClass :SubjMarker}
     :terms [[:derivedStem, :gender, :number, :person, :token, :token-pref, :token-suff]  ;; schema
