@@ -1,8 +1,11 @@
 {
 :lang :akkadian-ob
 :sgpref "aob"
+:datasource "Huehnergard1997"
+:geodemoURL "http://oracc.museum.upenn.edu/saao/knpp/cuneiformrevealed/ https://en.wikipedia.org/wiki/Akkadian_language"
+:geodemoTXT "Old Babylonian is a variety of the Semitic Akkadian language-group, a closely related set of geographically and chronologically differentiated language varieties attested in written (cuneiform) sources from Mesopotamia (roughly, present-day Iraq) from the middle of the third millennium to the last centuries B.C.E. Old Babylonian as documented here is the standard variety of the language used in Southern Mesopotamia, centered around the political capitol Baylon during the first half of the second millennium B.C.E. There is a huge scholarly literature on Old Babylonian. The source followed here is the excellent pedagogical grammar, Huehnergard1997."
 :schemata {
-           :ablautClass [:Common, :EClass, :IClass, :UClass, :Weak, :a-iClass, :a-uClass, :aClass, :e-uClass]
+           :ablautClass [:Common, :EClass, :IClass, :UClass, :Weak, :a_iClass, :a_uClass, :aClass, :e_uClass]
 	  :case [:Accusative, :Dative, :GenAcc, :Genitive, :Nominative, :Oblique, :Possessive]
 	  :deixis [:Far, :Near]
 	  :derivedStem [:B, :Bt, :Btn, :Common, :D, :Dt, :Dtn, :N, :Ntn, :S, :St, :Stn]
@@ -28,13 +31,13 @@
 }
 :lexemes {
   :aks {:ablautClass :UClass, :gloss "go", :lemma "akuš", :rootClass :aCC}
-  :alk {:ablautClass :a-iClass, :gloss "go", :lemma "alik", :rootClass :aCC}
-  :amr {:ablautClass :a-uClass, :gloss "see", :lemma "amur", :rootClass :aCC}
+  :alk {:ablautClass :a_iClass, :gloss "go", :lemma "alik", :rootClass :aCC}
+  :amr {:ablautClass :a_uClass, :gloss "see", :lemma "amur", :rootClass :aCC}
   :ark {:ablautClass :IClass, :gloss "be long", :lemma "arik", :rootClass :aCC}
   :bni {:gloss "build", :lemma "bni", :rootClass :CCi}
   :bni-1 {:gloss "build", :lemma "bnʾ", :rootClass :CCw}
   :dwk {:gloss "kill", :lemma "dʾk", :rootClass :CūC}
-  :eps {:ablautClass :e-uClass, :gloss "do", :lemma "epuš", :rootClass :ECC}
+  :eps {:ablautClass :e_uClass, :gloss "do", :lemma "epuš", :rootClass :ECC}
   :erb {:ablautClass :UClass, :gloss "enter", :lemma "erub", :rootClass :ECC}
   :ezb {:ablautClass :IClass, :gloss "leave", :lemma "ezib", :rootClass :ECC}
   :hdu {:gloss "be glad", :lemma "ḫdu", :rootClass :CCu}
@@ -49,10 +52,10 @@
   :ner {:gloss "kill", :lemma "nēr", :rootClass :CēC}
   :ner-1 {:gloss "slay", :lemma "nʾr", :rootClass :CūC}
   :nks {:ablautClass :IClass, :gloss "cut off", :lemma "nkis", :rootClass :NCC}
-  :nqr {:ablautClass :a-uClass, :gloss "tear down", :lemma "nqur", :rootClass :CCC}
+  :nqr {:ablautClass :a_uClass, :gloss "tear down", :lemma "nqur", :rootClass :CCC}
   :nsk {:ablautClass :UClass, :gloss "throw", :lemma "nsuk", :rootClass :NCC}
   :nul {:gloss "lie down", :lemma "nʾl", :rootClass :CūC}
-  :prs {:ablautClass :a-uClass, :gloss "divide", :lemma "prus", :rootClass :CCC}
+  :prs {:ablautClass :a_uClass, :gloss "divide", :lemma "prus", :rootClass :CCC}
   :prs-1 {:gloss "separate", :lemma "prs", :rootClass :CCC}
   :qis {:gloss "give", :lemma "qīš", :rootClass :CīC}
   :qis-1 {:gloss "give", :lemma "qʾš", :rootClass :CūC}
@@ -63,7 +66,7 @@
   :srq {:ablautClass :IClass, :gloss "steal", :lemma "šriq", :rootClass :CCC}
   :wbl {:gloss "bear", :lemma "wbl", :rootClass :WCC}
   :wld {:gloss "beget", :lemma "wld", :rootClass :WCC}
-  :wrd {:ablautClass :a-iClass, :gloss "go down", :lemma "wrid", :rootClass :WCC}
+  :wrd {:ablautClass :a_iClass, :gloss "go down", :lemma "wrid", :rootClass :WCC}
   :wrd-1 {:gloss "descend", :lemma "wrd", :rootClass :WCC}
   :wsr {:derivedStem :D, :gloss "release, set free", :lemma "wšr", :rootClass :WCC}
 }
@@ -91,7 +94,7 @@
     }
     {:label "akkadian_OB-VACCA-uClassPrecative-amr"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :pos :Verb,
@@ -173,7 +176,7 @@
     }
     {:label "akkadian_OB-VNCCA-uClassPres-nqr"
     :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :pos :Verb,
@@ -262,7 +265,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassPres-wrd"
     :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :pos :Verb,
@@ -398,7 +401,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassPret-wrd"
     :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :pos :Verb,
@@ -434,7 +437,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassPret-alk"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :pos :Verb,
@@ -455,7 +458,7 @@
     }
     {:label "akkadian_OB-VNCCA-uClassPerf-nqr"
     :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :pos :Verb,
@@ -475,7 +478,7 @@
     }
     {:label "akkadian_OB-VECCE-uClassPret-prs"
     :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-    :common {:ablautClass :e-uClass,
+    :common {:ablautClass :e_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -557,7 +560,7 @@
     }
     {:label "akkadian_OB-VACCA-uClassVetitive-amr"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :pos :Verb,
@@ -770,7 +773,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassVetitive-alk"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :pos :Verb,
@@ -791,7 +794,7 @@
     }
     {:label "akkadian_OB-VNCCA-uClassImprtv-nqr"
     :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :person :Person2,
@@ -806,7 +809,7 @@
     }
     {:label "akkadian_OB-VCCCA-uPret-prs"
     :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -950,7 +953,7 @@
     }
     {:label "akkadian_OB-VCCCA-uVetitive-prs"
     :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1028,7 +1031,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassImprtv-wrd"
     :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :person :Person2,
@@ -1096,7 +1099,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassPrecative-alk"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :pos :Verb,
@@ -1132,7 +1135,7 @@
     }
     {:label "akkadian_OB-VACCA-uClassPres-amr"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :pos :Verb,
@@ -1173,7 +1176,7 @@
     }
     {:label "akkadian_OB-VNCCA-uClassPret-nqr"
     :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :pos :Verb,
@@ -1291,7 +1294,7 @@
     }
     {:label "akkadian_OB-VACCA-uClassPerf-amr"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :pos :Verb,
@@ -1311,7 +1314,7 @@
     }
     {:label "akkadian_OB-VECCE-uClassPerf-prs"
     :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-    :common {:ablautClass :e-uClass,
+    :common {:ablautClass :e_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1368,7 +1371,7 @@
     }
     {:label "akkadian_OB-VCCCA-uPrecative-prs"
     :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1384,7 +1387,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassVetitive-wrd"
     :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :pos :Verb,
@@ -1507,7 +1510,7 @@
     }
     {:label "akkadian_OB-VECCE-uClassImprtv-prs"
     :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-    :common {:ablautClass :e-uClass,
+    :common {:ablautClass :e_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :person :Person2,
@@ -1557,7 +1560,7 @@
     }
     {:label "akkadian_OB-VACCA-uClassPret-amr"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :pos :Verb,
@@ -1578,7 +1581,7 @@
     }
     {:label "akkadian_OB-VCCCA-uPres-prs"
     :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1683,7 +1686,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassPerf-wrd"
     :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :pos :Verb,
@@ -1724,7 +1727,7 @@
     }
     {:label "akkadian_OB-VECCE-uClassVetitive-prs"
     :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-    :common {:ablautClass :e-uClass,
+    :common {:ablautClass :e_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1812,7 +1815,7 @@
     }
     {:label "akkadian_OB-VCCCA-uImprtv-prs"
     :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :person :Person2,
@@ -1827,7 +1830,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassPerf-alk"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :pos :Verb,
@@ -1847,7 +1850,7 @@
     }
     {:label "akkadian_OB-VECCE-uClassPres-prs"
     :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-    :common {:ablautClass :e-uClass,
+    :common {:ablautClass :e_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1889,7 +1892,7 @@
     }
     {:label "akkadian_OB-VECCE-uClassPrecative-prs"
     :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-    :common {:ablautClass :e-uClass,
+    :common {:ablautClass :e_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -1945,7 +1948,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassImprtv-alk"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :person :Person2,
@@ -2080,7 +2083,7 @@
     }
     {:label "akkadian_OB-VNCCA-uClassVetitive-nqr"
     :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :pos :Verb,
@@ -2121,7 +2124,7 @@
     }
     {:label "akkadian_OB-VACCA-uClassImprtv-amr"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :amr,
 	    :person :Person2,
@@ -2136,7 +2139,7 @@
     }
     {:label "akkadian_OB-VNCCA-uClassPrecative-nqr"
     :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :nqr,
 	    :pos :Verb,
@@ -2335,7 +2338,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassPres-alk"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :alk,
 	    :pos :Verb,
@@ -2371,7 +2374,7 @@
     }
     {:label "akkadian_OB-VCCCA-iClassPrecative-wrd"
     :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-    :common {:ablautClass :a-iClass,
+    :common {:ablautClass :a_iClass,
 	    :derivedStem :B,
 	    :lexeme :wrd,
 	    :pos :Verb,
@@ -2408,7 +2411,7 @@
     }
     {:label "akkadian_OB-VCCCA-uPerf-prs"
     :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-    :common {:ablautClass :a-uClass,
+    :common {:ablautClass :a_uClass,
 	    :derivedStem :B,
 	    :lexeme :prs,
 	    :pos :Verb,
@@ -2686,7 +2689,7 @@
     :terms [[:ablautClass, :derivedStem, :rootClass, :tam, :token]  ;; schema
 	    [:IClass, :N, :CCi, :Present, "-bbanni ~ -bbannV̂"],
 	    [:Common, :Dtn, :NCC, :Preterite, "-ttaqqer-"],
-	    [:a-uClass, :Bt, :NCC, :Perfect, "-ttatqar-"],
+	    [:a_uClass, :Bt, :NCC, :Perfect, "-ttatqar-"],
 	    [:Common, :St, :NCC, :Present, "-qqar-"],
 	    [:Common, :B, :WCC, :Present, "urrad- ~ ittir-"],
 	    [:aClass, :St, :WCC, :Preterite, "uštābil-"],
@@ -2695,7 +2698,7 @@
 	    [:Common, :Dt, :NCC, :Perfect, "-ttataqqer-"],
 	    [:Common, :Common, :CCC, :Present, "-pras-"],
 	    [:Common, :Bt, :WCC, :Preterite, "ittarad-"],
-	    [:a-iClass, :Btn, :CūC, :Preterite, "-qtīš ~ -qtišš-"],
+	    [:a_iClass, :Btn, :CūC, :Preterite, "-qtīš ~ -qtišš-"],
 	    [:Common, :Stn, :aCC, :Preterite, "-ḫḫiz-"],
 	    [:EClass, :Dt, :CCe, :Preterite, "-lteqqi ~ -ltaqqi ~ -lteqqV̂ ~ -ltaqqV̂"],
 	    [:Common, :D, :aCC, :Present, "- ḫḫaz-"],
@@ -2710,26 +2713,26 @@
 	    [:Common, :Dt, :aCC, :Preterite, "ūtaḫḫiz-"],
 	    [:EClass, :D, :CCe, :Perfect, "-lteqqi ~ -ltaqqi ~ -lteqqV̂ ~ -ltaqqV̂"],
 	    [:aClass, :Common, :WCC, :Present, "ušabbal-"],
-	    [:a-uClass, :Ntn, :NCC, :Present, "-ttananqar-"],
+	    [:a_uClass, :Ntn, :NCC, :Present, "-ttananqar-"],
 	    [:Common, :D, :CCa, :Preterite, "-malli ~ -mallV̂"],
-	    [:a-uClass, :Btn, :aCC, :Perfect, "ītataḫḫaz-"],
+	    [:a_uClass, :Btn, :aCC, :Perfect, "ītataḫḫaz-"],
 	    [:Common, :Dtn, :CCC, :Preterite, "-ptarris-"],
 	    [:Common, :Dtn, :WCC, :Perfect, "ūtataššir-"],
 	    [:UClass, :Btn, :NCC, :Present, "-ttanassuk-"],
 	    [:Common, :Stn, :CCa, :Present, "-namla ~ -namlV̂"],
 	    [:UClass, :B, :aCC, :Perfect, "ītakus-"],
 	    [:Common, :St, :aCC, :Perfect, "-tāḫiz-"],
-	    [:a-uClass, :Btn, :NCC, :Present, "-ttanaqqar-"],
-	    [:e-uClass, :Ntn, :ECC, :Perfect, "⊤"],
+	    [:a_uClass, :Btn, :NCC, :Present, "-ttanaqqar-"],
+	    [:e_uClass, :Ntn, :ECC, :Perfect, "⊤"],
 	    [:IClass, :Ntn, :ECC, :Perfect, "⊤"],
 	    [:Common, :D, :CūC, :Present, "-kān ~ -kann-"],
-	    [:a-uClass, :Btn, :CūC, :Preterite, "-ktūn ~ -ktunn-"],
+	    [:a_uClass, :Btn, :CūC, :Preterite, "-ktūn ~ -ktunn-"],
 	    [:UClass, :B, :ECC, :Preterite, "īrub-"],
 	    [:Common, :Dt, :CūC, :Present, "-ktān ~ -ktann-"],
 	    [:Common, :Stn, :CCa, :Perfect, "-mli ~ -mlV̂"],
 	    [:Common, :Dt, :CūC, :Preterite, "-ktīn ~ -ktinn-"],
 	    [:IClass, :Ntn, :CCi, :Preterite, "-ttabni ~ -ttabnV̂"],
-	    [:a-iClass, :N, :CūC, :Present, "-qqīaš ~ -qqišš-"],
+	    [:a_iClass, :N, :CūC, :Present, "-qqīaš ~ -qqišš-"],
 	    [:Common, :Stn, :ECC, :Present, "ušteneppeš-"],
 	    [:Common, :D, :CCC, :Perfect, "-ptarris-"],
 	    [:EClass, :St, :CCe, :Present, "uštelqe ~ uštelqV̂"],
@@ -2740,15 +2743,15 @@
 	    [:Common, :D, :ECC, :Perfect, "ūtappiš-"],
 	    [:UClass, :B, :aCC, :Preterite, "īkus-"],
 	    [:aClass, :Btn, :CCa, :Present, "-mtanalla ~ -mtanallV̂"],
-	    [:a-iClass, :B, :Alk, :Perfect, "-ttalak-"],
+	    [:a_iClass, :B, :Alk, :Perfect, "-ttalak-"],
 	    [:aClass, :Common, :WCC, :Preterite, "ušābil-"],
 	    [:EClass, :Dtn, :CCe, :Preterite, "-lteqqi ~ -ltaqqi ~ -lteqqV̂ ~ -ltaqqV̂"],
 	    [:IClass, :Btn, :NCC, :Preterite, "-ttakkis-"],
 	    [:Common, :D, :aCC, :Perfect, "ūtaḫḫiz-"],
 	    [:Common, :B, :CCC, :Preterite, "-prus-"],
-	    [:a-uClass, :Btn, :aCC, :Present, "ītanaḫḫaz-"],
+	    [:a_uClass, :Btn, :aCC, :Present, "ītanaḫḫaz-"],
 	    [:aClass, :Stn, :WCC, :Preterite, "-bbil-"],
-	    [:e-uClass, :Btn, :ECC, :Present, "īteneppeš-"],
+	    [:e_uClass, :Btn, :ECC, :Present, "īteneppeš-"],
 	    [:Common, :St, :CūC, :Preterite, "-mīt ~ -mitt-"],
 	    [:Common, :Dtn, :CūC, :Present, "-ktanān ~ -ktanann-"],
 	    [:EClass, :Bt, :CCe, :Preterite, "-lteqe ~ -lteqV̂"],
@@ -2760,7 +2763,7 @@
 	    [:EClass, :Stn, :WCC, :Preterite, "ušterrid-"],
 	    [:Common, :Stn, :aCC, :Present, "-naḫḫaz-"],
 	    [:Common, :Stn, :CCC, :Present, "-napras-"],
-	    [:a-uClass, :B, :NCC, :Present, "-naqqar-"],
+	    [:a_uClass, :B, :NCC, :Present, "-naqqar-"],
 	    [:Common, :Btn, :CCC, :Present, "-ptanarras-"],
 	    [:Common, :Stn, :aCC, :Perfect, "-taḫḫiz-"],
 	    [:aClass, :N, :CCC, :Preterite, "-pparis-"],
@@ -2773,7 +2776,7 @@
 	    [:Common, :Bt, :CCC, :Preterite, "-ptaras-"],
 	    [:UClass, :Bt, :CCu, :Perfect, "-mtatnu ~ -mtatnV̂"],
 	    [:Common, :D, :CCC, :Preterite, "-parris-"],
-	    [:a-iClass, :Bt, :CūC, :Present, "ittīal ~ ittill-"],
+	    [:a_iClass, :Bt, :CūC, :Present, "ittīal ~ ittill-"],
 	    [:IClass, :Bt, :NCC, :Perfect, "-ttatkis-"],
 	    [:EClass, :B, :CūC, :Perfect, "ittēr-"],
 	    [:EClass, :Ntn, :CCe, :Perfect, "-ttetelqe ~ -ttetelqV̂"],
@@ -2781,16 +2784,16 @@
 	    [:UClass, :Bt, :CCu, :Preterite, "-mtanu ~ -mtanV̂"],
 	    [:Common, :Btn, :CCC, :Perfect, "-ptatarras-"],
 	    [:Common, :Btn, :Alk, :Perfect, "-ttatallak-"],
-	    [:a-uClass, :N, :NCC, :Preterite, "-nnaqer-"],
-	    [:a-uClass, :Btn, :CūC, :Perfect, "⊤"],
-	    [:a-iClass, :Bt, :CūC, :Perfect, "ittatīl-"],
+	    [:a_uClass, :N, :NCC, :Preterite, "-nnaqer-"],
+	    [:a_uClass, :Btn, :CūC, :Perfect, "⊤"],
+	    [:a_iClass, :Bt, :CūC, :Perfect, "ittatīl-"],
 	    [:Common, :Dt, :ECC, :Preterite, "ūteppiš-"],
-	    [:a-uClass, :Btn, :aCC, :Preterite, "ītaḫḫaz-"],
+	    [:a_uClass, :Btn, :aCC, :Preterite, "ītaḫḫaz-"],
 	    [:Common, :D, :CūC, :Preterite, "-kīn ~ -kinn-"],
 	    [:Common, :Dt, :ECC, :Present, "ūteppeš-"],
 	    [:Common, :Dt, :aCC, :Present, "ūtaḫḫaz-"],
 	    [:UClass, :Bt, :ECC, :Perfect, "ītetrub-"],
-	    [:a-uClass, :Bt, :CūC, :Perfect, "-ktatūn-"],
+	    [:a_uClass, :Bt, :CūC, :Perfect, "-ktatūn-"],
 	    [:IClass, :Btn, :NCC, :Present, "-ttanakkis-"],
 	    [:EClass, :D, :CCe, :Present, "-leqqe ~ -laqqa ~ -leqqV̂ ~ -laqqV̂"],
 	    [:Common, :St, :CCC, :Perfect, "-pris-"],
@@ -2806,7 +2809,7 @@
 	    [:Common, :Bt, :WCC, :Perfect, "ittatrad-"],
 	    [:IClass, :Btn, :CCi, :Perfect, "-btatanni ~ -btatannV̂"],
 	    [:Common, :N, :WCC, :Preterite, "-wwalid-"],
-	    [:a-iClass, :Bt, :CūC, :Preterite, "ittīl-"],
+	    [:a_iClass, :Bt, :CūC, :Preterite, "ittīl-"],
 	    [:Common, :Dtn, :CCC, :Present, "-ptanarras-"],
 	    [:UClass, :Bt, :NCC, :Perfect, "-ttassuk- (and*ttatsuk)"],
 	    [:aClass, :Bt, :CūC, :Perfect, "-štatāl-"],
@@ -2814,30 +2817,30 @@
 	    [:EClass, :N, :CūC, :Perfect, "⊤"],
 	    [:Common, :N, :WCC, :Perfect, "⊤"],
 	    [:Common, :Bt, :WCC, :Present, "ittarrad-"],
-	    [:a-uClass, :Ntn, :aCC, :Perfect, "⊤"],
-	    [:e-uClass, :N, :ECC, :Present, "-nneppeš-"],
+	    [:a_uClass, :Ntn, :aCC, :Perfect, "⊤"],
+	    [:e_uClass, :N, :ECC, :Present, "-nneppeš-"],
 	    [:Common, :Bt, :Alk, :Present, "-ttallak-"],
-	    [:a-iClass, :B, :CūC, :Present, "-qīaš ~ -qišš-"],
+	    [:a_iClass, :B, :CūC, :Present, "-qīaš ~ -qišš-"],
 	    [:Common, :Ntn, :CCC, :Preterite, "-ttapras-"],
 	    [:EClass, :Bt, :CCe, :Perfect, "-ltetqe ~ -ltetqV̂"],
 	    [:Common, :Stn, :NCC, :Perfect, "-qqer-"],
-	    [:a-iClass, :B, :Alk, :Present, "-llak-"],
-	    [:a-uClass, :Bt, :aCC, :Perfect, "ītatḫaz-"],
-	    [:e-uClass, :Btn, :ECC, :Preterite, "īteppeš-"],
+	    [:a_iClass, :B, :Alk, :Present, "-llak-"],
+	    [:a_uClass, :Bt, :aCC, :Perfect, "ītatḫaz-"],
+	    [:e_uClass, :Btn, :ECC, :Preterite, "īteppeš-"],
 	    [:Common, :Btn, :Alk, :Present, "-ttanallak-"],
 	    [:UClass, :Btn, :CCu, :Perfect, "-mtatannu ~ -mtatannV̂"],
-	    [:a-uClass, :Bt, :NCC, :Preterite, "-ttaqar-"],
-	    [:a-iClass, :Btn, :CūC, :Perfect, "⊤"],
+	    [:a_uClass, :Bt, :NCC, :Preterite, "-ttaqar-"],
+	    [:a_iClass, :Btn, :CūC, :Perfect, "⊤"],
 	    [:aClass, :Btn, :CCa, :Preterite, "-mtalla ~ -mtallV̂"],
 	    [:aClass, :Btn, :CūC, :Present, "-štanaʾʾal- ~ -štanâl ~ -štanall-"],
-	    [:a-uClass, :N, :aCC, :Preterite, "-nnaḫiz-"],
+	    [:a_uClass, :N, :aCC, :Preterite, "-nnaḫiz-"],
 	    [:EClass, :St, :WCC, :Perfect, "uštetērid-"],
 	    [:UClass, :Btn, :NCC, :Perfect, "-ttatassuk-"],
 	    [:EClass, :Stn, :WCC, :Perfect, "ušteterrid-"],
 	    [:Common, :Stn, :NCC, :Preterite, "-qqer-"],
 	    [:EClass, :Dtn, :CCe, :Perfect, "-lteteqqi ~ -ltataqqi ~ -lteteqqV̂ ~ -ltataqqV̂"],
 	    [:UClass, :Bt, :ECC, :Present, "īterrub-"],
-	    [:a-uClass, :B, :NCC, :Preterite, "-qqur-"],
+	    [:a_uClass, :B, :NCC, :Preterite, "-qqur-"],
 	    [:IClass, :Btn, :ECC, :Present, "ītenezzib-"],
 	    [:Common, :Dt, :WCC, :Present, "ūtaššar-"],
 	    [:aClass, :Bt, :CūC, :Preterite, "-štāl-"],
@@ -2847,16 +2850,16 @@
 	    [:IClass, :Bt, :CCi, :Present, "-btanni ~ -btannV̂"],
 	    [:IClass, :N, :CCC, :Preterite, "-ppaqid-"],
 	    [:IClass, :Btn, :NCC, :Perfect, "-ttatakkis-"],
-	    [:a-uClass, :Bt, :NCC, :Present, "-ttaqqar-"],
-	    [:e-uClass, :N, :ECC, :Perfect, "-ttenpeš-"],
+	    [:a_uClass, :Bt, :NCC, :Present, "-ttaqqar-"],
+	    [:e_uClass, :N, :ECC, :Perfect, "-ttenpeš-"],
 	    [:Common, :Dtn, :aCC, :Perfect, "ūtataḫḫiz-"],
 	    [:Common, :Dt, :WCC, :Perfect, "ūtataššir-"],
 	    [:Common, :Common, :aCC, :Present, "ušaḫḫaz-"],
-	    [:a-uClass, :N, :aCC, :Present, "-nnaḫḫaz-"],
+	    [:a_uClass, :N, :aCC, :Present, "-nnaḫḫaz-"],
 	    [:Common, :Stn, :ECC, :Preterite, "ušteppiš-"],
 	    [:Common, :Stn, :ECC, :Perfect, "uštetēpiš-"],
 	    [:Common, :Common, :NCC, :Preterite, "-qqer-"],
-	    [:a-uClass, :B, :CūC, :Preterite, "-kūn-"],
+	    [:a_uClass, :B, :CūC, :Preterite, "-kūn-"],
 	    [:IClass, :N, :ECC, :Preterite, "-nnezib-"],
 	    [:Common, :Dt, :CCa, :Present, "-mtalla ~ -mtallV̂"],
 	    [:Common, :Dtn, :aCC, :Present, "ūtanaḫḫaz-"],
@@ -2870,19 +2873,19 @@
 	    [:aClass, :B, :CūC, :Preterite, "-šāl-"],
 	    [:Common, :Common, :CūC, :Present, "ušmāt ~ ušmatt-"],
 	    [:UClass, :B, :aCC, :Present, "īkkus-"],
-	    [:a-uClass, :Ntn, :CCa, :Perfect, "-ttatamla ~ -ttatamlV̂"],
-	    [:a-uClass, :Ntn, :CCa, :Present, "-ttanamla ~ -ttanamlV̂"],
+	    [:a_uClass, :Ntn, :CCa, :Perfect, "-ttatamla ~ -ttatamlV̂"],
+	    [:a_uClass, :Ntn, :CCa, :Present, "-ttanamla ~ -ttanamlV̂"],
 	    [:EClass, :B, :CūC, :Preterite, "-nēr-"],
 	    [:UClass, :Btn, :ECC, :Preterite, "īterrub-"],
 	    [:aClass, :Btn, :CūC, :Preterite, "-štaʾʾal-"],
 	    [:Common, :D, :CūC, :Perfect, "-ktīn ~ ktinn-"],
-	    [:a-uClass, :Bt, :aCC, :Present, "ītaḫḫaz-"],
-	    [:a-uClass, :Btn, :NCC, :Perfect, "-ttataqqar-"],
+	    [:a_uClass, :Bt, :aCC, :Present, "ītaḫḫaz-"],
+	    [:a_uClass, :Btn, :NCC, :Perfect, "-ttataqqar-"],
 	    [:Common, :St, :CūC, :Perfect, "⊤"],
 	    [:IClass, :N, :NCC, :Perfect, "-ttankis-"],
-	    [:a-uClass, :N, :aCC, :Perfect, "-ttanḫaz-"],
+	    [:a_uClass, :N, :aCC, :Perfect, "-ttanḫaz-"],
 	    [:Common, :Dtn, :ECC, :Perfect, "ūteteppiš-"],
-	    [:a-uClass, :B, :CūC, :Perfect, "-ktūn-"],
+	    [:a_uClass, :B, :CūC, :Perfect, "-ktūn-"],
 	    [:aClass, :N, :CCC, :Perfect, "-ttapras-"],
 	    [:aClass, :Bt, :CCa, :Present, "-mtalla ~ -mtallV̂"],
 	    [:UClass, :B, :ECC, :Perfect, "īterub-"],
@@ -2893,7 +2896,7 @@
 	    [:IClass, :Bt, :CCi, :Preterite, "-btani ~ -btanV̂"],
 	    [:aClass, :N, :CūC, :Perfect, "⊤"],
 	    [:Common, :D, :CCa, :Perfect, "-mtalli ~ -mtallV̂"],
-	    [:a-uClass, :B, :aCC, :Perfect, "ītaḫaz-"],
+	    [:a_uClass, :B, :aCC, :Perfect, "ītaḫaz-"],
 	    [:UClass, :Btn, :NCC, :Preterite, "-ttassuk-"],
 	    [:Common, :Btn, :Alk, :Preterite, "-ttallak-"],
 	    [:UClass, :Bt, :CCu, :Present, "-mtannu ~ -mtannV̂"],
@@ -2901,12 +2904,12 @@
 	    [:aClass, :Stn, :WCC, :Perfect, "-tabbil-"],
 	    [:IClass, :Ntn, :CCi, :Perfect, "-ttatabni ~ -ttatabnV̂"],
 	    [:EClass, :St, :CCe, :Perfect, "uštetelqi ~ uštetelqV̂"],
-	    [:a-uClass, :Bt, :aCC, :Preterite, "ītaḫaz-"],
-	    [:a-uClass, :Bt, :CūC, :Present, "-ktân ~ -ktunn-"],
-	    [:a-iClass, :B, :CūC, :Preterite, "-qīš-"],
-	    [:e-uClass, :B, :ECC, :Perfect, "ītepeš- ~ ītepuš-"],
+	    [:a_uClass, :Bt, :aCC, :Preterite, "ītaḫaz-"],
+	    [:a_uClass, :Bt, :CūC, :Present, "-ktân ~ -ktunn-"],
+	    [:a_iClass, :B, :CūC, :Preterite, "-qīš-"],
+	    [:e_uClass, :B, :ECC, :Perfect, "ītepeš- ~ ītepuš-"],
 	    [:EClass, :B, :CCe, :Present, "-leqqe ~ -laqqe ~ -leqqV̂ ~ -laqqV̂"],
-	    [:a-iClass, :B, :CūC, :Perfect, "-qtīš-"],
+	    [:a_iClass, :B, :CūC, :Perfect, "-qtīš-"],
 	    [:Common, :Dtn, :WCC, :Present, "ūtanaššar-"],
 	    [:Common, :Dtn, :CūC, :Perfect, "-ktatīn ~ -ktatinn-"],
 	    [:UClass, :Bt, :NCC, :Preterite, "-ttasuk-"],
@@ -2914,9 +2917,9 @@
 	    [:UClass, :B, :CCu, :Preterite, "-mnu ~ -mnV̂"],
 	    [:aClass, :Btn, :CūC, :Perfect, "⊤"],
 	    [:Common, :Common, :aCC, :Perfect, "uštāḫiz-"],
-	    [:a-iClass, :Btn, :CūC, :Present, "-qtanīaš ~ -qtanišš-"],
+	    [:a_iClass, :Btn, :CūC, :Present, "-qtanīaš ~ -qtanišš-"],
 	    [:EClass, :N, :CCe, :Perfect, "-ttelqe ~ -ttalqe ~ -ttelqV̂ ~ -ttalqV̂"],
-	    [:a-uClass, :Btn, :NCC, :Preterite, "-ttaqqar-"],
+	    [:a_uClass, :Btn, :NCC, :Preterite, "-ttaqqar-"],
 	    [:Common, :B, :WCC, :Perfect, "ittarad- ~ ītetir- ~ ītatir-"],
 	    [:EClass, :Common, :WCC, :Preterite, "ušērid-"],
 	    [:IClass, :N, :NCC, :Preterite, "-nnakis-"],
@@ -2939,10 +2942,10 @@
 	    [:Common, :Common, :CūC, :Perfect, "-mīt ~ -mitt-"],
 	    [:IClass, :B, :aCC, :Perfect, "ītarik-"],
 	    [:Common, :St, :ECC, :Preterite, "uštēpiš-"],
-	    [:a-uClass, :Ntn, :CCa, :Preterite, "-ttamla ~ -ttamlV̂"],
-	    [:a-uClass, :Ntn, :NCC, :Preterite, "-ttanqar-"],
+	    [:a_uClass, :Ntn, :CCa, :Preterite, "-ttamla ~ -ttamlV̂"],
+	    [:a_uClass, :Ntn, :NCC, :Preterite, "-ttanqar-"],
 	    [:EClass, :Stn, :CCe, :Present, "uštenelqe ~ uštenelqV̂"],
-	    [:a-uClass, :N, :CūC, :Perfect, "⊤"],
+	    [:a_uClass, :N, :CūC, :Perfect, "⊤"],
 	    [:EClass, :Stn, :CCe, :Perfect, "uštetelqi ~ uštetelqV̂"],
 	    [:Common, :St, :ECC, :Present, "ušteppeš-"],
 	    [:Common, :D, :NCC, :Present, "-naqqar-"],
@@ -2952,10 +2955,10 @@
 	    [:Common, :Bt, :CCC, :Perfect, "-ptatras-"],
 	    [:EClass, :Dt, :CCe, :Present, "-lteneqqe ~ -ltanaqqa ~ -lteneqqV̂ ~ -ltanaqqV̂"],
 	    [:Common, :Common, :CūC, :Preterite, "ušmīt ~ ušmitt-"],
-	    [:a-uClass, :B, :aCC, :Preterite, "īḫuz-"],
+	    [:a_uClass, :B, :aCC, :Preterite, "īḫuz-"],
 	    [:EClass, :Dtn, :CCe, :Present, "-lteneqqe ~ -ltanaqqa ~ -lteneqqV̂ ~ -ltanaqqV̂"],
 	    [:IClass, :N, :CCi, :Perfect, "-ttabni ~ -ttabnV̂"],
-	    [:a-uClass, :N, :CūC, :Preterite, "-ddīk- ~ -ddūk-"],
+	    [:a_uClass, :N, :CūC, :Preterite, "-ddīk- ~ -ddūk-"],
 	    [:Common, :D, :CCa, :Present, "-malla ~ -mallV̂"],
 	    [:EClass, :N, :CūC, :Preterite, "-nnēr-"],
 	    [:aClass, :St, :WCC, :Perfect, "uštatābil-"],
@@ -2965,28 +2968,28 @@
 	    [:aClass, :Common, :WCC, :Perfect, "uštābil-"],
 	    [:IClass, :Ntn, :ECC, :Present, "-ttenenzib- ~ -ttenezzib-"],
 	    [:Common, :B, :WCC, :Preterite, "urid- ~ ītir-"],
-	    [:a-uClass, :B, :CūC, :Present, "-kân ~ -kunn-"],
-	    [:e-uClass, :N, :ECC, :Preterite, "-nnepiš-"],
+	    [:a_uClass, :B, :CūC, :Present, "-kân ~ -kunn-"],
+	    [:e_uClass, :N, :ECC, :Preterite, "-nnepiš-"],
 	    [:aClass, :Btn, :CCa, :Perfect, "-mtatalla ~ -mtatallV̂"],
 	    [:IClass, :Ntn, :ECC, :Preterite, "-ttenzib- ~ -ttezzib-"],
 	    [:IClass, :N, :CCi, :Preterite, "-bbani ~ -bbanV̂"],
-	    [:a-uClass, :Bt, :CūC, :Preterite, "-ktūn-"],
+	    [:a_uClass, :Bt, :CūC, :Preterite, "-ktūn-"],
 	    [:UClass, :Btn, :ECC, :Present, "ītenerrub-"],
 	    [:Common, :Dtn, :ECC, :Present, "ūteneppeš-"],
-	    [:a-uClass, :Btn, :CūC, :Present, "-ktanân ~ -ktanunn-"],
+	    [:a_uClass, :Btn, :CūC, :Present, "-ktanân ~ -ktanunn-"],
 	    [:IClass, :B, :NCC, :Preterite, "-kkis-"],
-	    [:a-uClass, :N, :NCC, :Present, "-nnaqqar-"],
+	    [:a_uClass, :N, :NCC, :Present, "-nnaqqar-"],
 	    [:IClass, :Btn, :aCC, :Preterite, "ītarrik-"],
 	    [:EClass, :St, :WCC, :Preterite, "uštērid-"],
-	    [:a-uClass, :N, :CūC, :Present, "-ddâk ~ -ddukk-"],
+	    [:a_uClass, :N, :CūC, :Present, "-ddâk ~ -ddukk-"],
 	    [:aClass, :B, :CCa, :Preterite, "-mla ~ -mlV̂"],
 	    [:Common, :Stn, :CCa, :Preterite, "-mli ~ -mlV̂"],
 	    [:Common, :Dtn, :CCa, :Perfect, "-mtatalli ~ -mtatallV̂"],
 	    [:IClass, :N, :NCC, :Present, "-nnakkis-"],
 	    [:Common, :Dt, :WCC, :Preterite, "ūtaššir-"],
-	    [:a-uClass, :Ntn, :NCC, :Perfect, "-ttatanqar-"],
+	    [:a_uClass, :Ntn, :NCC, :Perfect, "-ttatanqar-"],
 	    [:Common, :Dtn, :CCa, :Preterite, "-mtalli ~ -mtallV̂"],
-	    [:e-uClass, :Ntn, :ECC, :Preterite, "-ttenpeš- ~ -tteppeš-"],
+	    [:e_uClass, :Ntn, :ECC, :Preterite, "-ttenpeš- ~ -tteppeš-"],
 	    [:UClass, :B, :NCC, :Present, "-nassuk-"],
 	    [:Common, :St, :CCC, :Present, "-pras-"],
 	    [:UClass, :Bt, :NCC, :Present, "-ttassuk-"],
@@ -2995,13 +2998,13 @@
 	    [:Common, :Stn, :CCC, :Preterite, "-pris-"],
 	    [:Common, :St, :aCC, :Preterite, "uštāḫiz-"],
 	    [:IClass, :N, :ECC, :Perfect, "-ttenzib-"],
-	    [:a-uClass, :Ntn, :aCC, :Preterite, "-ttanḫaz- ~ -ttaḫḫaz-"],
+	    [:a_uClass, :Ntn, :aCC, :Preterite, "-ttanḫaz- ~ -ttaḫḫaz-"],
 	    [:Common, :St, :NCC, :Perfect, "-qqer-"],
 	    [:UClass, :N, :CCu, :Preterite, "-mmani ~ -mmanV̂"],
-	    [:a-uClass, :B, :NCC, :Perfect, "-ttaqar-"],
+	    [:a_uClass, :B, :NCC, :Perfect, "-ttaqar-"],
 	    [:IClass, :B, :aCC, :Preterite, "īrik-"],
-	    [:a-iClass, :N, :CūC, :Perfect, "⊤"],
-	    [:a-uClass, :N, :NCC, :Perfect, "-ttanqar-"],
+	    [:a_iClass, :N, :CūC, :Perfect, "⊤"],
+	    [:a_uClass, :N, :NCC, :Perfect, "-ttanqar-"],
 	    [:EClass, :Bt, :CCe, :Present, "-lteqqe ~ -lteqqV̂"],
 	    [:Common, :Dt, :CCC, :Perfect, "-ptatarris-"],
 	    [:UClass, :N, :CCu, :Perfect, "-ttamnu ~ -ttamnV̂"],
@@ -3019,36 +3022,36 @@
 	    [:Common, :Dt, :CCC, :Preterite, "-ptarris-"],
 	    [:Common, :Dtn, :aCC, :Preterite, "ūtaḫḫiz-"],
 	    [:IClass, :Btn, :aCC, :Perfect, "ītatarrik-"],
-	    [:e-uClass, :Ntn, :ECC, :Present, "-ttenenpeš- ~ -tteneppeš-"],
+	    [:e_uClass, :Ntn, :ECC, :Present, "-ttenenpeš- ~ -tteneppeš-"],
 	    [:aClass, :N, :CCa, :Present, "-malla ~ -mmallV̂"],
 	    [:Common, :Dtn, :CūC, :Preterite, "-ktīn ~ -ktinn-"],
 	    [:EClass, :Btn, :CCe, :Perfect, "-lteteqqe ~ -lteteqqV̂"],
 	    [:aClass, :St, :WCC, :Present, "uštabbal-"],
 	    [:IClass, :Bt, :NCC, :Present, "-ttakkis-"],
-	    [:a-iClass, :N, :CūC, :Preterite, "-qqīš-"],
+	    [:a_iClass, :N, :CūC, :Preterite, "-qqīš-"],
 	    [:IClass, :B, :NCC, :Perfect, "-ttakis-"],
 	    [:aClass, :N, :CCa, :Preterite, "-mmali ~ -mmalV̂"],
 	    [:Common, :Common, :aCC, :Preterite, "ušāḫiz-"],
-	    [:a-uClass, :B, :aCC, :Present, "iḫḫaz-"],
+	    [:a_uClass, :B, :aCC, :Present, "iḫḫaz-"],
 	    [:EClass, :St, :CCe, :Preterite, "uštelqi ~ uštelqV̂"],
 	    [:Common, :Bt, :Alk, :Preterite, "-ttalak-"],
 	    [:EClass, :Stn, :CCe, :Preterite, "uštelqi ~ uštelqV̂"],
 	    [:Common, :Dtn, :CCa, :Present, "-mtanalla ~ -mtanallV̂"],
-	    [:e-uClass, :B, :ECC, :Preterite, "īpuš-"],
+	    [:e_uClass, :B, :ECC, :Preterite, "īpuš-"],
 	    [:Common, :Btn, :CCC, :Preterite, "-ptarras-"],
 	    [:Common, :D, :ECC, :Preterite, "-ppiš-"],
 	    [:IClass, :B, :ECC, :Perfect, "ītezib-"],
 	    [:Common, :Bt, :CCC, :Present, "-ptarras-"],
 	    [:EClass, :Btn, :CCe, :Present, "-lteneqqe ~ -lteneqqV̂"],
-	    [:e-uClass, :B, :ECC, :Present, "-ppeš- ~ -ppuš-"],
+	    [:e_uClass, :B, :ECC, :Present, "-ppeš- ~ -ppuš-"],
 	    [:Common, :Common, :ECC, :Present, "ušeppeš-"],
 	    [:IClass, :B, :ECC, :Preterite, "īzib-"],
-	    [:e-uClass, :Btn, :ECC, :Perfect, "īteteppeš-"],
+	    [:e_uClass, :Btn, :ECC, :Perfect, "īteteppeš-"],
 	    [:Common, :B, :CCC, :Perfect, "-ptaras-"],
 	    [:Common, :D, :ECC, :Present, "-ppaš-"],
 	    [:Common, :Dt, :CūC, :Perfect, "-ktatīn ~ ktatinn-"],
-	    [:a-iClass, :B, :Alk, :Preterite, "-llik-"],
-	    [:a-uClass, :Ntn, :aCC, :Present, "-ttananḫaz- ~ -ttanaḫḫaz-"],
+	    [:a_iClass, :B, :Alk, :Preterite, "-llik-"],
+	    [:a_uClass, :Ntn, :aCC, :Present, "-ttananḫaz- ~ -ttanaḫḫaz-"],
 	    [:EClass, :Stn, :WCC, :Present, "uštenerred-"],
 	    [:IClass, :B, :NCC, :Present, "-nakkis-"],
 	    [:UClass, :Btn, :aCC, :Present, "ītanakkus-"],
