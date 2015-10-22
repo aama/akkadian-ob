@@ -2606,7 +2606,7 @@
 	    [:GenAcc, :Fem, :Plural, :Person2, "kināti"]]
     }
     {:label "akkadian_OB-PPossInd"
-    :note "Huehnergard2005 p. 273-74;appear as predicates of a verbless clause (\\the house is mine\\) or to emphasize possession. See Huehnergard p. 273 for more information."
+    :note "Huehnergard2005 p. 273-74;appear as predicates of a verbless clause ('the house is mine') or to emphasize possession. See Huehnergard p. 273 for more information."
     :common {:morpheme :PROPOSSIND,
 	    :pos :Pronoun,
 	    :proClass :PossInd}
@@ -2637,7 +2637,7 @@
 	    [:Masc, :Singular, :Singular, :Person2, "kûm ~ kêm ~ kâm"]]
     }
     {:label "akkadian_OB-PPoss"
-    :note "HUEHNEGARD2005 pp. 84-89;1cs possessive suffix varies:-ī before \\all singular nouns and adjectives in the nom. and acc.\\;otherwise,-ya is used."
+    :note "HUEHNEGARD2005 pp. 84-89;1cs possessive suffix varies:-ī before 'all singular nouns and adjectives in the nom. and acc.'; otherwise,-ya is used."
     :common {:case :Possessive,
 	    :morpheme :PROPOSS,
 	    :pos :Pronoun,
@@ -2655,7 +2655,7 @@
 	    [:Fem, :Singular, :Person2, "-ki"]]
     }
     {:label "akkadian_OB-PObjClitic"
-    :note "Huehnergard p. 169;Akkadian/OB attaches two sets of suffixes on verbal forms,one paradigm for the acc. and another for the dat. Huehnergard puts both sets under the heading \\Object Pronominal Suffixes on the Verb,\\§18.2."
+    :note "Huehnergard p. 169;Akkadian/OB attaches two sets of suffixes on verbal forms,one paradigm for the acc. and another for the dat. Huehnergard puts both sets under the heading 'Object Pronominal Suffixes on the Verb' §18.2."
     :common {:morpheme :PROOBJCLITIC,
 	    :pos :Pronoun,
 	    :proClass :ObjClitic}
@@ -3090,7 +3090,7 @@
 	    [:Oblique, :Near, :Masc, :Plural, "annûtim"],
 	    [:Genitive, :Far, :Fem, :Singular, "šuāti ~ šâti ~ šiāti"]]
     }
-    {:label "aama:pdgmlabel akkadian_OB-VSubjMarker"
+    {:label "akkadian_OB-VSubjMarker"
     :common {:pos :Verb,
 	    :token-stem "_NULL",
 	    :morpheme :SUBJMARKER,
