@@ -1,9 +1,0 @@
-pom.xml
-*jar
-*rdf
-*ttl
-*html
-/lib/
-/classes/
-/targets/
-.lein-deps-sum
