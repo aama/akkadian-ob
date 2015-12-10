@@ -10,12 +10,12 @@
 	  :deixis [:Far, :Near]
 	  :derivedStem [:B, :Bt, :Btn, :Common, :D, :Dt, :Dtn, :N, :Ntn, :S, :St, :Stn]
 	  :gender [:Common, :Fem, :Masc]
-	  :genderHead [:Fem, :Masc]
-	  :numHead [:Plural, :Singular]
+	  :genderHead [:HeadFem, :HeadMasc]
+	  :numHead [:HeadPlural, :HeadSingular]
 	  :number [:Plural, :Singular]
 	  :person [:Person1, :Person2, :Person3]
 	  :pos [:Pronoun, :Verb]
-	  :proClass [:Demonstrative, :Independent, :ObjClitic, :PossInd, :Possessive]
+	  :proClass [:Demonstrative, :Independent, :ObjClitic, :PossInd, :PossSuff]
 	  :rootClass [:Alk, :CCC, :CCa, :CCe, :CCi, :CCu, :CCw, :CaC, :CeC, :CiC, :CuC, :CāC, :CēC, :CīC, :CūC, :ECC, :NCC, :WCC, :ACC]
 	  :tam [:Imperative, :Perfect, :Precative, :Present, :Preterite, :Vetitive]
 	  :morphClass [:SubjMarker, :Theme]
@@ -2617,37 +2617,37 @@
 	    :pos :Pronoun,
 	    :proClass :PossInd}
     :terms [[:genderHead, :numHead, :number, :person, :token]  ;; schema
-	    [:Fem, :Singular, :Plural, :Person1, "niattum ~ niattun"],
-	    [:Fem, :Plural, :Plural, :Person1, "⊤"],
-	    [:Masc, :Plural, :Plural, :Person1, "nûttum ~ nûttun"],
-	    [:Masc, :Singular, :Singular, :Person1, "yûm (yaʾum) ~ yêm ~ yâm"],
-	    [:Masc, :Plural, :Singular, :Person2, "kûttum ~ kûttun"],
-	    [:Fem, :Singular, :Plural, :Person2, "⊤"],
-	    [:Fem, :Plural, :Plural, :Person2, "⊤"],
-	    [:Fem, :Plural, :Singular, :Person1, "yât(t)um ~ yât(t)un"],
-	    [:Masc, :Singular, :Plural, :Person3, "šunûm ~ šunîm ~ šuniam"],
-	    [:Masc, :Plural, :Singular, :Person3, "šûttum ~ šûttun"],
-	    [:Fem, :Singular, :Singular, :Person3, "šattum ~ šattun"],
-	    [:Fem, :Plural, :Singular, :Person3, "⊤"],
-	    [:Fem, :Plural, :Singular, :Person2, "kâttum ~ kâttun"],
-	    [:Masc, :Plural, :Plural, :Person3, "⊤"],
-	    [:Fem, :Singular, :Singular, :Person1, "yattum ~ yattun"],
-	    [:Fem, :Singular, :Singular, :Person2, "kattum ~ kattun"],
-	    [:Masc, :Plural, :Singular, :Person1, "yaʾūt(t)um ~ yaʾūt(t)un ~ yût(t)um ~ yût(t)un"],
-	    [:Fem, :Plural, :Plural, :Person3, "⊤"],
-	    [:Masc, :Plural, :Plural, :Person2, "⊤"],
-	    [:Masc, :Singular, :Singular, :Person3, "šûm ~ šêm ~ šuʾam (šâm)"],
-	    [:Masc, :Singular, :Plural, :Person2, "kunûm"],
-	    [:Fem, :Singular, :Plural, :Person3, "⊤"],
-	    [:Masc, :Singular, :Plural, :Person1, "nûm ~ nîm ~ nâm (niam)"],
-	    [:Masc, :Singular, :Singular, :Person2, "kûm ~ kêm ~ kâm"]]
+	    [:HeadFem, :HeadSingular, :Plural, :Person1, "niattum ~ niattun"],
+	    [:HeadFem, :HeadPlural, :Plural, :Person1, "⊤"],
+	    [:HeadMasc, :HeadPlural, :Plural, :Person1, "nûttum ~ nûttun"],
+	    [:HeadMasc, :HeadSingular, :Singular, :Person1, "yûm (yaʾum) ~ yêm ~ yâm"],
+	    [:HeadMasc, :HeadPlural, :Singular, :Person2, "kûttum ~ kûttun"],
+	    [:HeadFem, :HeadSingular, :Plural, :Person2, "⊤"],
+	    [:HeadFem, :HeadPlural, :Plural, :Person2, "⊤"],
+	    [:HeadFem, :HeadPlural, :Singular, :Person1, "yât(t)um ~ yât(t)un"],
+	    [:HeadMasc, :HeadSingular, :Plural, :Person3, "šunûm ~ šunîm ~ šuniam"],
+	    [:HeadMasc, :HeadPlural, :Singular, :Person3, "šûttum ~ šûttun"],
+	    [:HeadFem, :HeadSingular, :Singular, :Person3, "šattum ~ šattun"],
+	    [:HeadFem, :HeadPlural, :Singular, :Person3, "⊤"],
+	    [:HeadFem, :HeadPlural, :Singular, :Person2, "kâttum ~ kâttun"],
+	    [:HeadMasc, :HeadPlural, :Plural, :Person3, "⊤"],
+	    [:HeadFem, :HeadSingular, :Singular, :Person1, "yattum ~ yattun"],
+	    [:HeadFem, :HeadSingular, :Singular, :Person2, "kattum ~ kattun"],
+	    [:HeadMasc, :HeadPlural, :Singular, :Person1, "yaʾūt(t)um ~ yaʾūt(t)un ~ yût(t)um ~ yût(t)un"],
+	    [:HeadFem, :HeadPlural, :Plural, :Person3, "⊤"],
+	    [:HeadMasc, :HeadPlural, :Plural, :Person2, "⊤"],
+	    [:HeadMasc, :HeadSingular, :Singular, :Person3, "šûm ~ šêm ~ šuʾam (šâm)"],
+	    [:HeadMasc, :HeadSingular, :Plural, :Person2, "kunûm"],
+	    [:HeadFem, :HeadSingular, :Plural, :Person3, "⊤"],
+	    [:HeadMasc, :HeadSingular, :Plural, :Person1, "nûm ~ nîm ~ nâm (niam)"],
+	    [:HeadMasc, :HeadSingular, :Singular, :Person2, "kûm ~ kêm ~ kâm"]]
     }
     {:label "akkadian_OB-PPoss"
     :note "HUEHNEGARD2005 pp. 84-89;1cs possessive suffix varies:-ī before 'all singular nouns and adjectives in the nom. and acc.'; otherwise,-ya is used."
     :common {:case :Possessive,
 	    :morpheme :PROPOSS,
 	    :pos :Pronoun,
-	    :proClass :Possessive}
+	    :proClass :PossSuff}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "-ī ~ ya"],
 	    [:Masc, :Plural, :Person3, "-šunu"],
