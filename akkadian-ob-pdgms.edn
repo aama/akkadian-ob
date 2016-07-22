@@ -88,9 +88,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤amur" "amur" "_NULL"]
-            [:Singular :Fem "⊤amr-ī" "amr" "-ī"]
-            [:Plural :Common "⊤amr-ā" "amr" "-ā"]]
+            [:Singular :Masc "amur" "amur" "_NULL"]
+            [:Singular :Fem "amr-ī" "amr" "-ī"]
+            [:Plural :Common "amr-ā" "amr" "-ā"]]
     }
     {:label "akkadian_OB-VACCA-uClassPerf-amr"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
@@ -202,9 +202,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤alik" "alik" "_NULL"]
-            [:Singular :Fem "⊤alk-ī" "alk" "-ī"]
-            [:Plural :Common "⊤alk-ā" "alk" "-ā"]]
+            [:Singular :Masc "alik" "alik" "_NULL"]
+            [:Singular :Fem "alk-ī" "alk" "-ī"]
+            [:Plural :Common "alk-ā" "alk" "-ā"]]
     }
     {:label "akkadian_OB-VCCCA-iClassImprtv-wrd"
     :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
@@ -218,9 +218,9 @@
             :token-pref "_NULL",
             :tam :Imperative}
     :terms [[:number :gender :token :token-suff] ;; schema
-            [:Singular :Masc "⊤rid" "_NULL"]
-            [:Singular :Fem "⊤rid-ī" "-ī"]
-            [:Plural :Common "⊤rid-ā" "-ā"]]
+            [:Singular :Masc "rid" "_NULL"]
+            [:Singular :Fem "rid-ī" "-ī"]
+            [:Plural :Common "rid-ā" "-ā"]]
     }
     {:label "akkadian_OB-VCCCA-iClassPerf-alk"
     :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
@@ -430,9 +430,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤purus" "purus" "_NULL"]
-            [:Singular :Fem "⊤purs-ī" "purs" "-ī"]
-            [:Plural :Common "⊤purs-ā" "purs" "-ā"]]
+            [:Singular :Masc "purus" "purus" "_NULL"]
+            [:Singular :Fem "purs-ī" "purs" "-ī"]
+            [:Plural :Common "purs-ā" "purs" "-ā"]]
     }
     {:label "akkadian_OB-VCCCA-uPerf-prs"
     :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
@@ -544,9 +544,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤ṣabat" "ṣabat" "_NULL"]
-            [:Singular :Fem "⊤ṣabt-ī" "ṣabt" "-ī"]
-            [:Plural :Common "⊤ṣabt-ā" "ṣabt" "-ā"]]
+            [:Singular :Masc "ṣabat" "ṣabat" "_NULL"]
+            [:Singular :Fem "ṣabt-ī" "ṣabt" "-ī"]
+            [:Plural :Common "ṣabt-ā" "ṣabt" "-ā"]]
     }
     {:label "akkadian_OB-VCCCAClassPerf-sbt"
     :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
@@ -658,9 +658,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤arik" "arik" "_NULL"]
-            [:Singular :Fem "⊤ark-ī" "ark" "-ī"]
-            [:Plural :Common "⊤ark-ā" "ark" "-ā"]]
+            [:Singular :Masc "arik" "arik" "_NULL"]
+            [:Singular :Fem "ark-ī" "ark" "-ī"]
+            [:Plural :Common "ark-ā" "ark" "-ā"]]
     }
     {:label "akkadian_OB-VCCCIClassImprtv-srq"
     :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
@@ -673,9 +673,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤širiq" "širiq" "_NULL"]
-            [:Singular :Fem "⊤širq-ī" "širq" "-ī"]
-            [:Plural :Common "⊤širq-ā" "širq" "-ā"]]
+            [:Singular :Masc "širiq" "širiq" "_NULL"]
+            [:Singular :Fem "širq-ī" "širq" "-ī"]
+            [:Plural :Common "širq-ā" "širq" "-ā"]]
     }
     {:label "akkadian_OB-VCCCIClassPerf-ark"
     :note "Huehnergard2005 8a-b (pp. 616-617)"
@@ -886,9 +886,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤akuš" "akuš" "_NULL"]
-            [:Singular :Fem "⊤akš-ī" "akš" "-ī"]
-            [:Plural :Common "⊤akš-ā" "akš" "-ā"]]
+            [:Singular :Masc "akuš" "akuš" "_NULL"]
+            [:Singular :Fem "akš-ī" "akš" "-ī"]
+            [:Plural :Common "akš-ā" "akš" "-ā"]]
     }
     {:label "akkadian_OB-VCCCUClassPerf-aks"
     :note "Huehnergard2005 8a-b (pp. 616-617)"
@@ -1000,9 +1000,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤mila" "mila" "_NULL"]
-            [:Singular :Fem "⊤mil-î" "mil" "-î"]
-            [:Plural :Common "⊤mil-â" "mil" "-â"]]
+            [:Singular :Masc "mila" "mila" "_NULL"]
+            [:Singular :Fem "mil-î" "mil" "-î"]
+            [:Plural :Common "mil-â" "mil" "-â"]]
     }
     {:label "akkadian_OB-VCCaPerf-mla"
     :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
@@ -1110,9 +1110,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤leqe/liqe" "leqe/liqe" "_NULL"]
-            [:Singular :Fem "⊤leq/liq-î" "leq/liq" "-î"]
-            [:Plural :Common "⊤leqe/liqe-ā" "leqe/liqe" "-ā"]]
+            [:Singular :Masc "leqe/liqe" "leqe/liqe" "_NULL"]
+            [:Singular :Fem "leq/liq-î" "leq/liq" "-î"]
+            [:Plural :Common "leqe/liqe-ā" "leqe/liqe" "-ā"]]
     }
     {:label "akkadian_OB-VCCePerf-lqe"
     :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
@@ -1220,9 +1220,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤bini" "bini" "_NULL"]
-            [:Singular :Fem "⊤bin-î" "bin" "-î"]
-            [:Plural :Common "⊤bini-ā" "bini" "-ā"]]
+            [:Singular :Masc "bini" "bini" "_NULL"]
+            [:Singular :Fem "bin-î" "bin" "-î"]
+            [:Plural :Common "bini-ā" "bini" "-ā"]]
     }
     {:label "akkadian_OB-VCCiPerf-bni"
     :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
@@ -1330,9 +1330,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤ḫudu" "ḫudu" "_NULL"]
-            [:Singular :Fem "⊤ḫud-î" "ḫud" "-î"]
-            [:Plural :Common "⊤ḫud-â" "ḫud" "-â"]]
+            [:Singular :Masc "ḫudu" "ḫudu" "_NULL"]
+            [:Singular :Fem "ḫud-î" "ḫud" "-î"]
+            [:Plural :Common "ḫud-â" "ḫud" "-â"]]
     }
     {:label "akkadian_OB-VCCuPerf-hdu"
     :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
@@ -1441,9 +1441,9 @@
             :token-pref "_NULL",
             :tam :Imperative}
     :terms [[:number :gender :token :token-suff] ;; schema
-            [:Singular :Masc "⊤qīš" "_NULL"]
-            [:Singular :Fem "⊤qīš-ī" "-ī"]
-            [:Plural :Common "⊤qīš-ā" "-ā"]]
+            [:Singular :Masc "qīš" "_NULL"]
+            [:Singular :Fem "qīš-ī" "-ī"]
+            [:Plural :Common "qīš-ā" "-ā"]]
     }
     {:label "akkadian_OB-VCiCPerf-qis"
     :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
@@ -1556,9 +1556,9 @@
             :token-pref "_NULL",
             :tam :Imperative}
     :terms [[:number :gender :token :token-suff] ;; schema
-            [:Singular :Masc "⊤kūn" "_NULL"]
-            [:Singular :Fem "⊤kūn-ī" "-ī"]
-            [:Plural :Common "⊤kūn-ā" "-ā"]]
+            [:Singular :Masc "kūn" "_NULL"]
+            [:Singular :Fem "kūn-ī" "-ī"]
+            [:Plural :Common "kūn-ā" "-ā"]]
     }
     {:label "akkadian_OB-VCuCPerf-kun"
     :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
@@ -1670,9 +1670,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤epuš" "epuš" "_NULL"]
-            [:Singular :Fem "⊤epš-ī" "epš" "-ī"]
-            [:Plural :Common "⊤epš-ā" "epš" "-ā"]]
+            [:Singular :Masc "epuš" "epuš" "_NULL"]
+            [:Singular :Fem "epš-ī" "epš" "-ī"]
+            [:Plural :Common "epš-ā" "epš" "-ā"]]
     }
     {:label "akkadian_OB-VECCE-uClassPerf-prs"
     :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
@@ -1784,9 +1784,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤tezib" "tezib" "_NULL"]
-            [:Singular :Fem "⊤tezb-ī" "tezb" "-ī"]
-            [:Plural :Common "⊤tezb-ā" "tezb" "-ā"]]
+            [:Singular :Masc "tezib" "tezib" "_NULL"]
+            [:Singular :Fem "tezb-ī" "tezb" "-ī"]
+            [:Plural :Common "tezb-ā" "tezb" "-ā"]]
     }
     {:label "akkadian_OB-VECCIClassPerf-ezb"
     :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
@@ -1898,9 +1898,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤erub" "erub" "_NULL"]
-            [:Singular :Fem "⊤erb-ī" "erb" "-ī"]
-            [:Plural :Common "⊤erb-ā" "erb" "-ā"]]
+            [:Singular :Masc "erub" "erub" "_NULL"]
+            [:Singular :Fem "erb-ī" "erb" "-ī"]
+            [:Plural :Common "erb-ā" "erb" "-ā"]]
     }
     {:label "akkadian_OB-VECCUClassPerf-erb"
     :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
@@ -2013,9 +2013,9 @@
             :token-pref "_NULL",
             :tam :Imperative}
     :terms [[:number :gender :token :token-suff] ;; schema
-            [:Singular :Masc "⊤nēr ~ nār" "_NULL"]
-            [:Singular :Fem "⊤nēr ~ nār-ī" "-ī"]
-            [:Plural :Common "⊤nēr ~ nār-ā" "-ā"]]
+            [:Singular :Masc "nēr ~ nār" "_NULL"]
+            [:Singular :Fem "nēr ~ nār-ī" "-ī"]
+            [:Plural :Common "nēr ~ nār-ā" "-ā"]]
     }
     {:label "akkadian_OB-VImprtv-sal"
     :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
@@ -2029,9 +2029,9 @@
             :token-pref "_NULL",
             :tam :Imperative}
     :terms [[:number :gender :token :token-suff] ;; schema
-            [:Singular :Masc "⊤šāl" "_NULL"]
-            [:Singular :Fem "⊤šāl-ī" "-ī"]
-            [:Plural :Common "⊤šāl-ā" "-ā"]]
+            [:Singular :Masc "šāl" "_NULL"]
+            [:Singular :Fem "šāl-ī" "-ī"]
+            [:Plural :Common "šāl-ā" "-ā"]]
     }
     {:label "akkadian_OB-VNCCA-uClassImprtv-nqr"
     :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
@@ -2044,9 +2044,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤uqur" "uqur" "_NULL"]
-            [:Singular :Fem "⊤uqr-ī" "uqr" "-ī"]
-            [:Plural :Common "⊤uqr-ā" "uqr" "-ā"]]
+            [:Singular :Masc "uqur" "uqur" "_NULL"]
+            [:Singular :Fem "uqr-ī" "uqr" "-ī"]
+            [:Plural :Common "uqr-ā" "uqr" "-ā"]]
     }
     {:label "akkadian_OB-VNCCA-uClassPerf-nqr"
     :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
@@ -2158,9 +2158,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤ikis" "ikis" "_NULL"]
-            [:Singular :Fem "⊤iks-ī" "iks" "-ī"]
-            [:Plural :Common "⊤iks-ā" "iks" "-ā"]]
+            [:Singular :Masc "ikis" "ikis" "_NULL"]
+            [:Singular :Fem "iks-ī" "iks" "-ī"]
+            [:Plural :Common "iks-ā" "iks" "-ā"]]
     }
     {:label "akkadian_OB-VNCCIClassPerf-nks"
     :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
@@ -2272,9 +2272,9 @@
             :tam :Imperative,
             :token-pref "_NULL"}
     :terms [[:number :gender :token :token-stem :token-suff] ;; schema
-            [:Singular :Masc "⊤usuk" "usuk" "_NULL"]
-            [:Singular :Fem "⊤usk-ī" "usk" "-ī"]
-            [:Plural :Common "⊤usk-ā" "usk" "-ā"]]
+            [:Singular :Masc "usuk" "usuk" "_NULL"]
+            [:Singular :Fem "usk-ī" "usk" "-ī"]
+            [:Plural :Common "usk-ā" "usk" "-ā"]]
     }
     {:label "akkadian_OB-VNCCUClassPerf-nsk"
     :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
@@ -2589,8 +2589,8 @@
             [:Genitive :Far :Singular :Fem "šuāti ~ šâti ~ šiāti"]
             [:Genitive :Near :Singular :Masc "annîm"]
             [:Genitive :Near :Singular :Fem "annītim"]
-            [:Nominative :Far :Singular :Masc "⊤"]
-            [:Nominative :Far :Singular :Fem "⊤"]
+            [:Nominative :Far :Singular :Masc ""]
+            [:Nominative :Far :Singular :Fem ""]
             [:Nominative :Far :Plural :Masc "šunūti"]
             [:Nominative :Far :Plural :Fem "šināti"]
             [:Nominative :Near :Singular :Masc "annûm"]
@@ -2631,8 +2631,8 @@
             [:Nominative :Singular :Person1 :Common "anāku"]
             [:Nominative :Singular :Person2 :Masc "atta"]
             [:Nominative :Singular :Person2 :Fem "atti"]
-            [:Nominative :Singular :Person3 :Masc "⊤"]
-            [:Nominative :Singular :Person3 :Fem "⊤"]
+            [:Nominative :Singular :Person3 :Masc ""]
+            [:Nominative :Singular :Person3 :Fem ""]
             [:Nominative :Plural :Person1 :Common "nīnū"]
             [:Nominative :Plural :Person2 :Masc "attunu"]
             [:Nominative :Plural :Person2 :Fem "attina"]
@@ -2692,22 +2692,22 @@
     :terms [[:genderHead :numHead :number :person :token] ;; schema
             [:HeadFem :HeadPlural :Singular :Person1 "yât(t)um ~ yât(t)un"]
             [:HeadFem :HeadPlural :Singular :Person2 "kâttum ~ kâttun"]
-            [:HeadFem :HeadPlural :Singular :Person3 "⊤"]
-            [:HeadFem :HeadPlural :Plural :Person1 "⊤"]
-            [:HeadFem :HeadPlural :Plural :Person2 "⊤"]
-            [:HeadFem :HeadPlural :Plural :Person3 "⊤"]
+            [:HeadFem :HeadPlural :Singular :Person3 ""]
+            [:HeadFem :HeadPlural :Plural :Person1 ""]
+            [:HeadFem :HeadPlural :Plural :Person2 ""]
+            [:HeadFem :HeadPlural :Plural :Person3 ""]
             [:HeadFem :HeadSingular :Singular :Person1 "yattum ~ yattun"]
             [:HeadFem :HeadSingular :Singular :Person2 "kattum ~ kattun"]
             [:HeadFem :HeadSingular :Singular :Person3 "šattum ~ šattun"]
             [:HeadFem :HeadSingular :Plural :Person1 "niattum ~ niattun"]
-            [:HeadFem :HeadSingular :Plural :Person2 "⊤"]
-            [:HeadFem :HeadSingular :Plural :Person3 "⊤"]
+            [:HeadFem :HeadSingular :Plural :Person2 ""]
+            [:HeadFem :HeadSingular :Plural :Person3 ""]
             [:HeadMasc :HeadPlural :Singular :Person1 "yaʾūt(t)um ~ yaʾūt(t)un ~ yût(t)um ~ yût(t)un"]
             [:HeadMasc :HeadPlural :Singular :Person2 "kûttum ~ kûttun"]
             [:HeadMasc :HeadPlural :Singular :Person3 "šûttum ~ šûttun"]
             [:HeadMasc :HeadPlural :Plural :Person1 "nûttum ~ nûttun"]
-            [:HeadMasc :HeadPlural :Plural :Person2 "⊤"]
-            [:HeadMasc :HeadPlural :Plural :Person3 "⊤"]
+            [:HeadMasc :HeadPlural :Plural :Person2 ""]
+            [:HeadMasc :HeadPlural :Plural :Person3 ""]
             [:HeadMasc :HeadSingular :Singular :Person1 "yûm (yaʾum) ~ yêm ~ yâm"]
             [:HeadMasc :HeadSingular :Singular :Person2 "kûm ~ kêm ~ kâm"]
             [:HeadMasc :HeadSingular :Singular :Person3 "šûm ~ šêm ~ šuʾam (šâm)"]
@@ -2736,7 +2736,7 @@
             [:AClass :Btn :CCa :Perfect "-mtatalla ~ -mtatallV̂"]
             [:AClass :Btn :CCa :Present "-mtanalla ~ -mtanallV̂"]
             [:AClass :Btn :CCa :Preterite "-mtalla ~ -mtallV̂"]
-            [:AClass :Btn :CūC :Perfect "⊤"]
+            [:AClass :Btn :CūC :Perfect ""]
             [:AClass :Btn :CūC :Present "-štanaʾʾal- ~ -štanâl ~ -štanall-"]
             [:AClass :Btn :CūC :Preterite "-štaʾʾal-"]
             [:AClass :Common :WCC :Perfect "uštābil-"]
@@ -2748,7 +2748,7 @@
             [:AClass :N :CCa :Perfect "-ttamla ~ -ttamlV̂"]
             [:AClass :N :CCa :Present "-malla ~ -mmallV̂"]
             [:AClass :N :CCa :Preterite "-mmali ~ -mmalV̂"]
-            [:AClass :N :CūC :Perfect "⊤"]
+            [:AClass :N :CūC :Perfect ""]
             [:AClass :N :CūC :Present "-ššâm ~ -ššamm-"]
             [:AClass :N :CūC :Preterite "-ššam-"]
             [:AClass :St :WCC :Perfect "uštatābil-"]
@@ -2766,10 +2766,10 @@
             [:A_iClass :Bt :CūC :Perfect "ittatīl-"]
             [:A_iClass :Bt :CūC :Present "ittīal ~ ittill-"]
             [:A_iClass :Bt :CūC :Preterite "ittīl-"]
-            [:A_iClass :Btn :CūC :Perfect "⊤"]
+            [:A_iClass :Btn :CūC :Perfect ""]
             [:A_iClass :Btn :CūC :Present "-qtanīaš ~ -qtanišš-"]
             [:A_iClass :Btn :CūC :Preterite "-qtīš ~ -qtišš-"]
-            [:A_iClass :N :CūC :Perfect "⊤"]
+            [:A_iClass :N :CūC :Perfect ""]
             [:A_iClass :N :CūC :Present "-qqīaš ~ -qqišš-"]
             [:A_iClass :N :CūC :Preterite "-qqīš-"]
             [:A_uClass :B :ACC :Perfect "ītaḫaz-"]
@@ -2793,7 +2793,7 @@
             [:A_uClass :Btn :ACC :Perfect "ītataḫḫaz-"]
             [:A_uClass :Btn :ACC :Present "ītanaḫḫaz-"]
             [:A_uClass :Btn :ACC :Preterite "ītaḫḫaz-"]
-            [:A_uClass :Btn :CūC :Perfect "⊤"]
+            [:A_uClass :Btn :CūC :Perfect ""]
             [:A_uClass :Btn :CūC :Present "-ktanân ~ -ktanunn-"]
             [:A_uClass :Btn :CūC :Preterite "-ktūn ~ -ktunn-"]
             [:A_uClass :Btn :NCC :Perfect "-ttataqqar-"]
@@ -2802,13 +2802,13 @@
             [:A_uClass :N :ACC :Perfect "-ttanḫaz-"]
             [:A_uClass :N :ACC :Present "-nnaḫḫaz-"]
             [:A_uClass :N :ACC :Preterite "-nnaḫiz-"]
-            [:A_uClass :N :CūC :Perfect "⊤"]
+            [:A_uClass :N :CūC :Perfect ""]
             [:A_uClass :N :CūC :Present "-ddâk ~ -ddukk-"]
             [:A_uClass :N :CūC :Preterite "-ddīk- ~ -ddūk-"]
             [:A_uClass :N :NCC :Perfect "-ttanqar-"]
             [:A_uClass :N :NCC :Present "-nnaqqar-"]
             [:A_uClass :N :NCC :Preterite "-nnaqer-"]
-            [:A_uClass :Ntn :ACC :Perfect "⊤"]
+            [:A_uClass :Ntn :ACC :Perfect ""]
             [:A_uClass :Ntn :ACC :Present "-ttananḫaz- ~ -ttanaḫḫaz-"]
             [:A_uClass :Ntn :ACC :Preterite "-ttanḫaz- ~ -ttaḫḫaz-"]
             [:A_uClass :Ntn :CCa :Perfect "-ttatamla ~ -ttatamlV̂"]
@@ -2916,7 +2916,7 @@
             [:Common :Dtn :WCC :Perfect "ūtataššir-"]
             [:Common :Dtn :WCC :Present "ūtanaššar-"]
             [:Common :Dtn :WCC :Preterite "ūtaššir-"]
-            [:Common :N :WCC :Perfect "⊤"]
+            [:Common :N :WCC :Perfect ""]
             [:Common :N :WCC :Present "-wwallad-"]
             [:Common :N :WCC :Preterite "-wwalid-"]
             [:Common :Ntn :CCC :Perfect "-ttatapras-"]
@@ -2928,7 +2928,7 @@
             [:Common :St :CCC :Perfect "-pris-"]
             [:Common :St :CCC :Present "-pras-"]
             [:Common :St :CCC :Preterite "-pris-"]
-            [:Common :St :CūC :Perfect "⊤"]
+            [:Common :St :CūC :Perfect ""]
             [:Common :St :CūC :Present "-māt ~ -matt-"]
             [:Common :St :CūC :Preterite "-mīt ~ -mitt-"]
             [:Common :St :ECC :Perfect "uštetēpiš-"]
@@ -2979,7 +2979,7 @@
             [:EClass :N :CCe :Perfect "-ttelqe ~ -ttalqe ~ -ttelqV̂ ~ -ttalqV̂"]
             [:EClass :N :CCe :Present "-lleqqe ~ -llaqqe ~ -lleqqV̂ ~ -llaqqV̂"]
             [:EClass :N :CCe :Preterite "-lleqi ~ -llaqi ~ -lleqV̂ ~ -llaqV̂"]
-            [:EClass :N :CūC :Perfect "⊤"]
+            [:EClass :N :CūC :Perfect ""]
             [:EClass :N :CūC :Present "-nnêr ~ -nnerr-"]
             [:EClass :N :CūC :Preterite "-nnēr-"]
             [:EClass :Ntn :CCe :Perfect "-ttetelqe ~ -ttetelqV̂"]
@@ -3006,7 +3006,7 @@
             [:E_uClass :N :ECC :Perfect "-ttenpeš-"]
             [:E_uClass :N :ECC :Present "-nneppeš-"]
             [:E_uClass :N :ECC :Preterite "-nnepiš-"]
-            [:E_uClass :Ntn :ECC :Perfect "⊤"]
+            [:E_uClass :Ntn :ECC :Perfect ""]
             [:E_uClass :Ntn :ECC :Present "-ttenenpeš- ~ -tteneppeš-"]
             [:E_uClass :Ntn :ECC :Preterite "-ttenpeš- ~ -tteppeš-"]
             [:IClass :B :ACC :Perfect "ītarik-"]
@@ -3054,7 +3054,7 @@
             [:IClass :Ntn :CCi :Perfect "-ttatabni ~ -ttatabnV̂"]
             [:IClass :Ntn :CCi :Present "-ttanabni ~ -ttanabnV̂"]
             [:IClass :Ntn :CCi :Preterite "-ttabni ~ -ttabnV̂"]
-            [:IClass :Ntn :ECC :Perfect "⊤"]
+            [:IClass :Ntn :ECC :Perfect ""]
             [:IClass :Ntn :ECC :Present "-ttenenzib- ~ -ttenezzib-"]
             [:IClass :Ntn :ECC :Preterite "-ttenzib- ~ -ttezzib-"]
             [:IClass :Ntn :NCC :Perfect "-ttatankis-"]
@@ -3103,46 +3103,46 @@
             :morpheme :SUBJMARKER,
             :morphClass :SubjMarker}
     :terms [[:derivedStem :number :person :gender :token :token-pref :token-suff] ;; schema
-            [:B :Singular :Person1 :Common "a-⊤" "a-" "_NULL"]
-            [:B :Singular :Person2 :Masc "ta-⊤" "ta-" "_NULL"]
-            [:B :Singular :Person2 :Fem "ta-⊤⊤" "ta-" "-ī"]
-            [:B :Singular :Person3 :Masc "i-⊤" "i-" "_NULL"]
-            [:B :Singular :Person3 :Fem "i-⊤" "ta-" "_NULL"]
-            [:B :Plural :Person1 :Common "ni-⊤" "ni-" "_NULL"]
-            [:B :Plural :Person2 :Masc "ta-⊤⊤" "ta-" "-ā"]
-            [:B :Plural :Person2 :Fem "ta-⊤⊤" "ta-" "-ā"]
-            [:B :Plural :Person3 :Masc "i-⊤⊤" "i-" "-ū"]
-            [:B :Plural :Person3 :Fem "ttti-⊤⊤" "ta-" "-ā"]
-            [:D :Singular :Person1 :Common "u-⊤" "u-" "_NULL"]
-            [:D :Singular :Person2 :Masc "tu-⊤" "tu-" "_NULL"]
-            [:D :Singular :Person2 :Fem "tu-⊤⊤" "tu-" "-ī"]
-            [:D :Singular :Person3 :Masc "u-⊤" "u-" "_NULL"]
-            [:D :Singular :Person3 :Fem "u-⊤" "tu-" "_NULL"]
-            [:D :Plural :Person1 :Common "nu-⊤" "nu-" "_NULL"]
-            [:D :Plural :Person2 :Masc "tu-⊤⊤" "tu-" "-ā"]
-            [:D :Plural :Person2 :Fem "tu-⊤⊤" "tu-" "-ā"]
-            [:D :Plural :Person3 :Masc "u-⊤⊤" "u-" "-ū"]
-            [:D :Plural :Person3 :Fem "tttu-⊤⊤" "tu-" "-ā"]
-            [:S :Singular :Person1 :Common "uša-⊤" "uša-" "_NULL"]
-            [:S :Singular :Person2 :Masc "tuša-⊤" "tuša-" "_NULL"]
-            [:S :Singular :Person2 :Fem "tuša-⊤⊤" "tuša-" "-ī"]
-            [:S :Singular :Person3 :Masc "uša-⊤" "uša-" "_NULL"]
-            [:S :Singular :Person3 :Fem "uša-⊤" "tuša-" "_NULL"]
-            [:S :Plural :Person1 :Common "nuša-⊤" "nuša-" "_NULL"]
-            [:S :Plural :Person2 :Masc "tuša-⊤⊤" "tuša-" "-ā"]
-            [:S :Plural :Person2 :Fem "tuša-⊤⊤" "tuša-" "-ā"]
-            [:S :Plural :Person3 :Masc "uša-⊤⊤" "uša-" "-ū"]
-            [:S :Plural :Person3 :Fem "tttuša-⊤⊤" "tuša-" "-ā"]
-            [:St :Singular :Person1 :Common "ušta-⊤" "ušta-" "_NULL"]
-            [:St :Singular :Person2 :Masc "tušta-⊤" "tušta-" "_NULL"]
-            [:St :Singular :Person2 :Fem "tušta-⊤⊤" "tušta-" "-ī"]
-            [:St :Singular :Person3 :Masc "ušta-⊤" "ušta-" "_NULL"]
-            [:St :Singular :Person3 :Fem "ušta-⊤" "tušta-" "_NULL"]
-            [:St :Plural :Person1 :Common "nušta-⊤" "nušta-" "_NULL"]
-            [:St :Plural :Person2 :Masc "tušta-⊤⊤" "tušta-" "-ā"]
-            [:St :Plural :Person2 :Fem "tušta-⊤⊤" "tušta-" "-ā"]
-            [:St :Plural :Person3 :Masc "ušta-⊤⊤" "ušta-" "-ū"]
-            [:St :Plural :Person3 :Fem "tttušta-⊤⊤" "tušta-" "-ā"]]
+            [:B :Singular :Person1 :Common "a-" "a-" "_NULL"]
+            [:B :Singular :Person2 :Masc "ta-" "ta-" "_NULL"]
+            [:B :Singular :Person2 :Fem "ta-" "ta-" "-ī"]
+            [:B :Singular :Person3 :Masc "i-" "i-" "_NULL"]
+            [:B :Singular :Person3 :Fem "i-" "ta-" "_NULL"]
+            [:B :Plural :Person1 :Common "ni-" "ni-" "_NULL"]
+            [:B :Plural :Person2 :Masc "ta-" "ta-" "-ā"]
+            [:B :Plural :Person2 :Fem "ta-" "ta-" "-ā"]
+            [:B :Plural :Person3 :Masc "i-" "i-" "-ū"]
+            [:B :Plural :Person3 :Fem "ttti-" "ta-" "-ā"]
+            [:D :Singular :Person1 :Common "u-" "u-" "_NULL"]
+            [:D :Singular :Person2 :Masc "tu-" "tu-" "_NULL"]
+            [:D :Singular :Person2 :Fem "tu-" "tu-" "-ī"]
+            [:D :Singular :Person3 :Masc "u-" "u-" "_NULL"]
+            [:D :Singular :Person3 :Fem "u-" "tu-" "_NULL"]
+            [:D :Plural :Person1 :Common "nu-" "nu-" "_NULL"]
+            [:D :Plural :Person2 :Masc "tu-" "tu-" "-ā"]
+            [:D :Plural :Person2 :Fem "tu-" "tu-" "-ā"]
+            [:D :Plural :Person3 :Masc "u-" "u-" "-ū"]
+            [:D :Plural :Person3 :Fem "tttu-" "tu-" "-ā"]
+            [:S :Singular :Person1 :Common "uša-" "uša-" "_NULL"]
+            [:S :Singular :Person2 :Masc "tuša-" "tuša-" "_NULL"]
+            [:S :Singular :Person2 :Fem "tuša-" "tuša-" "-ī"]
+            [:S :Singular :Person3 :Masc "uša-" "uša-" "_NULL"]
+            [:S :Singular :Person3 :Fem "uša-" "tuša-" "_NULL"]
+            [:S :Plural :Person1 :Common "nuša-" "nuša-" "_NULL"]
+            [:S :Plural :Person2 :Masc "tuša-" "tuša-" "-ā"]
+            [:S :Plural :Person2 :Fem "tuša-" "tuša-" "-ā"]
+            [:S :Plural :Person3 :Masc "uša-" "uša-" "-ū"]
+            [:S :Plural :Person3 :Fem "tttuša-" "tuša-" "-ā"]
+            [:St :Singular :Person1 :Common "ušta-" "ušta-" "_NULL"]
+            [:St :Singular :Person2 :Masc "tušta-" "tušta-" "_NULL"]
+            [:St :Singular :Person2 :Fem "tušta-" "tušta-" "-ī"]
+            [:St :Singular :Person3 :Masc "ušta-" "ušta-" "_NULL"]
+            [:St :Singular :Person3 :Fem "ušta-" "tušta-" "_NULL"]
+            [:St :Plural :Person1 :Common "nušta-" "nušta-" "_NULL"]
+            [:St :Plural :Person2 :Masc "tušta-" "tušta-" "-ā"]
+            [:St :Plural :Person2 :Fem "tušta-" "tušta-" "-ā"]
+            [:St :Plural :Person3 :Masc "ušta-" "ušta-" "-ū"]
+            [:St :Plural :Person3 :Fem "tttušta-" "tušta-" "-ā"]]
     }
 ]
 }
