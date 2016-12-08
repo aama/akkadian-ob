@@ -17,7 +17,7 @@
           :numHead [:HeadPlural :HeadSingular],
           :morphClass [:SubjMarker :Theme],
           :proClass [:Demonstrative :Independent :ObjClitic :PossInd :PossSuff],
-          :tam [:Imperative :Perfect :Precative :Present :Preterite :Vetitive],
+          :tam [:Imperative :Perfect :Precative :Present :Preterite :Vetitive :Stative],
           :number [:Plural :Singular],
           :deixis [:Far :Near]}
 :pclass {:pngClass [:person :number :gender :genderHead :numHead],
@@ -446,6 +446,27 @@
             [:Singular :Masc "purus" "purus" "_NULL"],
             [:Singular :Fem "purs-ī" "purs" "-ī"],
             [:Plural :Common "purs-ā" "purs" "-ā"]]
+    }
+    {:label "akkadian_OB-VCCCA-uStat-prs"
+    :note "Huehnergard2005 "
+    :pdgmType :Finite
+    :common {:ablautClass :A_uClass,
+             :derivedStem :B,
+             :lexeme :prs,
+             :pos :Verb,
+             :rootClass :CCC,
+             :tam :Stative}
+    :terms [[:number :person :gender :token :token-stem :token-suff],
+            [:Singular :Person1 :Common "pars-āku" "pars" "-āku"],
+            [:Singular :Person2 :Masc "pars-āta" "pars" "-āta"],
+            [:Singular :Person2 :Fem "pars-āti" "pars" "-āti"],
+            [:Singular :Person3 :Masc "paris" "pars" "_NULL"],
+            [:Singular :Person3 :Fem "pars-at" "pars" "-at"],
+            [:Plural :Person1 :Common "pars-ānu" "pars" "-ānu"],
+            [:Plural :Person2 :Masc "pars-ātunu" "pars" "-ātunu"],
+            [:Plural :Person2 :Fem "pars-ātina" "pars" "-ātina"],
+            [:Plural :Person3 :Masc "pars-ū" "pars" "-ū"],
+            [:Plural :Person3 :Fem "pars-ā" "pars" "-ā"]]
     }
     {:label "akkadian_OB-VCCCA-uPerf-prs"
     :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
