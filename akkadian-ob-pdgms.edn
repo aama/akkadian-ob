@@ -5,21 +5,20 @@
 :datasource "Huehnergard1997"
 :geodemoURL "http://oracc.museum.upenn.edu/saao/knpp/cuneiformrevealed/ https://en.wikipedia.org/wiki/Akkadian_language"
 :geodemoTXT "Old Babylonian is a variety of the Semitic Akkadian language-group, a closely related set of geographically and chronologically differentiated language varieties attested in written (cuneiform) sources from Mesopotamia (roughly, present-day Iraq) from the middle of the third millennium to the last centuries B.C.E. Old Babylonian as documented here is the standard variety of the language used in Southern Mesopotamia, centered around the political capitol Babylon during the first half of the second millennium B.C.E. There is a huge scholarly literature on Old Babylonian. The source followed here is the excellent pedagogical grammar, Huehnergard1997."
-:schemata{:gender [:Common :Fem :Masc],
-          :genderHead [:HeadFem :HeadMasc],
-          :rootClass [:Alk :CCC :CCa :CCe :CCi :CCu :CCw :CaC :CeC :CiC :CuC :CāC :CēC :CīC :CūC :ECC :NCC :WCC :ACC],
-          :case [:Accusative :Dative :GenAcc :Genitive :Nominative :Oblique :Possessive],
-          :ablautClass [:Common :EClass :IClass :UClass :Weak :A_iClass :A_uClass :AClass :E_uClass],
-          :pdgmType [:Finite :NA :Theme :SubjMarker]
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :derivedStem [:B :Bt :Btn :Common :D :Dt :Dtn :N :Ntn :S :St :Stn],
-          :numHead [:HeadPlural :HeadSingular],
-          :morphClass [:SubjMarker :Theme],
-          :proClass [:Demonstrative :Independent :ObjClitic :PossInd :PossSuff],
-          :tam [:Imperative :Perfect :Precative :Present :Preterite :Vetitive :Stative],
-          :number [:Plural :Singular],
-          :deixis [:Far :Near]}
+ :schemata {:ablautClass [:AClass  :A_iClass :A_uClass :Common :EClass :E_uClass :IClass :UClass :Weak],
+            :case [:Accusative :Dative :GenAcc :Genitive :Nominative :Oblique :Possessive],
+            :deixis [:Far :Near],
+            :derivedStem [:B :Bt :Btn :Common :D :Dt :Dtn :N :Ntn :S :St :Stn],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadFem :HeadMasc],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pos [:Pronoun :Verb],
+            :proClass [:Demonstrative :Independent :ObjClitic :PossInd :PossSuff],
+            :rootClass [:ACC :Alk :CCC :CCa :CCe :CCi :CCu :CaC :CeC :CiC :CuC :CūC :ECC :NCC :WCC],
+            :tam [:Imperative :Perfect :Precative :Present :Preterite :Stative :Vetitive]
+            :pdgmType [:Finite :SubjMarker :DERVSTEM :PRO]}
 :pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:ablautClass :rootClass],
@@ -2724,9 +2723,8 @@
 :muterms [
     {:label "akkadian_OB-PDem"
     :note "Huehnergard2005 p. 40-41. * marks an unattested form."
-    :pdgmType :NA
-    :common {:morpheme :PRODEM,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Demonstrative}
     :terms [[:case :deixis :number :gender :token],
             [:Accusative :Far :Singular :Masc "šuāšim ~ šâšim ~ šâšum"],
@@ -2752,9 +2750,8 @@
     }
     {:label "akkadian_OB-PInd"
     :note "Huehnergard2005 p. 11,272;akkadian_OB uses three different sets of independent pronouns depending on the case of the pronoun."
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:case :number :person :gender :token],
             [:Dative :Singular :Person1 :Common "yâšim"],
@@ -2790,9 +2787,8 @@
     }
     {:label "akkadian_OB-PObjClitic"
     :note "Huehnergard p. 169;Akkadian/OB attaches two sets of suffixes on verbal forms,one paradigm for the acc. and another for the dat. Huehnergard puts both sets under the heading 'Object Pronominal Suffixes on the Verb' §18.2."
-    :pdgmType :NA
-    :common {:morpheme :PROOBJCLITIC,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ObjClitic}
     :terms [[:case :number :person :gender :token],
             [:Accusative :Singular :Person1 :Common "-anni ~ -nni ~ -ninni"],
@@ -2818,9 +2814,8 @@
     }
     {:label "akkadian_OB-PPoss"
     :note "HUEHNEGARD2005 pp. 84-89;1cs possessive suffix varies:-ī before 'all singular nouns and adjectives in the nom. and acc.'; otherwise,-ya is used."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:case :Possessive,
-             :morpheme :PROPOSS,
              :pos :Pronoun,
              :proClass :PossSuff}
     :terms [[:number :person :gender :token],
@@ -2837,9 +2832,8 @@
     }
     {:label "akkadian_OB-PPossInd"
     :note "Huehnergard2005 p. 273-74;appear as predicates of a verbless clause ('the house is mine') or to emphasize possession. See Huehnergard p. 273 for more information."
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossInd}
     :terms [[:genderHead :numHead :number :person :token],
             [:HeadFem :HeadPlural :Singular :Person1 "yât(t)um ~ yât(t)un"],
@@ -2869,10 +2863,8 @@
     }
     {:label "akkadian_OB-VDervStems"
     :note "cf. Huehnergard2005 pdgms 1-15,pp. 611-636;V̂ = long vowel arising out of contraction of final root vowel and desinence vowel "
-    :pdgmType :Theme
-    :common {:pos :Verb,
-             :morpheme :DERVSTEM,
-             :morphClass :Theme}
+    :pdgmType :DERVSTEM
+    :common {:pos :Verb}
     :terms [[:ablautClass :derivedStem :rootClass :tam :token],
             [:AClass :B :CCa :Perfect "-mtala ~ -mtalV̂"],
             [:AClass :B :CCa :Present "-malla ~ -mallV̂"],
@@ -3253,9 +3245,7 @@
     {:label "akkadian_OB-VSubjMarker"
     :pdgmType :SubjMarker
     :common {:pos :Verb,
-             :token-stem "_NULL",
-             :morpheme :SUBJMARKER,
-             :morphClass :SubjMarker}
+             :token-stem "_NULL"}
     :terms [[:derivedStem :number :person :gender :token :token-pref :token-suff],
             [:B :Singular :Person1 :Common "a-" "a-" "_NULL"],
             [:B :Singular :Person2 :Masc "ta-" "ta-" "_NULL"],
