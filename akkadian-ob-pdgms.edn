@@ -66,7 +66,7 @@
  :termclusters [
                 {:label "akkadian_OB-VACCA-uClassImprtv-amr"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :amr,
@@ -82,7 +82,7 @@
                  }
                 {:label "akkadian_OB-VACCA-uClassPerf-amr"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :amr,
@@ -103,7 +103,7 @@
                  }
                 {:label "akkadian_OB-VACCA-uClassPrecative-amr"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :amr,
@@ -120,7 +120,7 @@
                  }
                 {:label "akkadian_OB-VACCA-uClassPres-amr"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :amr,
@@ -142,7 +142,7 @@
                  }
                 {:label "akkadian_OB-VACCA-uClassPret-amr"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :amr,
@@ -164,7 +164,7 @@
                  }
                 {:label "akkadian_OB-VACCA-uClassVetitive-amr"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :amr,
@@ -186,7 +186,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassImprtv-alk"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :alk,
@@ -202,7 +202,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassImprtv-wrd"
                  :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :rootClass :CCC,
                           :lexeme :wrd,
                           :ablautClass :A_iClass,
@@ -219,7 +219,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassPerf-alk"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :alk,
@@ -240,7 +240,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassPerf-wrd"
                  :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :wrd,
@@ -261,7 +261,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassPrecative-alk"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :alk,
@@ -278,7 +278,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassPrecative-wrd"
                  :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :wrd,
@@ -295,7 +295,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassPres-alk"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :alk,
@@ -317,7 +317,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassPres-wrd"
                  :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :wrd,
@@ -339,7 +339,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassPret-alk"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :alk,
@@ -361,7 +361,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassPret-wrd"
                  :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :wrd,
@@ -382,7 +382,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassVetitive-alk"
                  :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :alk,
@@ -404,7 +404,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-iClassVetitive-wrd"
                  :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_iClass,
                           :derivedStem :B,
                           :lexeme :wrd,
@@ -426,7 +426,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-uImprtv-prs"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -442,7 +442,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-uStat-prs"
                  :note "Huehnergard2005 "
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -463,7 +463,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-uPerf-prs"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -484,7 +484,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-uPrecative-prs"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -501,7 +501,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-uPres-prs"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -523,7 +523,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-uPret-prs"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -545,7 +545,7 @@
                  }
                 {:label "akkadian_OB-VCCCA-uVetitive-prs"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -567,7 +567,7 @@
                  }
                 {:label "akkadian_OB-VCCCAClassImprtv-sbt"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :AClass,
                           :derivedStem :B,
                           :lexeme :sbt,
@@ -583,7 +583,7 @@
                  }
                 {:label "akkadian_OB-VCCCAClassPerf-sbt"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :AClass,
                           :derivedStem :B,
                           :lexeme :sbt,
@@ -604,7 +604,7 @@
                  }
                 {:label "akkadian_OB-VCCCAClassPrecative-sbt"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :AClass,
                           :derivedStem :B,
                           :lexeme :sbt,
@@ -621,7 +621,7 @@
                  }
                 {:label "akkadian_OB-VCCCAClassPres-sbt"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :AClass,
                           :derivedStem :B,
                           :lexeme :sbt,
@@ -643,7 +643,7 @@
                  }
                 {:label "akkadian_OB-VCCCAClassPret-sbt"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :AClass,
                           :derivedStem :B,
                           :lexeme :sbt,
@@ -665,7 +665,7 @@
                  }
                 {:label "akkadian_OB-VCCCAClassVetitive-sbt"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :AClass,
                           :derivedStem :B,
                           :lexeme :sbt,
@@ -687,7 +687,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassImprtv-ark"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ark,
@@ -703,7 +703,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassImprtv-srq"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :srq,
@@ -719,7 +719,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassPerf-ark"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ark,
@@ -740,7 +740,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassPerf-srq"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :srq,
@@ -761,7 +761,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassPrecative-ark"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ark,
@@ -778,7 +778,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassPrecative-srq"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :srq,
@@ -795,7 +795,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassPres-ark"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ark,
@@ -817,7 +817,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassPres-srq"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :srq,
@@ -839,7 +839,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassPret-ark"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ark,
@@ -861,7 +861,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassPret-srq"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :srq,
@@ -883,7 +883,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassVetitive-ark"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ark,
@@ -905,7 +905,7 @@
                  }
                 {:label "akkadian_OB-VCCCIClassVetitive-srq"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :srq,
@@ -927,7 +927,7 @@
                  }
                 {:label "akkadian_OB-VCCCUClassImprtv-aks"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :aks,
@@ -943,7 +943,7 @@
                  }
                 {:label "akkadian_OB-VCCCUClassPerf-aks"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :aks,
@@ -964,7 +964,7 @@
                  }
                 {:label "akkadian_OB-VCCCUClassPrecative-aks"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :aks,
@@ -981,7 +981,7 @@
                  }
                 {:label "akkadian_OB-VCCCUClassPres-aks"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :aks,
@@ -1003,7 +1003,7 @@
                  }
                 {:label "akkadian_OB-VCCCUClassPret-aks"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :aks,
@@ -1025,7 +1025,7 @@
                  }
                 {:label "akkadian_OB-VCCCUClassVetitive-aks"
                  :note "Huehnergard2005 8a-b (pp. 616-617)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :aks,
@@ -1047,7 +1047,7 @@
                  }
                 {:label "akkadian_OB-VCCaImprtv-mla"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :mla,
@@ -1063,7 +1063,7 @@
                  }
                 {:label "akkadian_OB-VCCaPerf-mla"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :mla,
@@ -1084,7 +1084,7 @@
                  }
                 {:label "akkadian_OB-VCCaPrecative-mla"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :mla,
@@ -1100,7 +1100,7 @@
                  }
                 {:label "akkadian_OB-VCCaPres-mla"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :mla,
@@ -1121,7 +1121,7 @@
                  }
                 {:label "akkadian_OB-VCCaPret-mla"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :mla,
@@ -1142,7 +1142,7 @@
                  }
                 {:label "akkadian_OB-VCCaVetitive-mla"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :mla,
@@ -1163,7 +1163,7 @@
                  }
                 {:label "akkadian_OB-VCCeImprtv-lqe"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :lqe,
@@ -1179,7 +1179,7 @@
                  }
                 {:label "akkadian_OB-VCCePerf-lqe"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :lqe,
@@ -1200,7 +1200,7 @@
                  }
                 {:label "akkadian_OB-VCCePrecative-lqe"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :lqe,
@@ -1216,7 +1216,7 @@
                  }
                 {:label "akkadian_OB-VCCePres-lqe"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :lqe,
@@ -1237,7 +1237,7 @@
                  }
                 {:label "akkadian_OB-VCCePret-lqe"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :lqe,
@@ -1258,7 +1258,7 @@
                  }
                 {:label "akkadian_OB-VCCeVetitive-lqe"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :lqe,
@@ -1279,7 +1279,7 @@
                  }
                 {:label "akkadian_OB-VCCiImprtv-bni"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :bni,
@@ -1295,7 +1295,7 @@
                  }
                 {:label "akkadian_OB-VCCiPerf-bni"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :bni,
@@ -1316,7 +1316,7 @@
                  }
                 {:label "akkadian_OB-VCCiPrecative-bni"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :bni,
@@ -1332,7 +1332,7 @@
                  }
                 {:label "akkadian_OB-VCCiPres-bni"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :bni,
@@ -1353,7 +1353,7 @@
                  }
                 {:label "akkadian_OB-VCCiPret-bni"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :bni,
@@ -1374,7 +1374,7 @@
                  }
                 {:label "akkadian_OB-VCCiVetitive-bni"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :bni,
@@ -1395,7 +1395,7 @@
                  }
                 {:label "akkadian_OB-VCCuImprtv-hdu"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :hdu,
@@ -1411,7 +1411,7 @@
                  }
                 {:label "akkadian_OB-VCCuPerf-hdu"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :hdu,
@@ -1432,7 +1432,7 @@
                  }
                 {:label "akkadian_OB-VCCuPrecative-hdu"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :hdu,
@@ -1448,7 +1448,7 @@
                  }
                 {:label "akkadian_OB-VCCuPres-hdu"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :hdu,
@@ -1469,7 +1469,7 @@
                  }
                 {:label "akkadian_OB-VCCuPret-hdu"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :hdu,
@@ -1490,7 +1490,7 @@
                  }
                 {:label "akkadian_OB-VCCuVetitive-hdu"
                  :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :hdu,
@@ -1511,7 +1511,7 @@
                  }
                 {:label "akkadian_OB-VCiCImprtv-qis"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :rootClass :CiC,
                           :lexeme :qis,
                           :ablautClass :Weak,
@@ -1528,7 +1528,7 @@
                  }
                 {:label "akkadian_OB-VCiCPerf-qis"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :qis,
@@ -1550,7 +1550,7 @@
                  }
                 {:label "akkadian_OB-VCiCPrecative-qis"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :qis,
@@ -1567,7 +1567,7 @@
                  }
                 {:label "akkadian_OB-VCiCPres-qis"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :qis,
@@ -1588,7 +1588,7 @@
                  }
                 {:label "akkadian_OB-VCiCPret-qis"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :qis,
@@ -1610,7 +1610,7 @@
                  }
                 {:label "akkadian_OB-VCiCVetitive-qis"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :qis,
@@ -1632,7 +1632,7 @@
                  }
                 {:label "akkadian_OB-VCuCImprtv-kun"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :rootClass :CuC,
                           :lexeme :kun,
                           :ablautClass :Weak,
@@ -1649,7 +1649,7 @@
                  }
                 {:label "akkadian_OB-VCuCPerf-kun"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :kun,
@@ -1671,7 +1671,7 @@
                  }
                 {:label "akkadian_OB-VCuCPrecative-kun"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :kun,
@@ -1688,7 +1688,7 @@
                  }
                 {:label "akkadian_OB-VCuCPres-kun"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :kun,
@@ -1709,7 +1709,7 @@
                  }
                 {:label "akkadian_OB-VCuCPret-kun"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :kun,
@@ -1731,7 +1731,7 @@
                  }
                 {:label "akkadian_OB-VCuCVetitive-kun"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :kun,
@@ -1753,7 +1753,7 @@
                  }
                 {:label "akkadian_OB-VECCE-uClassImprtv-prs"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :E_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -1769,7 +1769,7 @@
                  }
                 {:label "akkadian_OB-VECCE-uClassPerf-prs"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :E_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -1790,7 +1790,7 @@
                  }
                 {:label "akkadian_OB-VECCE-uClassPrecative-prs"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :E_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -1807,7 +1807,7 @@
                  }
                 {:label "akkadian_OB-VECCE-uClassPres-prs"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :E_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -1829,7 +1829,7 @@
                  }
                 {:label "akkadian_OB-VECCE-uClassPret-prs"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :E_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -1851,7 +1851,7 @@
                  }
                 {:label "akkadian_OB-VECCE-uClassVetitive-prs"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :E_uClass,
                           :derivedStem :B,
                           :lexeme :prs,
@@ -1873,7 +1873,7 @@
                  }
                 {:label "akkadian_OB-VECCIClassImprtv-ezb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ezb,
@@ -1889,7 +1889,7 @@
                  }
                 {:label "akkadian_OB-VECCIClassPerf-ezb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ezb,
@@ -1910,7 +1910,7 @@
                  }
                 {:label "akkadian_OB-VECCIClassPrecative-ezb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ezb,
@@ -1927,7 +1927,7 @@
                  }
                 {:label "akkadian_OB-VECCIClassPres-ezb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ezb,
@@ -1949,7 +1949,7 @@
                  }
                 {:label "akkadian_OB-VECCIClassPret-ezb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ezb,
@@ -1971,7 +1971,7 @@
                  }
                 {:label "akkadian_OB-VECCIClassVetitive-ezb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :ezb,
@@ -1993,7 +1993,7 @@
                  }
                 {:label "akkadian_OB-VECCUClassImprtv-erb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :erb,
@@ -2009,7 +2009,7 @@
                  }
                 {:label "akkadian_OB-VECCUClassPerf-erb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :erb,
@@ -2030,7 +2030,7 @@
                  }
                 {:label "akkadian_OB-VECCUClassPrecative-erb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :erb,
@@ -2047,7 +2047,7 @@
                  }
                 {:label "akkadian_OB-VECCUClassPres-erb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :erb,
@@ -2069,7 +2069,7 @@
                  }
                 {:label "akkadian_OB-VECCUClassPret-erb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :erb,
@@ -2091,7 +2091,7 @@
                  }
                 {:label "akkadian_OB-VECCUClassVetitive-erb"
                  :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :erb,
@@ -2113,7 +2113,7 @@
                  }
                 {:label "akkadian_OB-VImprtv-ner"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :rootClass :CeC,
                           :lexeme :ner,
                           :ablautClass :Weak,
@@ -2130,7 +2130,7 @@
                  }
                 {:label "akkadian_OB-VImprtv-sal"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :rootClass :CaC,
                           :lexeme :sal,
                           :ablautClass :Weak,
@@ -2147,7 +2147,7 @@
                  }
                 {:label "akkadian_OB-VNCCA-uClassImprtv-nqr"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :nqr,
@@ -2163,7 +2163,7 @@
                  }
                 {:label "akkadian_OB-VNCCA-uClassPerf-nqr"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :nqr,
@@ -2184,7 +2184,7 @@
                  }
                 {:label "akkadian_OB-VNCCA-uClassPrecative-nqr"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :nqr,
@@ -2201,7 +2201,7 @@
                  }
                 {:label "akkadian_OB-VNCCA-uClassPres-nqr"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :nqr,
@@ -2223,7 +2223,7 @@
                  }
                 {:label "akkadian_OB-VNCCA-uClassPret-nqr"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :nqr,
@@ -2245,7 +2245,7 @@
                  }
                 {:label "akkadian_OB-VNCCA-uClassVetitive-nqr"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_uClass,
                           :derivedStem :B,
                           :lexeme :nqr,
@@ -2267,7 +2267,7 @@
                  }
                 {:label "akkadian_OB-VNCCIClassImprtv-nks"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :nks,
@@ -2283,7 +2283,7 @@
                  }
                 {:label "akkadian_OB-VNCCIClassPerf-nks"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :nks,
@@ -2304,7 +2304,7 @@
                  }
                 {:label "akkadian_OB-VNCCIClassPrecative-nks"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :nks,
@@ -2321,7 +2321,7 @@
                  }
                 {:label "akkadian_OB-VNCCIClassPres-nks"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :nks,
@@ -2343,7 +2343,7 @@
                  }
                 {:label "akkadian_OB-VNCCIClassPret-nks"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :nks,
@@ -2365,7 +2365,7 @@
                  }
                 {:label "akkadian_OB-VNCCIClassVetitive-nks"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :IClass,
                           :derivedStem :B,
                           :lexeme :nks,
@@ -2387,7 +2387,7 @@
                  }
                 {:label "akkadian_OB-VNCCUClassImprtv-nsk"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :nsk,
@@ -2403,7 +2403,7 @@
                  }
                 {:label "akkadian_OB-VNCCUClassPerf-nsk"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :nsk,
@@ -2424,7 +2424,7 @@
                  }
                 {:label "akkadian_OB-VNCCUClassPrecative-nsk"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :nsk,
@@ -2441,7 +2441,7 @@
                  }
                 {:label "akkadian_OB-VNCCUClassPres-nsk"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :nsk,
@@ -2463,7 +2463,7 @@
                  }
                 {:label "akkadian_OB-VNCCUClassPret-nsk"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :nsk,
@@ -2485,7 +2485,7 @@
                  }
                 {:label "akkadian_OB-VNCCUClassVetitive-nsk"
                  :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :UClass,
                           :derivedStem :B,
                           :lexeme :nsk,
@@ -2507,7 +2507,7 @@
                  }
                 {:label "akkadian_OB-VPerf-ner"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :ner,
@@ -2529,7 +2529,7 @@
                  }
                 {:label "akkadian_OB-VPerf-sal"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :sal,
@@ -2551,7 +2551,7 @@
                  }
                 {:label "akkadian_OB-VPrecative-ner"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :ner,
@@ -2568,7 +2568,7 @@
                  }
                 {:label "akkadian_OB-VPrecative-sal"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :sal,
@@ -2585,7 +2585,7 @@
                  }
                 {:label "akkadian_OB-VPres-ner"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :ner,
@@ -2606,7 +2606,7 @@
                  }
                 {:label "akkadian_OB-VPres-sal"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :sal,
@@ -2627,7 +2627,7 @@
                  }
                 {:label "akkadian_OB-VPret-ner"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :ner,
@@ -2649,7 +2649,7 @@
                  }
                 {:label "akkadian_OB-VPret-sal"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :sal,
@@ -2671,7 +2671,7 @@
                  }
                 {:label "akkadian_OB-VVetitive-ner"
                  :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :ner,
@@ -2693,7 +2693,7 @@
                  }
                 {:label "akkadian_OB-VVetitive-sal"
                  :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :Weak,
                           :derivedStem :B,
                           :lexeme :sal,
