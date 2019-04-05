@@ -67,7 +67,7 @@
 }
  :termclusters [
                 {:label "akkadian_OB-VACCA-uClassImprtv-amr"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -83,7 +83,7 @@
                          [:Plural :Common "amr-ā" "amr" "-ā"]]
                  }
                 {:label "akkadian_OB-VACCA-uClassPerf-amr"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -104,7 +104,7 @@
                          [:Plural :Person3 :Fem "tā-tamr-ā" "ī-" "tamr" "-ā"]]
                  }
                 {:label "akkadian_OB-VACCA-uClassPrecative-amr"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -121,7 +121,7 @@
                          [:Plural :Person3 :Fem "lī-mur-ā" "lī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VACCA-uClassPres-amr"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -143,7 +143,7 @@
                          [:Plural :Person3 :Fem "ta-mmar-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VACCA-uClassPret-amr"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -165,7 +165,7 @@
                          [:Plural :Person3 :Fem "tā-mur-ā" "ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VACCA-uClassVetitive-amr"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -187,7 +187,7 @@
                          [:Plural :Person3 :Fem "ayy-tā--mur-ā" "ayy-ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassImprtv-alk"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -203,7 +203,7 @@
                          [:Plural :Common "alk-ā" "alk" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassImprtv-wrd"
-                 :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+                 :note "HGpd11a-b(pp.622-623)"
                  :common {:vmorphClass :Finite,
                           :rootClass :CCC,
                           :lexeme :wrd,
@@ -220,7 +220,7 @@
                          [:Plural :Common "rid-ā" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassPerf-alk"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -241,7 +241,7 @@
                          [:Plural :Person3 :Fem "ta-ttalk-ā" "i-" "ttalk" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassPerf-wrd"
-                 :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+                 :note "HGpd11a-b(pp.622-623)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -262,7 +262,7 @@
                          [:Plural :Person3 :Fem "tat-tard-ā" "it-" "tard" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassPrecative-alk"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -279,7 +279,7 @@
                          [:Plural :Person3 :Fem "li-llik-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassPrecative-wrd"
-                 :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+                 :note "HGpd11a-b(pp.622-623)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -296,7 +296,7 @@
                          [:Plural :Person3 :Fem "lu-rid-ā" "lu-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassPres-alk"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -318,7 +318,7 @@
                          [:Plural :Person3 :Fem "ta-llak-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassPres-wrd"
-                 :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+                 :note "HGpd11a-b(pp.622-623)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -340,7 +340,7 @@
                          [:Plural :Person3 :Fem "tu-rrad-ā" "u-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassPret-alk"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -362,7 +362,7 @@
                          [:Plural :Person3 :Fem "ta-llik-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassPret-wrd"
-                 :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+                 :note "HGpd11a-b(pp.622-623)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -383,7 +383,7 @@
                          [:Plural :Person3 :Fem "tu-rd-ā" "u-" "rd" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassVetitive-alk"
-                 :note "Huehnergard2005 pdgm 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -405,7 +405,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--llik-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-iClassVetitive-wrd"
-                 :note "Huehnergard2005 pdgm 11a-b (pp. 622-623)"
+                 :note "HGpd11a-b(pp.622-623)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_iClass,
                           :derivedStem :B,
@@ -427,7 +427,7 @@
                          [:Plural :Person3 :Fem "ayy-tu-rid-ā" "ayy-u-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-uImprtv-prs"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -443,7 +443,7 @@
                          [:Plural :Common "purs-ā" "purs" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-uPerf-prs"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -464,7 +464,7 @@
                          [:Plural :Person3 :Fem "ta-ptars-ā" "i-" "ptars" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-uPrecative-prs"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -481,7 +481,7 @@
                          [:Plural :Person3 :Fem "li-prus-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-uPres-prs"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -503,7 +503,7 @@
                          [:Plural :Person3 :Fem "ta-parras-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-uPret-prs"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -525,7 +525,7 @@
                          [:Plural :Person3 :Fem "ta-prus-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCA-uVetitive-prs"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -547,7 +547,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--prus-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCAClassImprtv-sbt"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :AClass,
                           :derivedStem :B,
@@ -563,7 +563,7 @@
                          [:Plural :Common "ṣabt-ā" "ṣabt" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCAClassPerf-sbt"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :AClass,
                           :derivedStem :B,
@@ -584,7 +584,7 @@
                          [:Plural :Person3 :Fem "ta-ṣṣabt-ā" "i-" "ṣṣabt" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCAClassPrecative-sbt"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :AClass,
                           :derivedStem :B,
@@ -601,7 +601,7 @@
                          [:Plural :Person3 :Fem "li-ṣbat-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCAClassPres-sbt"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :AClass,
                           :derivedStem :B,
@@ -623,7 +623,7 @@
                          [:Plural :Person3 :Fem "ta-ṣabbat-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCAClassPret-sbt"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :AClass,
                           :derivedStem :B,
@@ -645,7 +645,7 @@
                          [:Plural :Person3 :Fem "ta-ṣbat-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCAClassVetitive-sbt"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :AClass,
                           :derivedStem :B,
@@ -667,7 +667,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--ṣbat-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassImprtv-ark"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -683,7 +683,7 @@
                          [:Plural :Common "ark-ā" "ark" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassImprtv-srq"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -699,7 +699,7 @@
                          [:Plural :Common "širq-ā" "širq" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassPerf-ark"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -720,7 +720,7 @@
                          [:Plural :Person3 :Fem "tā-tark-ā" "ī-" "tark" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassPerf-srq"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -741,7 +741,7 @@
                          [:Plural :Person3 :Fem "ta-štarq-ā" "i-" "štarq" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassPrecative-ark"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -758,7 +758,7 @@
                          [:Plural :Person3 :Fem "lī-rik-ā" "lī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassPrecative-srq"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -775,7 +775,7 @@
                          [:Plural :Person3 :Fem "li-šriq-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassPres-ark"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -797,7 +797,7 @@
                          [:Plural :Person3 :Fem "ta-rrik-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassPres-srq"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -819,7 +819,7 @@
                          [:Plural :Person3 :Fem "ta-šarriq-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassPret-ark"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -841,7 +841,7 @@
                          [:Plural :Person3 :Fem "tā-rik-ā" "ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassPret-srq"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -863,7 +863,7 @@
                          [:Plural :Person3 :Fem "ta-šriq-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassVetitive-ark"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -885,7 +885,7 @@
                          [:Plural :Person3 :Fem "ayy-tā--rik-ā" "ayy-ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCIClassVetitive-srq"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -907,7 +907,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--šriq-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCUClassImprtv-aks"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -923,7 +923,7 @@
                          [:Plural :Common "akš-ā" "akš" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCUClassPerf-aks"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -944,7 +944,7 @@
                          [:Plural :Person3 :Fem "tā-takš-ā" "ī-" "takš" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCUClassPrecative-aks"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -961,7 +961,7 @@
                          [:Plural :Person3 :Fem "lī-kuš-ā" "lī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCUClassPres-aks"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -983,7 +983,7 @@
                          [:Plural :Person3 :Fem "ta-kkuš-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCUClassPret-aks"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -1005,7 +1005,7 @@
                          [:Plural :Person3 :Fem "tā-kuš-ā" "ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCCUClassVetitive-aks"
-                 :note "Huehnergard2005 8a-b (pp. 616-617)"
+                 :note "HGpd8a-b(pp.616-617)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -1027,7 +1027,7 @@
                          [:Plural :Person3 :Fem "ayy-tā--kuš-ā" "ayy-ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCaImprtv-mla"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1043,7 +1043,7 @@
                          [:Plural :Common "mil-â" "mil" "-â"]]
                  }
                 {:label "akkadian_OB-VCCaPerf-mla"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1064,7 +1064,7 @@
                          [:Plural :Person3 :Fem "ta-mtal-â" "i-" "mtal" "-â"]]
                  }
                 {:label "akkadian_OB-VCCaPrecative-mla"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1080,7 +1080,7 @@
                          [:Plural :Person3 :Fem "li-ml-â" "li-" "ml" "-â"]]
                  }
                 {:label "akkadian_OB-VCCaPres-mla"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1101,7 +1101,7 @@
                          [:Plural :Person3 :Fem "ta-mall-â" "i-" "mall" "-â"]]
                  }
                 {:label "akkadian_OB-VCCaPret-mla"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1122,7 +1122,7 @@
                          [:Plural :Person3 :Fem "ta-ml-â" "i-" "ml" "-â"]]
                  }
                 {:label "akkadian_OB-VCCaVetitive-mla"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1143,7 +1143,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--ml-â" "ayy-i-" "ml" "-â"]]
                  }
                 {:label "akkadian_OB-VCCeImprtv-lqe"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1159,7 +1159,7 @@
                          [:Plural :Common "leqe/liqe-ā" "leqe/liqe" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCePerf-lqe"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1180,7 +1180,7 @@
                          [:Plural :Person3 :Fem "ta-lteqe-ā" "i-" "lteqe" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCePrecative-lqe"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1196,7 +1196,7 @@
                          [:Plural :Person3 :Fem "li-lqe-ā" "li-" "lqe" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCePres-lqe"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1217,7 +1217,7 @@
                          [:Plural :Person3 :Fem "ta-leqqe/laqqe-ā" "i-" "leqqe/laqqe" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCePret-lqe"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1238,7 +1238,7 @@
                          [:Plural :Person3 :Fem "ta-lqe-ā" "i-" "lqe" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCeVetitive-lqe"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1259,7 +1259,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--lqe-ā" "ayy-i-" "lqe" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCiImprtv-bni"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1275,7 +1275,7 @@
                          [:Plural :Common "bini-ā" "bini" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCiPerf-bni"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1296,7 +1296,7 @@
                          [:Plural :Person3 :Fem "ta-btani-ā" "i-" "btani" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCiPrecative-bni"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1312,7 +1312,7 @@
                          [:Plural :Person3 :Fem "li-bni-ā" "li-" "bni" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCiPres-bni"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1333,7 +1333,7 @@
                          [:Plural :Person3 :Fem "ta-banni-ā" "i-" "banni" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCiPret-bni"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1354,7 +1354,7 @@
                          [:Plural :Person3 :Fem "ta-bni-ā" "i-" "bni" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCiVetitive-bni"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1375,7 +1375,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--bni-ā" "ayy-i-" "bni" "-ā"]]
                  }
                 {:label "akkadian_OB-VCCuImprtv-hdu"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1391,7 +1391,7 @@
                          [:Plural :Common "ḫud-â" "ḫud" "-â"]]
                  }
                 {:label "akkadian_OB-VCCuPerf-hdu"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1412,7 +1412,7 @@
                          [:Plural :Person3 :Fem "ta-ḫtad-â" "i-" "ḫtad" "-â"]]
                  }
                 {:label "akkadian_OB-VCCuPrecative-hdu"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1428,7 +1428,7 @@
                          [:Plural :Person3 :Fem "li-ḫd-â" "li-" "ḫd" "-â"]]
                  }
                 {:label "akkadian_OB-VCCuPres-hdu"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1449,7 +1449,7 @@
                          [:Plural :Person3 :Fem "ta-ḫadd-â" "i-" "ḫadd" "-â"]]
                  }
                 {:label "akkadian_OB-VCCuPret-hdu"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1470,7 +1470,7 @@
                          [:Plural :Person3 :Fem "ta-ḫd-â" "i-" "ḫd" "-â"]]
                  }
                 {:label "akkadian_OB-VCCuVetitive-hdu"
-                 :note "Huehnergard2005 pdgm 13a-g (pp. 626-633)"
+                 :note "HGpd13a-g(pp.626-633)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1491,7 +1491,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--ḫd-â" "ayy-i-" "ḫd" "-â"]]
                  }
                 {:label "akkadian_OB-VCiCImprtv-qis"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :rootClass :CiC,
                           :lexeme :qis,
@@ -1508,7 +1508,7 @@
                          [:Plural :Common "qīš-ā" "-ā"]]
                  }
                 {:label "akkadian_OB-VCiCPerf-qis"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1530,7 +1530,7 @@
                          [:Plural :Person3 :Fem "ta-qtīš-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCiCPrecative-qis"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1547,7 +1547,7 @@
                          [:Plural :Person3 :Fem "li-qīš-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCiCPres-qis"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1568,7 +1568,7 @@
                          [:Plural :Person3 :Fem "ta-qišš-ā" "i-" "qišš" "-ā"]]
                  }
                 {:label "akkadian_OB-VCiCPret-qis"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1590,7 +1590,7 @@
                          [:Plural :Person3 :Fem "ta-qīš-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCiCVetitive-qis"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1612,7 +1612,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--qīš-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCuCImprtv-kun"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :rootClass :CuC,
                           :lexeme :kun,
@@ -1629,7 +1629,7 @@
                          [:Plural :Common "kūn-ā" "-ā"]]
                  }
                 {:label "akkadian_OB-VCuCPerf-kun"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1651,7 +1651,7 @@
                          [:Plural :Person3 :Fem "ta-ktūn-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCuCPrecative-kun"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1668,7 +1668,7 @@
                          [:Plural :Person3 :Fem "li-kūn-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCuCPres-kun"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1689,7 +1689,7 @@
                          [:Plural :Person3 :Fem "ta-kunn-ā" "i-" "kunn" "-ā"]]
                  }
                 {:label "akkadian_OB-VCuCPret-kun"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1711,7 +1711,7 @@
                          [:Plural :Person3 :Fem "ta-kūn-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VCuCVetitive-kun"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -1733,7 +1733,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--kūn-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCE-uClassImprtv-prs"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :E_uClass,
                           :derivedStem :B,
@@ -1749,7 +1749,7 @@
                          [:Plural :Common "epš-ā" "epš" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCE-uClassPerf-prs"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :E_uClass,
                           :derivedStem :B,
@@ -1770,7 +1770,7 @@
                          [:Plural :Person3 :Fem "tā-tepš-ā" "ī-" "tepš" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCE-uClassPrecative-prs"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :E_uClass,
                           :derivedStem :B,
@@ -1787,7 +1787,7 @@
                          [:Plural :Person3 :Fem "lī-puš-ā" "lī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCE-uClassPres-prs"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :E_uClass,
                           :derivedStem :B,
@@ -1809,7 +1809,7 @@
                          [:Plural :Person3 :Fem "ta-ppeš/ppuš-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCE-uClassPret-prs"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :E_uClass,
                           :derivedStem :B,
@@ -1831,7 +1831,7 @@
                          [:Plural :Person3 :Fem "tā-puš-ā" "ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCE-uClassVetitive-prs"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :E_uClass,
                           :derivedStem :B,
@@ -1853,7 +1853,7 @@
                          [:Plural :Person3 :Fem "ayy-tā--puš-ā" "ayy-ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCIClassImprtv-ezb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -1869,7 +1869,7 @@
                          [:Plural :Common "tezb-ā" "tezb" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCIClassPerf-ezb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -1890,7 +1890,7 @@
                          [:Plural :Person3 :Fem "tā-tezb-ā" "ī-" "tezb" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCIClassPrecative-ezb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -1907,7 +1907,7 @@
                          [:Plural :Person3 :Fem "lī-zib-ā" "lī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCIClassPres-ezb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -1929,7 +1929,7 @@
                          [:Plural :Person3 :Fem "ta-zzib-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCIClassPret-ezb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -1951,7 +1951,7 @@
                          [:Plural :Person3 :Fem "tā-zib-ā" "ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCIClassVetitive-ezb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -1973,7 +1973,7 @@
                          [:Plural :Person3 :Fem "ayy-tā--zib-ā" "ayy-ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCUClassImprtv-erb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -1989,7 +1989,7 @@
                          [:Plural :Common "erb-ā" "erb" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCUClassPerf-erb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2010,7 +2010,7 @@
                          [:Plural :Person3 :Fem "tā-terb-ā" "ī-" "terb" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCUClassPrecative-erb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2027,7 +2027,7 @@
                          [:Plural :Person3 :Fem "lī-rub-ā" "lī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCUClassPres-erb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2049,7 +2049,7 @@
                          [:Plural :Person3 :Fem "ta-rrub-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCUClassPret-erb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2071,7 +2071,7 @@
                          [:Plural :Person3 :Fem "tā-rub-ā" "ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VECCUClassVetitive-erb"
-                 :note "Huehnergard2005 pdgm 9a-b (pp. 618-619)"
+                 :note "HGpd9a-b(pp.618-619)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2093,7 +2093,7 @@
                          [:Plural :Person3 :Fem "ayy-tā--rub-ā" "ayy-ī-" "-ā"]]
                  }
                 {:label "akkadian_OB-VImprtv-ner"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :rootClass :CeC,
                           :lexeme :ner,
@@ -2110,7 +2110,7 @@
                          [:Plural :Common "nēr ~ nār-ā" "-ā"]]
                  }
                 {:label "akkadian_OB-VImprtv-sal"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :rootClass :CaC,
                           :lexeme :sal,
@@ -2127,7 +2127,7 @@
                          [:Plural :Common "šāl-ā" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCA-uClassImprtv-nqr"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -2143,7 +2143,7 @@
                          [:Plural :Common "uqr-ā" "uqr" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCA-uClassPerf-nqr"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -2164,7 +2164,7 @@
                          [:Plural :Person3 :Fem "ta-ttaqr-ā" "i-" "ttaqr" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCA-uClassPrecative-nqr"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -2181,7 +2181,7 @@
                          [:Plural :Person3 :Fem "li-qqur-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCA-uClassPres-nqr"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -2203,7 +2203,7 @@
                          [:Plural :Person3 :Fem "ta-naqqar-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCA-uClassPret-nqr"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -2225,7 +2225,7 @@
                          [:Plural :Person3 :Fem "ta-qqur-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCA-uClassVetitive-nqr"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_uClass,
                           :derivedStem :B,
@@ -2247,7 +2247,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--qqur-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCIClassImprtv-nks"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -2263,7 +2263,7 @@
                          [:Plural :Common "iks-ā" "iks" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCIClassPerf-nks"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -2284,7 +2284,7 @@
                          [:Plural :Person3 :Fem "ta-ttaks-ā" "i-" "ttaks" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCIClassPrecative-nks"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -2301,7 +2301,7 @@
                          [:Plural :Person3 :Fem "li-kkis-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCIClassPres-nks"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -2323,7 +2323,7 @@
                          [:Plural :Person3 :Fem "ta-nakkis-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCIClassPret-nks"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -2345,7 +2345,7 @@
                          [:Plural :Person3 :Fem "ta-kkis-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCIClassVetitive-nks"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :IClass,
                           :derivedStem :B,
@@ -2367,7 +2367,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--kkis-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCUClassImprtv-nsk"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2383,7 +2383,7 @@
                          [:Plural :Common "usk-ā" "usk" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCUClassPerf-nsk"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2404,7 +2404,7 @@
                          [:Plural :Person3 :Fem "ta-ttask-ā" "i-" "ttask" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCUClassPrecative-nsk"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2421,7 +2421,7 @@
                          [:Plural :Person3 :Fem "li-ssuk-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCUClassPres-nsk"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2443,7 +2443,7 @@
                          [:Plural :Person3 :Fem "ta-nassuk-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCUClassPret-nsk"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2465,7 +2465,7 @@
                          [:Plural :Person3 :Fem "ta-ssuk-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VNCCUClassVetitive-nsk"
-                 :note "Huehnergard2005 pdgm 10a-b (pp. 620-621)"
+                 :note "HGpd10a-b(pp.620-621)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :UClass,
                           :derivedStem :B,
@@ -2487,7 +2487,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--ssuk-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VPerf-ner"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -2509,7 +2509,7 @@
                          [:Plural :Person3 :Fem "ta-ttēr ~ ttār-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VPerf-sal"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -2531,7 +2531,7 @@
                          [:Plural :Person3 :Fem "ta-štāl-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VPrecative-ner"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -2548,7 +2548,7 @@
                          [:Plural :Person3 :Fem "li-nēr ~ nār-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VPrecative-sal"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -2565,7 +2565,7 @@
                          [:Plural :Person3 :Fem "li-šāl-ā" "li-" "-ā"]]
                  }
                 {:label "akkadian_OB-VPres-ner"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -2586,7 +2586,7 @@
                          [:Plural :Person3 :Fem "ta-nerr ~ narr-ā" "i-" "nerr ~ narr" "-ā"]]
                  }
                 {:label "akkadian_OB-VPres-sal"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -2607,7 +2607,7 @@
                          [:Plural :Person3 :Fem "ta-šall-ā" "i-" "šall" "-ā"]]
                  }
                 {:label "akkadian_OB-VPret-ner"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -2629,7 +2629,7 @@
                          [:Plural :Person3 :Fem "ta-nēr ~ nār-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VPret-sal"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -2651,7 +2651,7 @@
                          [:Plural :Person3 :Fem "ta-šāl-ā" "i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VVetitive-ner"
-                 :note "Huehnergard2005 pdgm 7a-c (pp. 611-614)"
+                 :note "HGpd7a-c(pp.611-614)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -2673,7 +2673,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--nēr ~ nār-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-VVetitive-sal"
-                 :note "Huehnergard2005 pdgm 12a-b (pp. 624-25)"
+                 :note "HGpd12a-b(pp.624-25)"
                  :common {:vmorphClass :Finite,
                           :ablautClass :Weak,
                           :derivedStem :B,
@@ -2695,7 +2695,7 @@
                          [:Plural :Person3 :Fem "ayy-ta--šāl-ā" "ayy-i-" "-ā"]]
                  }
                 {:label "akkadian_OB-PDem"
-                 :note "Huehnergard2005 p. 40-41. * marks an unattested form."
+                 :note "HGpp.40-41 :: * marks an unattested form."
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Demonstrative}
                  :terms [[:case :deixis :number :gender :token],
@@ -2721,7 +2721,7 @@
                          [:Oblique :Near :Plural :Fem "anniātim"]]
                  }
                 {:label "akkadian_OB-PInd"
-                 :note "Huehnergard2005 p. 11,272;akkadian_OB uses three different sets of independent pronouns depending on the case of the pronoun."
+                 :note "HGpp.11&272 :: akkadian_OB uses three different sets of independent pronouns depending on the case of the pronoun."
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :number :person :gender :token],
@@ -2757,7 +2757,7 @@
                          [:Nominative :Plural :Person3 :Fem "šina"]]
                  }
                 {:label "akkadian_OB-PObjClitic"
-                 :note "Huehnergard p. 169;Akkadian/OB attaches two sets of suffixes on verbal forms,one paradigm for the acc. and another for the dat. Huehnergard puts both sets under the heading 'Object Pronominal Suffixes on the Verb' §18.2."
+                 :note "HGp.169 :: Akkadian/OB attaches two sets of suffixes on verbal forms,one paradigm for the acc. and another for the dat. Huehnergard puts both sets under the heading 'Object Pronominal Suffixes on the Verb' §18.2."
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ObjClitic}
                  :terms [[:case :number :person :gender :token],
@@ -2783,7 +2783,7 @@
                          [:Dative :Plural :Person3 :Fem "-šināšim"]]
                  }
                 {:label "akkadian_OB-PPoss"
-                 :note "HUEHNEGARD2005 pp. 84-89;1cs possessive suffix varies:-ī before 'all singular nouns and adjectives in the nom. and acc.'; otherwise,-ya is used."
+                 :note "HGpp.84-89 :: 1cs possessive suffix varies:-ī before 'all singular nouns and adjectives in the nom. and acc.'; otherwise,-ya is used."
                  :common {:case :Possessive,
                           :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossSuff}
@@ -2800,8 +2800,8 @@
                          [:Plural :Person3 :Fem "-šina"]]
                  }
                 {:label "akkadian_OB-PPossInd"
-                 :note "Huehnergard2005 p. 273-74;appear as predicates of a verbless clause ('the house is mine') or to emphasize possession. See Huehnergard p. 273 for more information."
-                 :common {             :pos :Pronoun, :pmorphClass :ProMorph,
+                 :note "HGpp.273-74 :: appear as predicates of a verbless clause ('the house is mine') or to emphasize possession. See Huehnergard p. 273 for more information."
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossInd}
                  :terms [[:genderHead :numHead :number :person :token],
                          [:HeadFem :HeadPlural :Singular :Person1 "yât(t)um ~ yât(t)un"],
@@ -2830,7 +2830,7 @@
                          [:HeadMasc :HeadSingular :Plural :Person3 "šunûm ~ šunîm ~ šuniam"]]
                  }
                 {:label "akkadian_OB-VDervStems"
-                 :note "cf. Huehnergard2005 pdgms 1-15,pp. 611-636;V̂ = long vowel arising out of contraction of final root vowel and desinence vowel "
+                 :note "HGpd1-15(pp.611-636) :: V̂ = long vowel arising out of contraction of final root vowel and desinence vowel "
                  :common {:pos :Verb,
                           :vmorphClass :Theme}
                  :terms [[:ablautClass :derivedStem :rootClass :tam :token],
@@ -3211,8 +3211,9 @@
                          [:UClass :N :CCu :Preterite "-mmani ~ -mmanV̂"]]
                  }
                 {:label "akkadian_OB-VSubjMarker"
+                 :note "HG"
                  :common {:pos :Verb,
-                          :token-stem "_NULL",
+                          :token-stem :NULL,
                           :vmorphClass :SubjMarker}
                  :terms [[:derivedStem :number :person :gender :token :token-pref :token-suff],
                          [:B :Singular :Person1 :Common "a-" "a-" "_NULL"],
